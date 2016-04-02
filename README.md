@@ -12,6 +12,8 @@
 
 Added docs for <a href="https://github.com/scripting/1999-project/blob/master/docs/callbacks.md">publish callbacks</a>.
 
+Moved the <a href="https://github.com/scripting/1999-project/blob/master/docs/setup.md">startup docs</a> from the blog.
+
 ##### v0.41 - 4/2/16 by DW
 
 Made a small change to template.opml. There's a new macro on the page title: [%defaulttitlestyle%].
