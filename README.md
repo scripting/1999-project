@@ -10,7 +10,7 @@
 
 ##### v0.40 - 4/2/16 by DW
 
-Started the project off with the defaults. 
+Started the project off with the <a href="https://github.com/scripting/1999-project/tree/master/defaults">defaults</a>. 
 
 Included are the default menubar and template in OPML and the menubar in HTML.
 
