@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.42 - 4/2/16 by DW
+
+Added docs for publish callbacks. 
+
 ##### v0.41 - 4/2/16 by DW
 
 Made a small change to template.opml. There's a new macro on the page title: [%defaulttitlestyle%].
