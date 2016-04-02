@@ -10,7 +10,7 @@
 
 ##### v0.42 - 4/2/16 by DW
 
-Added docs for <a href="https://github.com/scripting/1999-project/blob/master/docs/callbacks.md">publish callbacks</a>. 
+Added docs for <a href="https://github.com/scripting/1999-project/blob/master/docs/callbacks.md">publish callbacks</a>.    
 
 ##### v0.41 - 4/2/16 by DW
 
