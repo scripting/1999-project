@@ -1,0 +1,18 @@
+<?xml encoding="ISO-8859-1" version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>menubar.opml</title>
+		<dateModified>&lt;%dateModified%></dateModified>
+		<expansionState></expansionState>
+		<vertScrollState>1</vertScrollState>
+		<windowTop>300</windowTop>
+		<windowLeft>700</windowLeft>
+		<windowBottom>900</windowBottom>
+		<windowRight>1500</windowRight>
+		</head>
+	<body text="menubar.opml">
+		<outline text="Links">
+			<outline name="aboutScripting" text="About 1999..." type="link" url="http://1999.smallpict.com/2016/03/05/thisIsAPlaceholder.html"></outline>
+			</outline>
+		</body>
+	</opml>

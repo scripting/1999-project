@@ -1,0 +1,38 @@
+<style>
+	.brand a {
+		color:  #777777;
+		}
+	</style>
+<div class="divMenubar" id="idMenubar">
+	<div class="topbar-wrapper" style="z-index: 5;">
+		<div class="navbar navbar-fixed-top" data-dropdown="dropdown">
+			<div class="divVersionNumber" id="idVersionNumber">
+				</div>
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="/"><span id="idMenuProductName"></span></a>
+					<ul class="nav" id="idMainMenuList">
+						<li class="dropdown" id="idLinksMenu"> 
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links&nbsp;<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="http://1999.smallpict.com/2016/03/05/thisIsAPlaceholder.html" target="_blank">About 1999...</a></li>
+								</ul>
+							</li>
+						</ul>
+					<ul class="nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span id="idTwitterIcon"></span><span id="idTwitterUsername"></span>&nbsp;<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a onclick="aboutDialog ();">About <span id="idMenuAboutProductName"></span>...</a></li>
+								<li class="divider"></li>
+								<li><a onclick="settingsCommandNotImplemented ();">Settings...</a></li>
+								<li class="divider"></li>
+								<li><a onclick="twToggleConnectCommand ();" id="idTwitterConnectMenuItem"></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

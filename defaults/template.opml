@@ -1,0 +1,77 @@
+<?xml encoding="ISO-8859-1" version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>template4.opml</title>
+		<dateModified>&lt;%dateModified%></dateModified>
+		<expansionState></expansionState>
+		<vertScrollState>1</vertScrollState>
+		<windowTop>300</windowTop>
+		<windowLeft>700</windowLeft>
+		<windowBottom>900</windowBottom>
+		<windowRight>1500</windowRight>
+		</head>
+	<body text="template4.opml">
+		<outline text="&lt;html&gt;">
+			<outline text="&lt;head&gt;">
+				<outline text="&lt;title&gt;[%title%]&lt;/title&gt;"></outline>
+				<outline text="&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;"></outline>
+				<outline text="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;"></outline>
+				<outline text="&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;[%urlRssFeed%]&quot; /&gt;"></outline>
+				<outline text=""></outline>
+				<outline text="&lt;script src=&quot;http://1999.io/dev/publish/code.js&quot;&gt;&lt;/script&gt;"></outline>
+				<outline text="&lt;link rel=&quot;stylesheet&quot; href=&quot;http://1999.io/dev/publish/styles.css&quot;/&gt;"></outline>
+				<outline text=""></outline>
+				<outline text="&lt;!-- Hellllp! I'm trapped in an HTML page. --&gt;"></outline>
+				<outline text=""></outline>
+				<outline text="&lt;!-- Facebook metadata --&gt;">
+					<outline text="&lt;meta property=&quot;og:url&quot; content=&quot;[%thispageurl%]&quot; /&gt;"></outline>
+					<outline text="&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;"></outline>
+					<outline text="&lt;meta property=&quot;og:title&quot; content=&quot;[%title%]&quot; /&gt;"></outline>
+					<outline text="&lt;meta property=&quot;og:description&quot; content=&quot;[%description%]&quot; /&gt;"></outline>
+					<outline text="&lt;meta property=&quot;og:site_name&quot; content=&quot;[%sitename%]&quot; /&gt;"></outline>
+					</outline>
+				<outline text="&lt;!-- Twitter metadata --&gt;">
+					<outline text="&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot;&gt;"></outline>
+					<outline text="&lt;meta name=&quot;twitter:site&quot; content=&quot;@[%twitterscreenname%]&quot;&gt;"></outline>
+					<outline text="&lt;meta name=&quot;twitter:title&quot; content=&quot;[%title%]&quot;&gt;"></outline>
+					<outline text="&lt;meta name=&quot;twitter:description&quot; content=&quot;[%description%]&quot;&gt;"></outline>
+					</outline>
+				<outline text="&lt;style&gt;">
+					<outline text=".brand a {">
+						<outline text="color:  #777777;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text="&lt;/style&gt;"></outline>
+					</outline>
+				<outline text="&lt;script&gt;">
+					<outline text="var pagetable = [%pagetableInJson%]; "></outline>
+					<outline text="&lt;/script&gt;"></outline>
+					</outline>
+				<outline text="&lt;/head&gt;"></outline>
+				</outline>
+			<outline text="&lt;body&gt;">
+				<outline text="&lt;div class=&quot;divPageBody&quot; id=&quot;idPageBody&quot;&gt;">
+					<outline text="&lt;div class=&quot;divPrevNextNavigation&quot; id=&quot;idPrevNextNavigation&quot;&gt;&lt;/div&gt;"></outline>
+					<outline text="&lt;div class=&quot;divMessageTitle&quot; id=&quot;idMessageTitle&quot;&gt;[%title%]&lt;/div&gt;"></outline>
+					<outline text="&lt;div class=&quot;divChatLog&quot; id=&quot;idChatLog&quot;&gt;">
+						<outline text="[%text%]"></outline>
+						<outline text="&lt;/div&gt;"></outline>
+						</outline>
+					<outline text="&lt;div class=&quot;divFooter&quot; id=&quot;idFooter&quot;&gt;">
+						<outline text="&lt;/div&gt;"></outline>
+						</outline>
+					<outline text="&lt;/div&gt;"></outline>
+					</outline>
+				<outline text="&lt;script&gt;">
+					<outline text="$(document).ready (function () {">
+						<outline text="startup ();"></outline>
+						<outline text="});"></outline>
+						</outline>
+					<outline text="&lt;/script&gt;"></outline>
+					</outline>
+				<outline text="&lt;/body&gt;"></outline>
+				</outline>
+			<outline text="&lt;/html&gt;"></outline>
+			</outline>
+		</body>
+	</opml>
