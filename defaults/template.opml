@@ -21,7 +21,7 @@
 				<outline text="&lt;script src=&quot;http://1999.io/dev/publish/code.js&quot;&gt;&lt;/script&gt;"></outline>
 				<outline text="&lt;link rel=&quot;stylesheet&quot; href=&quot;http://1999.io/dev/publish/styles.css&quot;/&gt;"></outline>
 				<outline text=""></outline>
-				<outline text="&lt;!-- Hellllp! I'm trapped in an HTML page. --&gt;"></outline>
+				<outline text="&lt;!-- Hellllp! I'm trapped in an HTML page! --&gt;"></outline>
 				<outline text=""></outline>
 				<outline text="&lt;!-- Facebook metadata --&gt;">
 					<outline text="&lt;meta property=&quot;og:url&quot; content=&quot;[%thispageurl%]&quot; /&gt;"></outline>
@@ -52,7 +52,7 @@
 			<outline text="&lt;body&gt;">
 				<outline text="&lt;div class=&quot;divPageBody&quot; id=&quot;idPageBody&quot;&gt;">
 					<outline text="&lt;div class=&quot;divPrevNextNavigation&quot; id=&quot;idPrevNextNavigation&quot;&gt;&lt;/div&gt;"></outline>
-					<outline text="&lt;div class=&quot;divMessageTitle&quot; id=&quot;idMessageTitle&quot;&gt;[%title%]&lt;/div&gt;"></outline>
+					<outline text="&lt;div class=&quot;divMessageTitle&quot; id=&quot;idMessageTitle&quot; [%defaulttitlestyle%]&gt;[%title%]&lt;/div&gt;"></outline>
 					<outline text="&lt;div class=&quot;divChatLog&quot; id=&quot;idChatLog&quot;&gt;">
 						<outline text="[%text%]"></outline>
 						<outline text="&lt;/div&gt;"></outline>
