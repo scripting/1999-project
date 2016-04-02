@@ -2,13 +2,13 @@
 
 
 
-1999.io needs a place for documentation, support, sample code, and a place to store the default templates. This is that place.
+1999.io needs a place for docs, support, sample code, and a place to store the default templates. This is that place.
 
 
 
 #### Updates
 
-##### 4/2/16 by DW
+##### v0.40 - 4/2/16 by DW
 
 Started the project off with the defaults. 
 
