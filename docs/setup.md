@@ -24,12 +24,6 @@ We also install <a href="https://www.npmjs.com/">npm</a>, a requirement to run N
 
 <a href="https://packages.debian.org/sid/nodejs-legacy">nodejs-legacy</a> makes it possible to run apps by saying <i>node app.js</i> instead of having to use nodejs, an oddity of Ubuntu.
 
-#### Install forever
-
-<pre>sudo npm install forever -g</pre>
-
-There are lots of ways to get apps to launch in the background, I like <a href="https://github.com/foreverjs/forever">forever</a> because it keeps the app running even if it crashes. 
-
 #### Install git
 
 <pre>sudo apt-get install git</pre>
@@ -57,10 +51,6 @@ Launch your favorite Unix editor. I like <a href="http://mintaka.sdsu.edu/reu/na
 <pre>nano config.json</pre>
 
 Here's a <a href="https://gist.github.com/scripting/ae6d50ce73fcdb02c51b#file-config-json">template</a> for config.json, copy the text, and paste it into nano in your terminal window.
-
-<script src="https://gist.github.com/scripting/ae6d50ce73fcdb02c51b.js"></script>
-
-{% gist ae6d50ce73fcdb02c51b %}
 
 Now I'm going to go through all the elements step by step, explaining what you have to do to set their values.
 
