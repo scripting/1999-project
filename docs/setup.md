@@ -6,9 +6,13 @@
 
 #### Overview
 
-1. 1999's server is also called nodeStorage. It's just a special configuration of that software. 
+1. 1999's server is special configuration of nodeStorage, which can be used to run other software.
 
 2. It's written in JavaScript and runs under Node.js.
+
+3. We use Twitter for identity, so creating a connection to Twitter is part of the setup process.
+
+
 
 #### Install Node.js
 
