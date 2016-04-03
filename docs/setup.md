@@ -66,10 +66,6 @@ Now I'm going to go through all the elements step by step, explaining what you h
 
 Save the file by typing Control-O, then exit with Control-X.
 
-#### Launch nodeStorage
-
-<pre>node storage.js</pre>
-
 #### Set up your Twitter app
 
 1. Go to <a href="https://apps.twitter.com/">apps.twitter.com</a> and click Create New App in the upper-right corner.  A page with a form appears, asking for details of your app.
@@ -85,6 +81,10 @@ Save the file by typing Control-O, then exit with Control-X.
 6. In the terminal, press Control-C to quit nodeStorage. 
 
 7. Open config.json in your editor, and replace the placeholder values for twitterConsumerKey and twitterConsumerSecret with these values and save the file. 
+
+#### Launch nodeStorage
+
+<pre>node storage.js</pre>
 
 #### Test your setup
 
