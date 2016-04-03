@@ -76,7 +76,9 @@ Save the file by typing Control-O, then exit with Control-X.
 
 4. The callback URL for nodeStorage instances is the url of the app, as specified in the previous step, followed by "callbackFromTwitter" (don't include the quotes).
 
-5. If it all worked, you should have a Twitter app set up. Click on the Test OAuth button in the upper-right corner of the page, and it will show you two values, consumer key and consumer secret. 
+5. Here's a <a href="http://scripting.com/2016/04/03/createTwitterAppScreen.png">screen shot</a> of a filled-out Twitter app page.
+
+6. If it all worked, you should have a Twitter app set up. Click on the Test OAuth button in the upper-right corner of the page, and it will show you two values, consumer key and consumer secret. 
 
 7. Open config.json in your editor, and replace the placeholder values for twitterConsumerKey and twitterConsumerSecret with these values and save the file. 
 
