@@ -78,8 +78,6 @@ Save the file by typing Control-O, then exit with Control-X.
 
 5. If it all worked, you should have a Twitter app set up. Click on the Test OAuth button in the upper-right corner of the page, and it will show you two values, consumer key and consumer secret. 
 
-6. In the terminal, press Control-C to quit nodeStorage. 
-
 7. Open config.json in your editor, and replace the placeholder values for twitterConsumerKey and twitterConsumerSecret with these values and save the file. 
 
 #### Launch nodeStorage
