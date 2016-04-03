@@ -2,6 +2,14 @@
 
 1999.io is a new blogging environment that's fast and easy, and has lots of features no other blogging software has. I'll write a FAQ that explains the feature set, but for now this is a doc that shows you how to set up a 1999 server on Ubuntu.
 
+
+
+#### Overview
+
+1. 1999's server is also called nodeStorage. It's just a special configuration of that software. 
+
+2. It's written in JavaScript and runs under Node.js.
+
 #### Install Node.js
 
 <pre>sudo apt-get update
@@ -20,7 +28,7 @@ We also install <a href="https://www.npmjs.com/">npm</a>, a requirement to run N
 
 <pre>sudo npm install forever -g</pre>
 
-There are lots of ways to get apps to launch in the background, I like <a href="https://github.com/foreverjs/forever">forever</a> because it keeps the app running even if it crashes. nodeStorage, of course, never crashes (heh) but you never really know. ;-)
+There are lots of ways to get apps to launch in the background, I like <a href="https://github.com/foreverjs/forever">forever</a> because it keeps the app running even if it crashes. 
 
 #### Install git
 
@@ -48,9 +56,11 @@ Launch your favorite Unix editor. I like <a href="http://mintaka.sdsu.edu/reu/na
 
 <pre>nano config.json</pre>
 
-Here's a template for config.json, copy the text, and paste it into nano in your terminal window.
+Here's a <a href="https://gist.github.com/scripting/ae6d50ce73fcdb02c51b#file-config-json">template</a> for config.json, copy the text, and paste it into nano in your terminal window.
 
 <script src="https://gist.github.com/scripting/ae6d50ce73fcdb02c51b.js"></script>
+
+{% gist ae6d50ce73fcdb02c51b %}
 
 Now I'm going to go through all the elements step by step, explaining what you have to do to set their values.
 
