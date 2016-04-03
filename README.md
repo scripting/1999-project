@@ -1,6 +1,6 @@
 ## 1999-project
 
-
+  
 
 1999.io needs a place for docs, support, sample code, and a place to store the default templates. This is that place.
 
@@ -13,6 +13,8 @@
 Added docs for <a href="https://github.com/scripting/1999-project/blob/master/docs/callbacks.md">publish callbacks</a>.
 
 Moved the <a href="https://github.com/scripting/1999-project/blob/master/docs/setup.md">startup docs</a> from the blog.
+
+Two more: <a href="https://github.com/scripting/1999-project/blob/master/docs/updating.md">updating</a> and <a href="https://github.com/scripting/1999-project/blob/master/docs/whitelist.md">whitelist</a>.
 
 ##### v0.41 - 4/2/16 by DW
 
