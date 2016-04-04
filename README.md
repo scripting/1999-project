@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.43 - 4/4/16 by DW
+
+Started a new code folder for sample code. First bit of code I'm sharing is the source for ping.1999.io, designed to run as a <a href="http://pagepark.io/">PagePark</a> script. 
+
 ##### v0.42 - 4/2/16 by DW
 
 Added docs for <a href="https://github.com/scripting/1999-project/blob/master/docs/callbacks.md">publish callbacks</a>.
