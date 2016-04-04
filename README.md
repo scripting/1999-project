@@ -10,7 +10,7 @@
 
 ##### v0.43 - 4/4/16 by DW
 
-Started a new code folder for sample code. First bit of code I'm sharing is the source for ping.1999.io, designed to run as a <a href="http://pagepark.io/">PagePark</a> script. 
+Started a new code folder for sample code. First bit of code I'm sharing is the <a href="https://github.com/scripting/1999-project/blob/master/code/pingserver.js">source</a> for ping.1999.io, designed to run as a <a href="http://pagepark.io/">PagePark</a> script. 
 
 ##### v0.42 - 4/2/16 by DW
 
