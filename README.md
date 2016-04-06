@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.44 - 4/6/16 by DW
+
+New utility script for breaking up big chatLog.json files, one file per month in a sub-folder called months/.
+
 ##### v0.43 - 4/4/16 by DW
 
 Started a new code folder for sample code. First bit of code I'm sharing is the <a href="https://github.com/scripting/1999-project/blob/master/code/pingserver.js">source</a> for ping.1999.io, designed to run as a <a href="http://pagepark.io/">PagePark</a> script. 
