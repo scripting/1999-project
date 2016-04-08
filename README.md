@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.44 - 4/8/16 by DW
+
+Updates to the setup docs.
+
 ##### v0.44 - 4/6/16 by DW
 
 New <a href="https://github.com/scripting/1999-project/blob/master/code/breakupchatlog.js">utility script</a> for breaking up big chatLog.json files, one file per month in a sub-folder called months/.
