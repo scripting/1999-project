@@ -1,4 +1,4 @@
-## How to set up a 1999 server
+## How to set up a 1999 server on Ubuntu
 
 1999.io is a new blogging environment that's fast and easy, and has lots of features no other blogging software has. I'll write a FAQ that explains the feature set, but for now this is a doc that shows you how to set up a 1999 server on Ubuntu.
 
@@ -6,13 +6,13 @@
 
 #### Overview
 
+0. These instructions are for Ubuntu. Other versions of Linux or Windows or Mac OS will require you to figure out how to install Node.js yourself. 
+
 1. 1999's server is special configuration of nodeStorage, which can be used to run other software.
 
 2. It's written in JavaScript and runs under Node.js.
 
 3. We use Twitter for identity, so creating a connection to Twitter is part of the setup process.
-
-
 
 #### Install Node.js
 
@@ -33,6 +33,8 @@ We also install <a href="https://www.npmjs.com/">npm</a>, a requirement to run N
 <pre>sudo apt-get install git</pre>
 
 I like to install git, because it makes it easy to install nodeStorage from GitHub.
+
+It's also required for the server to be able to install updates, which it does with git.
 
 #### Download nodeStorage
 
@@ -105,4 +107,10 @@ Save the file by typing Control-O, then exit with Control-X.
 7. If it worked, you should see a new post below that. If you click on the wedge you'll see a menu of options for the post. If you click on the Eye icon next to the menu you should see a rendering of the page. 
 
 9. Pat yourself on the back. You are now a DevOps dudess or duderino. On your way to being a Full Stack Developer. ;-)
+
+#### Where to go from here
+
+There are lots of ways to get apps to launch in the background, I like <a href="https://github.com/foreverjs/forever">forever</a> because it keeps the app running even if it crashes. 
+
+<pre>sudo npm install forever -g</pre>
 
