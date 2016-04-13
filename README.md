@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.45 - 4/12/16 by DW
+
+New <a href="https://github.com/scripting/1999-project/blob/master/docs/macros.md">docs page</a> on macros that are available to templates while pages are being rendered.
+
 ##### v0.44 - 4/8/16 by DW
 
 Updates to the setup docs.

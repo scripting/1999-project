@@ -12,7 +12,8 @@
 		</head>
 	<body text="menubar.opml">
 		<outline text="Links">
-			<outline name="aboutScripting" text="About 1999..." type="link" url="http://1999.smallpict.com/2016/03/05/thisIsAPlaceholder.html"></outline>
+			<outline name="aboutScripting" text="About 1999..." type="link" url="http://home.1999.io/"></outline>
+			<outline text="-"></outline>
 			</outline>
 		</body>
 	</opml>
