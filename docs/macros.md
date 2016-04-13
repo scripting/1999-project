@@ -26,7 +26,11 @@ You'll see that there's more information accessible here, because the pagetable 
 
 Here's a <a href="https://gist.github.com/scripting/ad9d9f81e7277ab21d0888edc3686713">snapshot</a> of the runtime version of the pagetable for the example page. 
 
-#### Historical note
+#### Historic note
 
-The <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=site%3Ascripting.com%20pagetable">pagetable</a> has been in all my web CMSes going back to 1996 and the first website framework. It just sort of happened, but it works beautifully as a way for values to be passed from the editor through the rendering process and into the page at runtime.
+The <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=site%3Ascripting.com%20pagetable">pagetable</a> has been in all my web CMSes going back to 1996 and the first website framework. 
+
+It works beautifully as a way for values to be passed from the editor through the rendering process and into the page at runtime.
+
+I haven't ever come up with a better way to do it. ;-)
 
