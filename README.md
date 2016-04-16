@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.46 - 4/12/16 by DW
+
+New sample app, <a href="https://github.com/scripting/1999-project/blob/master/code/readchatlog.js">readchatlog.js</a>. Reads a chatLog.js file, which contains all the information about a user's blog, and lists each item to the console, including the ID, title and when it was posted. Just want to get people thinking of apps they might build off the chatLog.json files. 
+
 ##### v0.45 - 4/12/16 by DW
 
 New <a href="https://github.com/scripting/1999-project/blob/master/docs/macros.md">docs page</a> on macros that are available to templates while pages are being rendered.
