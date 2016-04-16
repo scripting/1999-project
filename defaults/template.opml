@@ -29,12 +29,14 @@
 					<outline text="&lt;meta property=&quot;og:title&quot; content=&quot;[%title%]&quot; /&gt;"></outline>
 					<outline text="&lt;meta property=&quot;og:description&quot; content=&quot;[%description%]&quot; /&gt;"></outline>
 					<outline text="&lt;meta property=&quot;og:site_name&quot; content=&quot;[%sitename%]&quot; /&gt;"></outline>
+					<outline text="&lt;meta property=&quot;og:image&quot; content=&quot;[%urlImage%]&quot; /&gt;"></outline>
 					</outline>
 				<outline text="&lt;!-- Twitter metadata --&gt;">
 					<outline text="&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot;&gt;"></outline>
 					<outline text="&lt;meta name=&quot;twitter:site&quot; content=&quot;@[%twitterscreenname%]&quot;&gt;"></outline>
 					<outline text="&lt;meta name=&quot;twitter:title&quot; content=&quot;[%title%]&quot;&gt;"></outline>
 					<outline text="&lt;meta name=&quot;twitter:description&quot; content=&quot;[%description%]&quot;&gt;"></outline>
+					<outline text="&lt;meta name=&quot;twitter:image:src&quot; content=&quot;[%urlImage%]&quot;&gt;"></outline>
 					</outline>
 				<outline text="&lt;style&gt;">
 					<outline text=".brand a {">
