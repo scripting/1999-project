@@ -1,0 +1,242 @@
+<html>
+	<head>
+		<title>1999.io client example</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://fargo.io/code/jquery-1.9.1.min.js"></script>
+		<link href="http://fargo.io/code/ubuntuFont.css" rel="stylesheet" type="text/css">
+		<link href="http://fargo.io/code/bootstrap.css" rel="stylesheet">
+		<script src="http://fargo.io/code/bootstrap.min.js"></script>
+		
+		<script>
+			var myVersion = 0.46, myProductName = "1999client";
+			
+			var urlHttpServer = "http://friends.farm:1999/";
+			var urlMySocket = "ws://friends.farm:2000/";
+			var nameChatLog = "davewiner";
+			
+			var ctMessagesFromServer = 0;
+			var whenStartup = new Date ();
+			var whenLastMessageReceived = whenStartup;
+			var myChatlogCopy = new Array ();
+			var mySocket = undefined;
+			
+			function secondsSince (when) { 
+				var now = new Date ();
+				when = new Date (when);
+				return ((now - when) / 1000);
+				}
+			function jsonStringify (jstruct, flFixBreakage) { 
+				//Changes
+					//6/16/15; 10:43:25 AM by DW
+						//Andrew Shell reported an issue in the encoding of JSON that's solved by doing character replacement. 
+						//However, this is too big a change to make for all the code that calls this library routine, so we added a boolean flag, flFixBreakage.
+						//If this proves to be harmless, we'll change the default to true. 
+						//http://river4.smallpict.com/2015/06/16/jsonEncodingIssueSolved.html
+				if (flFixBreakage === undefined) {
+					flFixBreakage = false;
+					}
+				var s = JSON.stringify (jstruct, undefined, 4);
+				if (flFixBreakage) {
+					s = s.replace (/\u2028/g,'\\u2028').replace (/\u2029/g,'\\u2029');
+					}
+				return (s);
+				}
+			function beginsWith (s, possibleBeginning, flUnicase) { 
+				if (s === undefined) { //7/15/15 by DW
+					return (false);
+					}
+				if (s.length == 0) { //1/1/14 by DW
+					return (false);
+					}
+				if (flUnicase === undefined) {
+					flUnicase = true;
+					}
+				if (flUnicase) {
+					for (var i = 0; i < possibleBeginning.length; i++) {
+						if (stringLower (s [i]) != stringLower (possibleBeginning [i])) {
+							return (false);
+							}
+						}
+					}
+				else {
+					for (var i = 0; i < possibleBeginning.length; i++) {
+						if (s [i] != possibleBeginning [i]) {
+							return (false);
+							}
+						}
+					}
+				return (true);
+				}
+			function stringLower (s) {
+				if (s === undefined) { //1/26/15 by DW
+					return ("");
+					}
+				s = s.toString (); //1/26/15 by DW
+				return (s.toLowerCase ());
+				}
+			function stringDelete (s, ix, ct) {
+				var start = ix - 1;
+				var end = (ix + ct) - 1;
+				var s1 = s.substr (0, start);
+				var s2 = s.substr (end);
+				return (s1 + s2);
+				}
+			function stringNthField (s, chdelim, n) {
+				var splits = s.split (chdelim);
+				if (splits.length >= n) {
+					return splits [n-1];
+					}
+				return ("");
+				}
+			function readHttpFile (url, callback, timeoutInMilliseconds, headers) { 
+				if (timeoutInMilliseconds === undefined) {
+					timeoutInMilliseconds = 30000;
+					}
+				var jxhr = $.ajax ({ 
+					url: url,
+					dataType: "text", 
+					headers: headers,
+					timeout: timeoutInMilliseconds 
+					}) 
+				.success (function (data, status) { 
+					callback (data);
+					}) 
+				.error (function (status) { 
+					console.log ("readHttpFile: url == " + url + ", error == " + jsonStringify (status));
+					callback (undefined);
+					});
+				}
+			function getChatLog (nameChatLog, callback) { 
+				var apiUrl = urlHttpServer + "chatlog?chatLog=" + encodeURIComponent (nameChatLog), whenstart = new Date ();
+				readHttpFile (apiUrl, function (data) {
+					var jstruct = JSON.parse (data);
+					console.log ("getChatLog: length == " + jstruct.chatLog.length);
+					console.log ("getChatLog: metadata == " + JSON.stringify (jstruct.metadata, undefined, 4));
+					callback (jstruct.chatLog, jstruct.metadata); //new metadata parameter -- 10/23/15 by DW
+					});
+				}
+			function gotMessage (s) {
+				var now = new Date ();
+				function receivedChatItem (item) {
+					for (var i = 0; i < myChatlogCopy.length; i++) { //check for updates to items we already have
+						if (myChatlogCopy [i].id == item.id) {
+							myChatlogCopy [i] = item;
+							return;
+							}
+						}
+					myChatlogCopy [myChatlogCopy.length] = item; //it's a new item
+					}
+				console.log ("\ngotMessage");
+				console.log (s);
+				$("#idWebSocketResult").text (s);
+				$("#idCtMessagesFromServer").text (++ctMessagesFromServer);
+				$("#idSecsLastCall").text (secondsSince (whenLastMessageReceived));
+				whenLastMessageReceived = now;
+				if (s !== undefined) { //no error
+					var updatekey = "update\r";
+					if (beginsWith (s, updatekey)) { 
+						s = stringDelete (s, 1, updatekey.length);
+						receivedChatItem (JSON.parse (s));
+						}
+					$("#idWebSocketResult").text (s);
+					}
+				}
+			function startConnection (s) {
+				mySocket = new WebSocket (urlMySocket); 
+				mySocket.onopen = function (evt) {
+					console.log ("mySocket is open.");
+					console.log ("sending: " + s);
+					mySocket.send (s);
+					};
+				mySocket.onmessage = function (evt) {
+					gotMessage (evt.data);
+					};
+				mySocket.onclose = function (evt) {
+					console.log ("mySocket was closed.");
+					mySocket = undefined;
+					};
+				mySocket.onerror = function (evt) {
+					console.log ("mySocket received an error");
+					};
+				}
+			function everyMinute () {
+				var now = new Date ();
+				console.log ("\neveryMinute: " + now.toLocaleTimeString ());
+				}
+			function everySecond () {
+				if (mySocket === undefined) { //try to open the connection
+					startConnection ("watch chatlog:" + nameChatLog);
+					}
+				$("#idItemsInChatLog").text (myChatlogCopy.length);
+				$("#idSecsSinceLastUpdate").text (stringNthField (secondsSince (whenLastMessageReceived).toString (), ".", 1));
+				}
+			function startup () {
+				console.log ("startup");
+				$("#idVersionNumber").html ("v" + myVersion);
+				$("#idNameChatLog").html (nameChatLog);
+				getChatLog (nameChatLog, function (myChatLog, myMetadata) {
+					myChatlogCopy = myChatLog;
+					self.setInterval (everySecond, 1000); 
+					self.setInterval (everyMinute, 60000); 
+					});
+				}
+			</script>
+		<style>
+			body {
+				font-family: Ubuntu;
+				font-size: 18px;
+				background-color: whitesmoke;
+				line-height: 140%;
+				}
+			.divPageBody {
+				width: 60%;
+				margin-top: 70px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 400px;
+				}
+			pre {
+				border: 1px solid silver;
+				min-height: 5em;
+				font-size: 13px;
+				}
+			.divResultsFromCall {
+				}
+			.divVersionNumber {
+				font-size: 12px;
+				padding: 5px;
+				}
+			.spNameChatLog {
+				font-weight: bold;
+				}
+			</style>
+		
+		</head>
+	<body>
+		<div class="divVersionNumber" id="idVersionNumber">
+			</div>
+		
+		<div class="divPageBody">
+			<h1>WebSocket client for 1999.io</h1>
+			<p>This app hooks up with the 1999.io server using WebSockets. Every time a message is created or updated in the <span class="spNameChatLog" id="idNameChatLog"></span> chatlog, the socket returns with the content of that message.</p> 
+			<p>For more info, see this <a href="http://scripting.com/liveblog/users/davewiner/2015/11/30/0510.html">blog post</a>. And the source is available, of course, <a href="https://github.com/scripting/1999client">on GitHub</a>.</p>
+			<p>Here's some real-time data about the server.</p>
+			<p>Number of items in myChatlogCopy: <span id="idItemsInChatLog"></span>.
+			<p>Number of messages received from server: <span id="idCtMessagesFromServer">0</span>.
+			<p>We have been waiting <span id="idSecsSinceLastUpdate"></span> seconds for an update..
+			<div class="divResultsFromCall" id="idResultsFromCall">
+				<p>How long we waited for the last update: <span id="idSecsLastCall">0</span> secs.
+				<p>The text returned from the last call:</p>
+				<pre id="idWebSocketResult">
+					</pre>
+				</div>
+			<p id="idWebSocketTime"></p>
+			</div>
+		<script>
+			$(document).ready (function () {
+				startup ();
+				});
+			</script>
+		</body>
+	</html>
