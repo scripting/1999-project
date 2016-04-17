@@ -8,7 +8,15 @@
 
 #### Updates
 
-##### v0.46 - 4/12/16 by DW
+##### v0.47 - 4/17/16 by DW
+
+<a href="https://github.com/scripting/1999-project/blob/master/code/websocketdemo.html">Demo app</a> for websocket support in 1999.io server. You can hook it up to your chatlog, and see how you might develop a client app for your blog using the realtime power of WebSockets. One of the few real-world demos for WebSockets. 
+
+Note: This app previously was in its own <a href="https://github.com/scripting/1999client">repository</a>. It really belonged in this collection of demos. 
+
+Also: You can run this app from a <a href="http://1999.io/docs/code/websocketdemo.html">web page</a> on 1999.io.
+
+##### v0.46 - 4/16/16 by DW
 
 New sample app, <a href="https://github.com/scripting/1999-project/blob/master/code/readchatlog.js">readchatlog.js</a>. Reads a chatLog.js file, which contains all the information about a user's blog, and lists each item to the console, including the ID, title and when it was posted. Just want to get people thinking of apps they might build off the chatLog.json files. 
 
