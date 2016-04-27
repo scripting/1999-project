@@ -10,7 +10,9 @@
 
 ##### v0.48 - 4/27/16 by DW
 
-Added a template for the <a href="https://github.com/scripting/1999-project/issues">Issues section</a>, per the instructions on the GitHub site. Thanks to the <a href="https://github.com/yabwe/medium-editor">medium-editor</a> project for the example. 
+Added a template for the <a href="https://github.com/scripting/1999-project/issues">Issues section</a>, per the <a href="https://github.com/blog/2111-issue-and-pull-request-templates">instructions</a> on the GitHub site. 
+
+Thanks to the <a href="https://github.com/yabwe/medium-editor">medium-editor</a> project for the example. 
 
 ##### v0.47 - 4/17/16 by DW
 
