@@ -1,6 +1,4 @@
-### Description of the problem
-
-
+##### Description of the problem
 
 ##### Steps to reproduce
 
@@ -10,11 +8,9 @@
 
 3. [and so on...]
 
-
-
 ##### What you expected to happen
 
+##### Other data 
 
-
-##### Other data [what OS, example data, whatever might help someone figure out what happened on your system] 
+[What OS, browser, are you using the Mac app, example data, anything that might help someone figure out what happened on your system. Remember, nothing can happen until someone else can reproduce the problem you're experiencing.] 
 
