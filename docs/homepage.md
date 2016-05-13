@@ -20,7 +20,7 @@ If you're hosting blogs for other people, you might want to change that to the n
 
 #### urlPageTemplate
 
-This sets the default template used for rendering pages. 
+This sets the address of the default template used for rendering pages. 
 
 It must be the address of a plain text file containing the HTML code with macros for the template file. 
 
@@ -29,4 +29,16 @@ It can be a local URL on your server, as shown in the example. I put the file in
 But you don't have to put it on your server, you can put it anywhere that's publicly accessible by your users' machines. 
 
 If the user designs their own template it overrides this choice. It's only used when the user has not customized their template, or we can't read the user's template. 
+
+#### How to test
+
+If you want to experiment with the <i>urlPageTemplate</i> feature, and have already edited the template using the outliner, and you're running your own server...
+
+1. Open your sub-folder of the publicFiles folder on the server. 
+
+2. Delete template.opml. 
+
+Here's a <a href="http://scripting.com/2016/05/13/whereTemplateIs.png">screen shot</a> showing the location of template.opml in my server folder.
+
+Now when 1999.io renders your pages it will use the default template as specified in your <i>homePage</i> object. 
 
