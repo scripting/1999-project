@@ -8,11 +8,15 @@
 
 0. These instructions are for Ubuntu. Other versions of Linux or Windows or Mac OS will require you to figure out how to install Node.js yourself. 
 
-1. 1999's server is special configuration of nodeStorage, which can be used to run other software.
+1. 1999's server is special configuration of <a href="https://github.com/scripting/nodeStorage">nodeStorage</a>, which can be used to run other software.
 
 2. It's written in JavaScript and runs under Node.js.
 
 3. We use Twitter for identity, so creating a connection to Twitter is part of the setup process.
+
+4. If you want to try out the software before installing you can create a test site on <a href="http://my.1999.io/">my.1999.io</a>. The usual caveats apply. I can't run these test sites forever, but I have no immediate plans to take it down. The safest bet if you plan to use 1999.io to blog for real is to run your own server. 
+
+Dave Winer, May 2016
 
 #### Install Node.js
 

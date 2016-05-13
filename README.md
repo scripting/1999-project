@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.49 - 5/13/16 by DW
+
+New <a href="https://github.com/scripting/1999-project/blob/master/docs/homepage.md">howto</a> shows how to configure the homepage of the editor.
+
 ##### v0.48 - 4/27/16 by DW
 
 Added a template for the <a href="https://github.com/scripting/1999-project/issues">Issues section</a>, per the <a href="https://github.com/blog/2111-issue-and-pull-request-templates">instructions</a> on the GitHub site. 
