@@ -14,7 +14,7 @@ Two items are specified in that object, productnameForDisplay and urlPageTemplat
 
 This sets the string that appears in the upper left corner of the editor. 
 
-I've set it to BloatWare for my test server, here's a screen shot showing what that looks like.
+I've set it to BloatWare for my test server. Here's a <a href="http://scripting.com/2016/05/13/bloatwareblog.png">screen shot</a> showing what that looks like.
 
 If you're hosting blogs for other people, you might want to change that to the name of your organization.
 
