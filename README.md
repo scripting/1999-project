@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.50 - 5/16/16 by DW
+
+PlugIns are now available in 1999.io. A new howto says how servers set them up and the templateEdit plugin is documented.
+
 ##### v0.49 - 5/13/16 by DW
 
 New <a href="https://github.com/scripting/1999-project/blob/master/docs/homepage.md">howto</a> shows how to configure the homepage of the editor.
