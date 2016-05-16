@@ -36,5 +36,5 @@ However there is an escape clause. If you have access to the server, you can und
 
 #### Writing your own plugin
 
-The source code for the templateEdit plugin is in the code folder in this repo. It's meant to serve as example code for the kinds of things plugins do. 
+The source code for the <a href="https://github.com/scripting/1999-project/blob/master/code/templateedit.html">templateEdit</a> plugin is in the code folder in this repo. It's meant to serve as example code for the kinds of things plugins do. 
 
