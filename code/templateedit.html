@@ -1,0 +1,187 @@
+<html>
+	<head>
+		<title>Template Editor</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://fargo.io/code/jquery-1.9.1.min.js"></script><link href="http://fargo.io/code/bootstrap.css" rel="stylesheet"><script src="http://fargo.io/code/bootstrap.min.js"></script><link rel="stylesheet" href="http://fargo.io/code/fontAwesome/css/font-awesome.min.css"/><link href="http://fargo.io/code/ubuntuFont.css" rel="stylesheet" type="text/css"><link href="http://fargo.io/code/ranchoFont.css" rel="stylesheet" type="text/css"><script src="http://fargo.io/code/node/shared/utils.js"></script><script src="http://fargo.io/code/node/shared/alertdialog.js"></script><script src="http://fargo.io/code/node/shared/confirmdialog.js"></script><script src="http://fargo.io/code/node/shared/askdialog.js"></script><script src="http://fargo.io/code/strftime.js"></script><script src="http://fargo.io/code/shared/ga.js"></script><script src="http://fargo.io/code/shared/app.js"></script><script src="http://fargo.io/code/shared/menus.js"></script><link href="http://fargo.io/code/shared/menus.css" rel="stylesheet" type="text/css"><link href="http://fargo.io/code/shared/app.css" rel="stylesheet" type="text/css"><script src="http://fargo.io/code/shared/appprefs.js"></script><script src="http://fargo.io/code/shared/beep.js"></script>
+		<link href="http://fonts.googleapis.com/css?family=Copse" rel="stylesheet" type="text/css">
+		<script src="http://fargo.io/code/storage/api.js"></script>
+		<script src="http://fargo.io/code/markdownConverter.js"></script>
+		<script src="http://fargo.io/code/shared/xml.js"></script>
+		<script>
+			var appConsts = {
+				urlPageTemplate: "/template",
+				urlTwitterServer: "/",
+				version: "0.41"
+				};
+			var theItem;
+			var nameChatLog;
+			var myEditorName;
+			var whenLastKeystroke = new Date (0), flRenderingNeedsUpdate = true;
+			
+			var pathTemplateHtml = "misc/template.html";
+			var pathTemplateOpml = "misc/template.opml";
+			var pathToDefaultTemplateOpml = "/template";
+			
+			function getTemplateHtml (callback) {
+				
+				twGetFile (pathTemplateHtml, true, false, function (err, data) {
+					if (data !== undefined) {
+						callback (data.filedata.toString ());
+						}
+					else {
+						twGetFile (pathTemplateOpml, true, false, function (err, data) {
+							if (data !== undefined) {
+								var opmltext = data.filedata.toString ();
+								callback (xmlGetStringFromOutline (opmltext), opmltext);
+								}
+							else {
+								console.log ("Fill in code here.");
+								}
+							});
+						}
+					});
+				
+				}
+			function readConfig (callback) { 
+				readHttpFile ("config.json", function (data) { 
+					if (data !== undefined) {
+						try {
+							var jstruct = JSON.parse (data);
+							for (var x in jstruct) {
+								appConsts [x] = jstruct [x];
+								}
+							}
+						catch (err) {
+							console.log ("readConfig: error reading config == " + err.message);
+							}
+						}
+					callback ();
+					});
+				}
+			
+			function markdownProcess (s) {
+				var md = new Markdown.Converter ();
+				return (md.makeHtml (s));
+				}
+			function getText () {
+				return ($("#idEditor").val ());
+				}
+			function updateRendering () {
+				
+				$("#idRendering").css ("display", "none"); //feature turned off
+				$("#idRenderingContainer").css ("display", "none"); //feature turned off
+				flRenderingNeedsUpdate = false;
+				}
+			function keyupText () {
+				whenLastKeystroke = new Date ();
+				flRenderingNeedsUpdate = true;
+				}
+			function updateButtonClick () {
+				var whenstart = new Date ();
+				twUploadFile ("misc/template.html", getText (), "text/html", false, function (data) {
+					console.log ("updateButtonClick: uploaded template file in " + secondsSince (whenstart) + " secs.");
+					});
+				}
+			function everySecond () {
+				if (flRenderingNeedsUpdate) {
+					if (secondsSince (whenLastKeystroke) >= 0.3) {
+						updateRendering ();
+						}
+					}
+				}
+			function startup () {
+				console.log ("startup");
+				
+				readConfig (function () {
+					twStorageData.urlTwitterServer = appConsts.urlTwitterServer;
+					getTemplateHtml (function (htmltext, opmltext) {
+						if (htmltext !== undefined) {
+							$("#idEditor").val (htmltext);
+							}
+						$("#idEditor").keydown (function (event) {
+							if (event.keyCode == 9) { //tab key
+								//http://stackoverflow.com/questions/6140632/how-to-handle-tab-in-textarea
+								
+								var start = this.selectionStart;
+								var end = this.selectionEnd;
+								
+								var $this = $(this);
+								var value = $this.val ();
+								
+								// set textarea value to: text before caret + tab + text after caret
+								$this.val (value.substring (0, start)
+									+ "\t"
+										+ value.substring(end));
+								
+								// put caret at right position again (add one for the tab)
+								this.selectionStart = this.selectionEnd = start + 1;
+								
+								event.preventDefault ();
+								}
+							});
+						});
+					});
+				
+				
+				
+				
+				
+				
+				
+				self.setInterval (everySecond, 1000); 
+				}
+			</script>
+		<style>
+			body {
+				font-family: Ubuntu;
+				font-size: 18px;
+				background-color: whitesmoke;
+				}
+			.divPageBody {
+				width: 65%;
+				margin-top: 5%;
+				margin-left: auto;
+				margin-right: auto;
+				}
+			.myTextArea {
+				font-family: "Ubuntu";
+				font-size: 16px;
+				line-height: 130%;
+				width: 100%; 
+				height: 70%;
+				margin: 0;
+				}
+			.divRenderingContainer {
+				width: 600px; 
+				height: 500px;
+				border: 1px solid silver;
+				background-color: white;
+				}
+			.divRendering {
+				padding-left: 3px;
+				line-height: 130%;
+				}
+			.btnUpdate {
+				margin-top: 5px;
+				}
+			</style>
+		</head>
+	<body>
+		<div class="divPageBody">
+			<h1>Template editor for 1999.io</h1>
+			<div class="divEditorContainer">
+				
+				<textarea class="myTextArea" id="idEditor" onKeyUp="keyupText ()" placeholder="Edit the body of the post here.&#10;&#10;Click the Update button to send it back to the text area in 1999.io."></textarea>
+				
+				
+				</div>
+			<button id="idUpdateButton" class="btn btn-large btnUpdate" type="button" onclick="updateButtonClick ();">Update</button>
+			</div>
+		<script>
+			$(document).ready (function () {
+				startup ();
+				});
+			</script>
+		</body>
+	</html>
