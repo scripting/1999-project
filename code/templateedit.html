@@ -23,25 +23,15 @@
 			var urlDefaultTemplateHtml = "/template.html";
 			
 			function getTemplateHtml (callback) {
-				function getOpmlTemplate (pathOpmlTemplate, callback) {
-					twGetFile (pathOpmlTemplate, true, false, function (err, data) {
-						if (data !== undefined) {
-							var opmltext = data.filedata.toString ();
-							callback (xmlGetStringFromOutline (opmltext), opmltext);
-							}
-						else {
-							callback (undefined, undefined);
-							}
-						});
-					}
 				twGetFile (pathTemplateHtml, true, false, function (err, data) {
 					if (data !== undefined) {
 						callback (data.filedata.toString ());
 						}
 					else {
-						getOpmlTemplate (pathTemplateOpml, function (htmltext, opmltext) {
-							if (htmltext !== undefined) {
-								callback (htmltext, opmltext);
+						twGetFile (pathTemplateOpml, true, false, function (err, data) {
+							if (data !== undefined) {
+								var opmltext = data.filedata.toString ();
+								callback (xmlGetStringFromOutline (opmltext), opmltext);
 								}
 							else {
 								readHttpFile (urlDefaultTemplateHtml, function (htmltext) {
@@ -74,7 +64,6 @@
 					callback ();
 					});
 				}
-			
 			function getText () {
 				return ($("#idEditor").val ());
 				}
