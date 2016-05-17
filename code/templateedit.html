@@ -14,38 +14,49 @@
 		<script src="http://fargo.io/code/shared/xml.js"></script>
 		<script>
 			var appConsts = {
-				urlPageTemplate: "/template",
 				urlTwitterServer: "/",
-				version: "0.41"
+				version: "0.42"
 				};
-			var theItem;
-			var nameChatLog;
-			var myEditorName;
-			var whenLastKeystroke = new Date (0), flRenderingNeedsUpdate = true;
 			
 			var pathTemplateHtml = "misc/template.html";
 			var pathTemplateOpml = "misc/template.opml";
-			var pathToDefaultTemplateOpml = "/template";
+			var urlDefaultTemplateHtml = "/template.html";
 			
 			function getTemplateHtml (callback) {
-				
+				function getOpmlTemplate (pathOpmlTemplate, callback) {
+					twGetFile (pathOpmlTemplate, true, false, function (err, data) {
+						if (data !== undefined) {
+							var opmltext = data.filedata.toString ();
+							callback (xmlGetStringFromOutline (opmltext), opmltext);
+							}
+						else {
+							callback (undefined, undefined);
+							}
+						});
+					}
 				twGetFile (pathTemplateHtml, true, false, function (err, data) {
 					if (data !== undefined) {
 						callback (data.filedata.toString ());
 						}
 					else {
-						twGetFile (pathTemplateOpml, true, false, function (err, data) {
-							if (data !== undefined) {
-								var opmltext = data.filedata.toString ();
-								callback (xmlGetStringFromOutline (opmltext), opmltext);
+						getOpmlTemplate (pathTemplateOpml, function (htmltext, opmltext) {
+							if (htmltext !== undefined) {
+								callback (htmltext, opmltext);
 								}
 							else {
-								console.log ("Fill in code here.");
+								readHttpFile (urlDefaultTemplateHtml, function (htmltext) {
+									if (htmltext !== undefined) { 
+										callback (htmltext);
+										}
+									else {
+										alertDialog ("Can't read the template text because there was an error opening the file.");
+										callback (undefined);
+										}
+									});
 								}
 							});
 						}
 					});
-				
 				}
 			function readConfig (callback) { 
 				readHttpFile ("config.json", function (data) { 
@@ -64,39 +75,19 @@
 					});
 				}
 			
-			function markdownProcess (s) {
-				var md = new Markdown.Converter ();
-				return (md.makeHtml (s));
-				}
 			function getText () {
 				return ($("#idEditor").val ());
 				}
-			function updateRendering () {
-				
-				$("#idRendering").css ("display", "none"); //feature turned off
-				$("#idRenderingContainer").css ("display", "none"); //feature turned off
-				flRenderingNeedsUpdate = false;
-				}
-			function keyupText () {
-				whenLastKeystroke = new Date ();
-				flRenderingNeedsUpdate = true;
-				}
 			function updateButtonClick () {
 				var whenstart = new Date ();
-				twUploadFile ("misc/template.html", getText (), "text/html", false, function (data) {
+				twUploadFile (pathTemplateHtml, getText (), "text/html", false, function (data) {
 					console.log ("updateButtonClick: uploaded template file in " + secondsSince (whenstart) + " secs.");
 					});
 				}
 			function everySecond () {
-				if (flRenderingNeedsUpdate) {
-					if (secondsSince (whenLastKeystroke) >= 0.3) {
-						updateRendering ();
-						}
-					}
 				}
 			function startup () {
 				console.log ("startup");
-				
 				readConfig (function () {
 					twStorageData.urlTwitterServer = appConsts.urlTwitterServer;
 					getTemplateHtml (function (htmltext, opmltext) {
@@ -104,36 +95,20 @@
 							$("#idEditor").val (htmltext);
 							}
 						$("#idEditor").keydown (function (event) {
-							if (event.keyCode == 9) { //tab key
+							if (event.keyCode == 9) { //tab
 								//http://stackoverflow.com/questions/6140632/how-to-handle-tab-in-textarea
-								
 								var start = this.selectionStart;
 								var end = this.selectionEnd;
-								
 								var $this = $(this);
 								var value = $this.val ();
-								
-								// set textarea value to: text before caret + tab + text after caret
-								$this.val (value.substring (0, start)
-									+ "\t"
-										+ value.substring(end));
-								
-								// put caret at right position again (add one for the tab)
+								$this.val (value.substring (0, start) + "\t"+ value.substring (end));
 								this.selectionStart = this.selectionEnd = start + 1;
-								
 								event.preventDefault ();
 								}
 							});
+						self.setInterval (everySecond, 1000); 
 						});
 					});
-				
-				
-				
-				
-				
-				
-				
-				self.setInterval (everySecond, 1000); 
 				}
 			</script>
 		<style>
@@ -175,10 +150,7 @@
 		<div class="divPageBody">
 			<h1>Template editor for 1999.io</h1>
 			<div class="divEditorContainer">
-				
-				<textarea class="myTextArea" id="idEditor" onKeyUp="keyupText ()" placeholder="Edit the body of the post here.&#10;&#10;Click the Update button to send it back to the text area in 1999.io."></textarea>
-				
-				
+				<textarea class="myTextArea" id="idEditor" placeholder="Edit your blog's template here."></textarea>
 				</div>
 			<button id="idUpdateButton" class="btn btn-large btnUpdate" type="button" onclick="updateButtonClick ();">Update</button>
 			</div>
