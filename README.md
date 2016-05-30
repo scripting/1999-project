@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.51 - 5/30/16 by DW
+
+The new domains configuration option is documented. 
+
 ##### v0.50 - 5/16/16 by DW
 
 <a href="https://github.com/scripting/1999-project/blob/master/docs/plugins.md">PlugIns</a> are now available in 1999.io. A new howto says how servers set them up and the <a href="https://github.com/scripting/1999-project/blob/master/docs/plugins.md#the-templateedit-plugin">templateEdit</a> plugin is documented.
