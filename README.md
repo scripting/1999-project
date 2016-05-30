@@ -10,7 +10,7 @@
 
 ##### v0.51 - 5/30/16 by DW
 
-The new domains configuration option is documented. 
+The new domains configuration option is <a href="https://github.com/scripting/1999-project/blob/master/docs/domains.md">documented</a>. 
 
 ##### v0.50 - 5/16/16 by DW
 
