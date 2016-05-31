@@ -8,11 +8,11 @@ Here's an <a href="https://gist.github.com/scripting/c6ea81a23ae1291d15be9e968bb
 
 #### How to
 
-Add a new top-level object in config.json called domains. It contains strings. 
+Add a new top-level object in config.json called <i>domains.</i> It contains strings. 
 
 The name of each string is a domain to be mapped. 
 
-The value of each string is the path to the public file it points to.
+The value of each string is the path to the public file the domain points to.
 
 #### How it works
 
