@@ -10,7 +10,7 @@
 
 ##### v0.52 - 6/4/16 by DW
 
-Added about.opml to the new misc folder. It's just there to support review work on the About page for 1999.io. Using GitHub you will be able to follow changes to the document. 
+Added <a href="https://github.com/scripting/1999-project/blob/master/misc/about.opml">about.opml</a> to the new <a href="https://github.com/scripting/1999-project/tree/master/misc">misc</a> folder. It's just there to support review work on the About page for 1999.io. Using GitHub you will be able to follow changes to the document. 
 
 ##### v0.51 - 5/30/16 by DW
 
