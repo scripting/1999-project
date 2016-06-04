@@ -1,0 +1,71 @@
+<?xml encoding="ISO-8859-1" version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>about.opml</title>
+		<dateModified>&lt;%dateModified%></dateModified>
+		<expansionState></expansionState>
+		<vertScrollState>1</vertScrollState>
+		<windowTop>300</windowTop>
+		<windowLeft>700</windowLeft>
+		<windowBottom>900</windowBottom>
+		<windowRight>1500</windowRight>
+		</head>
+	<body text="about.opml">
+		<outline text="&lt;a href=&quot;http://1999.io/&quot;&gt;1999.io&lt;/a&gt; is easy for &lt;b&gt;writers&lt;/b&gt; to get started with, is completely customizable by &lt;b&gt;designers&lt;/b&gt;, and can be extended by &lt;b&gt;programmers&lt;/b&gt; through easy APIs and full access to the server code."></outline>
+		<outline text="For writers, a focus on simplicity">
+			<outline text="Create a new post in two steps. "></outline>
+			<outline text="Enter text into the box, &lt;a href=&quot;http://scripting.com/2016/06/04/goodPlaceToWriteBlogPost.png&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;then click the &lt;i&gt;Post&lt;/i&gt; button. ">
+				<outline text="&lt;img src=&quot;http://scripting.com/2016/06/04/goodPlaceToWriteBlogPost.png&quot;&gt;"></outline>
+				</outline>
+			<outline text="As easy as writing a tweet or Facebook post. ">
+				<outline text="&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LJcfKMr8Lsw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;"></outline>
+				</outline>
+			<outline text="Other blogging software can be hard to navigate for writers who want to quickly record an idea and get back to what they're working on."></outline>
+			<outline text="In 1999.io, you type some text and click the Post button and that's it. "></outline>
+			</outline>
+		<outline text="For designers, easy template editing">
+			<outline text="The template editor is just a menu command. "></outline>
+			<outline text="No programming required. "></outline>
+			<outline text="Make a quick template change in an instant. "></outline>
+			<outline text="A single command to rebuild all your pages."></outline>
+			</outline>
+		<outline text="For programmers, open source server">
+			<outline text="Written in JavaScript, runs in Node.js."></outline>
+			<outline text="Quick &lt;a href=&quot;https://github.com/scripting/1999-project/blob/master/docs/setup.md&quot;&gt;install&lt;/a&gt;. Less than 1/2 hour. Even quicker &lt;a href=&quot;http://blog.1999.io/2016/05/07/0020.html&quot; target=&quot;_blank&quot;&gt;on AWS&lt;/a&gt;. "></outline>
+			<outline text="Open source, MIT-license. "></outline>
+			<outline text="All user data is stored in JSON and XML, in individual files. No database."></outline>
+			<outline text="Easily configured through JSON. "></outline>
+			<outline text="Automatic updating so you're always running the latest version. "></outline>
+			<outline text="Uses Twitter for identity. "></outline>
+			</outline>
+		<outline text="User-accessible backup command">
+			<outline text="A single command in the &lt;i&gt;Main&lt;/i&gt; menu downloads the user's entire weblog in JSON to be saved locally, or moved to another server. "></outline>
+			<outline text="Absolutely no lock-in."></outline>
+			</outline>
+		<outline text="Pages are both static and dynamic">
+			<outline text="Static sites are reliable and fast and work for users with scripts turned off. Search engines do better with static sites. "></outline>
+			<outline text="1999.io uses hybrid pages that are both static &lt;i&gt;and&lt;/i&gt; dynamic. ">
+				<outline text="A basic version of the page is present in the HTML, and if the server is down or the user has JS turned off, the story still reads perfectly and looks great! "></outline>
+				</outline>
+			<outline text="You get the best of static and dynamic pages."></outline>
+			</outline>
+		<outline text="Podcast platform">
+			<outline text="You can link an MP3 or video file to a post, and 1999.io will generate standard RSS 2.0 enclosure code in your site's RSS feed. "></outline>
+			<outline text="We also support Facebook's new Instant Articles format. "></outline>
+			</outline>
+		<outline text="Easy editor">
+			<outline text="The editor in 1999.io is elegant and simple, patterned after Medium.com's editor. You can do simple styling, add links, numbered and bulleted lists, and quoted text from a pop-up palette."></outline>
+			</outline>
+		<outline text="Multi-author blogs">
+			<outline text="1999.io works for individuals or groups of writers. "></outline>
+			<outline text="To add a new user to your blog just add their Twitter handle to a list."></outline>
+			<outline text="A simple editorial discussion system allows team members to attach notes to any post."></outline>
+			</outline>
+		<outline text="&quot;Live&quot; pages">
+			<outline text="Your stories are active, so when you make an editing change, all readers see the new version instantly, without doing anything. "></outline>
+			<outline text="This opens up new applications for blogging that aren't possible with static-only blogging tools. "></outline>
+			<outline text="We use W3C standard WebSockets technology for compatibility across all modern browsers. "></outline>
+			<outline text="Other liveblogging tools only do liveblogging. 1999.io is the first full blogging platform that has liveblogging as a feature. "></outline>
+			</outline>
+		</body>
+	</opml>
