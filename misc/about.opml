@@ -42,17 +42,6 @@
 			<outline text="A single command in the &lt;i&gt;Main&lt;/i&gt; menu downloads the user's entire weblog in JSON to be saved locally, or moved to another server. "></outline>
 			<outline text="Absolutely no lock-in."></outline>
 			</outline>
-		<outline text="Pages are both static and dynamic">
-			<outline text="Static sites are reliable and fast and work for users with scripts turned off. Search engines do better with static sites. "></outline>
-			<outline text="1999.io uses hybrid pages that are both static &lt;i&gt;and&lt;/i&gt; dynamic. ">
-				<outline text="A basic version of the page is present in the HTML, and if the server is down or the user has JS turned off, the story still reads perfectly and looks great! "></outline>
-				</outline>
-			<outline text="You get the best of static and dynamic pages."></outline>
-			</outline>
-		<outline text="Podcast platform">
-			<outline text="You can link an MP3 or video file to a post, and 1999.io will generate standard RSS 2.0 enclosure code in your site's RSS feed. "></outline>
-			<outline text="We also support Facebook's new Instant Articles format. "></outline>
-			</outline>
 		<outline text="Easy editor">
 			<outline text="The editor in 1999.io is elegant and simple, patterned after Medium.com's editor. You can do simple styling, add links, numbered and bulleted lists, and quoted text from a pop-up palette."></outline>
 			</outline>
@@ -61,11 +50,24 @@
 			<outline text="To add a new user to your blog just add their Twitter handle to a list."></outline>
 			<outline text="A simple editorial discussion system allows team members to attach notes to any post."></outline>
 			</outline>
-		<outline text="&quot;Live&quot; pages">
-			<outline text="Your stories are active, so when you make an editing change, all readers see the new version instantly, without doing anything. "></outline>
-			<outline text="This opens up new applications for blogging that aren't possible with static-only blogging tools. "></outline>
-			<outline text="We use W3C standard WebSockets technology for compatibility across all modern browsers. "></outline>
-			<outline text="Other liveblogging tools only do liveblogging. 1999.io is the first full blogging platform that has liveblogging as a feature. "></outline>
+		<outline text="Pages are both static and dynamic">
+			<outline text="Static sites are reliable and fast and work for users with scripts turned off. Search engines do better with static sites. "></outline>
+			<outline text="1999.io uses hybrid pages that are both static &lt;i&gt;and&lt;/i&gt; dynamic. ">
+				<outline text="A basic version of the page is present in the HTML, and if the server is down or the user has JS turned off, the story still reads perfectly and looks great! "></outline>
+				</outline>
+			<outline text="You get the best of static and dynamic pages."></outline>
+			</outline>
+		<outline text="Podcast platform">
+			<outline text="You can link an MP3 or video file to a post, and 1999.io will generate standard &lt;a href=&quot;http://cyber.law.harvard.edu/rss/rss.html&quot;&gt;RSS 2.0&lt;/a&gt; enclosure code in your site's RSS feed. "></outline>
+			</outline>
+		<outline text="Facebook connection">
+			<outline text="Each site has an RSS feed with the &lt;a href=&quot;http://scripting.com/2016/04/13/1182.html&quot;&gt;Facebook Instant Articles&lt;/a&gt; enhancements included automatically."></outline>
+			</outline>
+		<outline text="Liveblogging built-in">
+			<outline text="Your stories are active, so when you make an editing change, all readers see the new version instantly. "></outline>
+			<outline text="Opens up new applications for blogging that aren't possible with static-only blogging tools. "></outline>
+			<outline text="We use W3C standard &lt;a href=&quot;https://www.w3.org/TR/2011/WD-websockets-20110929/&quot;&gt;WebSocket&lt;/a&gt; technology for compatibility across all modern browsers. "></outline>
+			<outline text="Other liveblogging tools only do liveblogging. 1999.io is the first full blogging platform that includes liveblogging as a built-in feature. "></outline>
 			</outline>
 		</body>
 	</opml>
