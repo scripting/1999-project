@@ -10,7 +10,7 @@
 
 ##### v0.53 - 6/6/16 by DW
 
-Added a new utility app that generates montly archive pages. The feature was recently added to 1999.io. This builds archive pages for months before the feature came online. I'm using this app to generate the pages for <a href="http://scripting.com/">Scripting News</a>. 
+Added a new <a href="https://github.com/scripting/1999-project/tree/master/code/monthlyArchives">utility app</a> that generates monthly archive pages. The feature was recently added to 1999.io. This builds archive pages for months before the feature came online. I'm using this app to generate the pages for <a href="http://scripting.com/">Scripting News</a>. 
 
 ##### v0.52 - 6/4/16 by DW
 
