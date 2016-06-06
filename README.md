@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.53 - 6/6/16 by DW
+
+Added a new utility app that generates montly archive pages. The feature was recently added to 1999.io. This builds archive pages for months before the feature came online. I'm using this app to generate the pages for <a href="http://scripting.com/">Scripting News</a>. 
+
 ##### v0.52 - 6/4/16 by DW
 
 Added <a href="https://github.com/scripting/1999-project/blob/master/misc/about.opml">about.opml</a> to the new <a href="https://github.com/scripting/1999-project/tree/master/misc">misc</a> folder. It's just there to support review work on the About page for 1999.io. Using GitHub you will be able to follow changes to the document. 

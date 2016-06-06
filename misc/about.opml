@@ -27,14 +27,14 @@
 			<outline text="The template editor is just a menu command. "></outline>
 			<outline text="No programming required. "></outline>
 			<outline text="Make a quick template change in an instant. "></outline>
-			<outline text="A single command to rebuild all your pages."></outline>
+			<outline text="A second menu command rebuilds all your pages with the template changes."></outline>
 			</outline>
 		<outline text="For programmers, open source server">
 			<outline text="Written in JavaScript, runs in Node.js."></outline>
 			<outline text="Quick &lt;a href=&quot;https://github.com/scripting/1999-project/blob/master/docs/setup.md&quot;&gt;install&lt;/a&gt;. Less than 1/2 hour. Even quicker &lt;a href=&quot;http://blog.1999.io/2016/05/07/0020.html&quot; target=&quot;_blank&quot;&gt;on AWS&lt;/a&gt;. "></outline>
 			<outline text="Open source, MIT-license. "></outline>
 			<outline text="All user data is stored in JSON and XML, in individual files. No database."></outline>
-			<outline text="Easily configured through JSON. "></outline>
+			<outline text="Setup is easy with a single &lt;a href=&quot;https://gist.github.com/scripting/ae6d50ce73fcdb02c51b&quot; target=&quot;_blank&quot;&gt;config.json&lt;/a&gt; file. "></outline>
 			<outline text="Automatic updating so you're always running the latest version. "></outline>
 			<outline text="Uses Twitter for identity. "></outline>
 			</outline>
@@ -50,8 +50,15 @@
 			<outline text="To add a new user to your blog just add their Twitter handle to a list."></outline>
 			<outline text="A simple editorial discussion system allows team members to attach notes to any post."></outline>
 			</outline>
+		<outline text="One-click Edit This Page">
+			<outline text="The big innovation that made blogging possible was the Edit This Page Button. It made content management easy for writers. "></outline>
+			<outline text="In 1999.io, we make that even easier. You can edit the text directly on the story page by simply clicking on the text, making the change, and clicking Update. "></outline>
+			</outline>
 		<outline text="Pages are both static and dynamic">
-			<outline text="Static sites are reliable and fast and work for users with scripts turned off. Search engines do better with static sites. "></outline>
+			<outline text="Static sites are reliable and fast. ">
+				<outline text="They work for users with scripts turned off. "></outline>
+				<outline text="Search engines do better with static sites. "></outline>
+				</outline>
 			<outline text="1999.io uses hybrid pages that are both static &lt;i&gt;and&lt;/i&gt; dynamic. ">
 				<outline text="A basic version of the page is present in the HTML, and if the server is down or the user has JS turned off, the story still reads perfectly and looks great! "></outline>
 				</outline>

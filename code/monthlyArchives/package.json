@@ -1,0 +1,14 @@
+{
+	"name": "monthlyArchiveFor1999",
+	"description": "Generate a folder structure of monthly archives for a 1999.io site.",
+	"author": "Dave Winer <dave@smallpicture.com>",
+	"version": "0.40.0",
+	"dependencies" : {
+		"dateformat": "*",
+		"request": "*"
+		}, 
+	"license": "MIT",
+	"engines": {
+		"node": "0.10.*"
+		}
+	}

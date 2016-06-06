@@ -1,0 +1,2127 @@
+[
+    {
+        "name": "davewiner",
+        "text": "<p>I'm sure others miss Jon Stewart in this election, as I do. He'd have been a good choice to run against Trump. TV star vs TV star.</p><p>Other comedians who might be added to the Democratic debates: Whoopi, Louis CK, Sarah Silverman, Chris Rock, Don Rickles.</p>",
+        "id": 964,
+        "when": "2016-02-01T01:54:41.727Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/01/31/0964.html",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/01/31/00964.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-01T02:51:25.288Z",
+        "ctUpdates": 4,
+        "likes": {
+            "rtanglao": {
+                "when": "2016-02-01T02:51:25.287Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Here's a <a href=\"http://scripting.com/2016/02/01/theHttpsMystery.m4a\">ten-minute podcast</a> summarizing where we're at with Google and Mozilla and HTTPS.&nbsp;</p><p>I don't plan to write any more about this. I've already much more than I had to. Really it's time for one of our fine tech publications to pick up this story.&nbsp;</p><p>How about Ars Technica or Quartz or The Intercept, or any pub that cares about the continued existence of the open web.&nbsp;</p><p>How about Planet Money? This would be right up their alley. Is it worth burning the history of the web for what we're getting in return, which btw, isn't clear.&nbsp;</p><p>Maybe Vox could do one of their great explainers?</p><p>Google is aiming to plow under all that we've built that isn't being maintained. This might be okay if it was their private platform, but this is the web. It doesn't belong to them.&nbsp;</p><p>Come on journalists, this is your job.&nbsp;</p><p>I have to write software, keep my servers running and try to have a life.&nbsp;</p>",
+        "id": 965,
+        "when": "2016-02-01T14:45:09.038Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/01/0965.html",
+            "title": "Podcast: The HTTPS mystery",
+            "enclosure": {
+                "url": "http://scripting.com/2016/02/01/theHttpsMystery.m4a",
+                "type": "audio/mpeg",
+                "length": "4975271"
+            },
+            "image": "http://scripting.com/2016/02/01/suit.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/01/00965.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-01T18:24:56.837Z",
+        "ctUpdates": 10,
+        "likes": {
+            "triptych": {
+                "when": "2016-02-01T18:24:56.837Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>One more piece about the HTTPS problem.&nbsp;</p><p>Think of this as the TL/DR version. It started as a <a href=\"https://twitter.com/davewiner/status/694271745306562560\">series</a> of tweets.</p><p>The problem of requiring HTTPs in less than 140 chars: 1.Few benefits for blog-like sites, and 2. The costs are prohibitive.</p><p>There's actually a #3 (sorry) -- 3. For sites where the owner is gone the costs are more than prohibitive. There's no one to do the work.</p><p>I think to understand the boil-the-ocean nature of this goal, you have to have created a few websites over a reasonable period of time.</p><p>The web is fragile. The further back in time you go, the more fragile it is.</p><p>We could go deeper. You'll find that depth if you just scroll down from this point on <a href=\"http://scripting.com/\">Scripting News</a>\n.</p>",
+        "id": 967,
+        "when": "2016-02-01T21:25:30.106Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/01/0967.html",
+            "title": "Why HTTPS will never be required in browsers",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/01/00967.json",
+        "subs": [
+            {
+                "name": "ihaveadrin",
+                "text": "<p>Just in case, a proxy from clear to ssl is easy and low-footprint to set up.<br>Obviously if my browser is going to require https even for localhost, I'll start to think it's doing fishy things.<br></p>",
+                "id": 968,
+                "when": "2016-02-01T23:25:06.382Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 967,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-02T01:49:35.384Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-01T22:34:28.331Z",
+        "ctUpdates": 6
+    },
+    {
+        "name": "davewiner",
+        "text": "<p><span>Here's the </span><a href=\"https://github.com/scripting/nodeStorage/blob/master/storage.js#L1655\">HTTP request handler</a><span> in my nodeStorage app.</span></p><p>Look at how deeply nested it gets.</p><p>Now you can see how it looks in the <a href=\"http://scripting.com/listings/storage.html\">outliner</a> here.</p><p><span>Totally manageable. That's how I edit the code.</span></p>",
+        "id": 970,
+        "when": "2016-02-02T16:58:46.508Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/02/0970.html",
+            "title": "Editing JavaScript code in an outliner",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/02/00970.json",
+        "subs": [
+            {
+                "name": "cfaulkingham",
+                "text": "<p>Nice! I ended up switching to GO from Perl and for a brief period I considered node.js. However, I found the callback nesting tedious. This would have certainly made it easier to deal with.</p>",
+                "id": 972,
+                "when": "2016-02-03T18:52:11.703Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 970
+                }
+            }
+        ],
+        "whenLastUpdate": "2016-02-03T18:52:42.808Z",
+        "ctUpdates": 6,
+        "likes": {
+            "CharlesWiltgen": {
+                "when": "2016-02-02T17:34:03.013Z"
+            },
+            "cfaulkingham": {
+                "when": "2016-02-03T18:52:42.808Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Read <a href=\"https://medium.com/@salsop/banned-by-tesla-8d1f3249b9fb#.fhhhoc29q\">this bit</a> on Medium by Stewart Alsop about his experience with Tesla.</p><p>So hard to believe that Tesla has decided that this passionate, heavily invested, even groveling user of their product can no longer buy one.</p><p>Back in the day, <a href=\"https://en.wikipedia.org/wiki/Stewart_Alsop_II\">Stewart</a>&nbsp;wrote a tech industry newsletter. I'm probably one of about a thousand people left who remember it. He would write open letters to tech CEOs. It was one of my inspirations for blogging, when I started in 1994. He's a good writer, and his experiences with products are worth listening to, even if sometimes they were totally off the wall. ;-)</p><p>There are good tech companies around who will use that kind of feedback, soak it up, ask for more and possibly use it to guide their product decisions. At its peak, Microsoft was like this. Their CEO, the famous Bill Gates, set the tone for the company. He was very curious sometimes in kind of an angry way, but you definitely knew he was listening. Same with Jeff Bezos at Amazon. There are counter-examples. I could see Steve Jobs banning someone as a user if he didn't like their attitude. On the other hand, I had a big complaint about Apple while he was running the company in 2007, and they responded really well even though I was <a href=\"http://scripting.com/stories/2007/12/22/macsAreEvenMoreExpensiveTh.html\">blogging publicly</a> about it.&nbsp;</p><p>I think Musk and Tesla owe Alsop: 1. An apology. 2. The car he paid for (obviously). 3. Some kind of gift to show they understand that their job is to <i>please</i> people like Stewart, not ban them. Ridiculous that this is the kind of culture people tolerate in tech these days. Fix this, OK?</p><p>PS: I don't own a car at all so I'm not worried about being banned by Tesla, but I hear they're pretty cool, and overall I like the way Musk leads.&nbsp;</p>",
+        "id": 971,
+        "when": "2016-02-02T17:45:57.219Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/02/0971.html",
+            "title": "No Tesla for Alsop? Please fix",
+            "image": "http://scripting.com/2016/02/02/tesla.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/02/00971.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-02T22:16:22.716Z",
+        "ctUpdates": 11
+    },
+    {
+        "name": "davewiner",
+        "text": "One nice thing about 74-year-old presidential candidate that  young people support, then maybe they'd trust programmers his  age to design beautiful software for them.",
+        "id": 973,
+        "when": "2016-02-04T02:49:44.979Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/03/0973.html",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/03/00973.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-04T02:50:07.574Z",
+        "ctUpdates": 3
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>A request for podcasts, esp ones that begin with a long standard commercial, please give the files meaningful names, so when they are displayed in the Music app on an iPhone you can tell what they are. I waste a lot of time at the beginning of my walks trying to figure out which file is which podcast because the names often don't contain a clue to what they contain. No I'm not going to use your favorite podcast app. ;-)</p>",
+        "id": 974,
+        "when": "2016-02-04T20:08:26.381Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/04/0974.html",
+            "title": "Podcast filenames matter"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/04/00974.json",
+        "subs": [
+            {
+                "name": "CharlesWiltgen",
+                "text": "<p>Hey, why don't you use a podcast app? Inquiring minds in a podcasting group I hang out in are curious.</p>",
+                "id": 989,
+                "when": "2016-02-08T16:22:51.255Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 974
+                }
+            }
+        ],
+        "whenLastUpdate": "2016-02-06T06:48:36.229Z",
+        "ctUpdates": 5,
+        "likes": {
+            "testbeta": {
+                "when": "2016-02-06T04:43:27.520Z"
+            },
+            "rtanglao": {
+                "when": "2016-02-06T06:48:36.228Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>You are the only real person.&nbsp;</p><p>The rest of us are alien robots sent here to test you.&nbsp;</p><p>No one else can see this message.</p>",
+        "id": 975,
+        "when": "2016-02-04T23:24:21.204Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/04/0975.html",
+            "title": "This is a test",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/04/00975.json",
+        "subs": [
+            {
+                "name": "ihaveadrin",
+                "text": "<p>k</p>",
+                "id": 983,
+                "when": "2016-02-06T21:34:43.254Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 975,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-07T03:24:49.356Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-06T00:27:32.227Z",
+        "ctUpdates": 9,
+        "likes": {
+            "jonnosan": {
+                "when": "2016-02-05T07:16:34.339Z"
+            },
+            "markOmay": {
+                "when": "2016-02-05T13:58:07.503Z"
+            },
+            "bradleybooms": {
+                "when": "2016-02-06T00:27:32.227Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>In the 1988 election I was one of a group of tech people who were invited to meet with the manager of the Dukakis campaign for president.&nbsp;</p><p>When it came my turn to speak, I said I wanted him to have what I called a National Email Policy. Translated to today's terms, I wanted him to talk about the potential of using technology to better teach and empower people.&nbsp;</p><p>I noticed that because I had to communicate through the written word more and more, I was becoming better at it. So I posited that kids would learn to write more effectively if they used email.&nbsp;</p>",
+        "id": 976,
+        "when": "2016-02-05T17:01:45.169Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/05/0976.html",
+            "title": "National policy in 1988"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/05/00976.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-05T17:02:28.753Z",
+        "ctUpdates": 3
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>In last night's debate, when <a href=\"http://www.salon.com/2016/02/05/democratic_debate_night_the_first_one_on_one_clash_leaves_hillary_clinton_stumbling_on_wall_street/\">HRC</a> said there's more than one street, referring to Wall St, she was challenged. She had rattled off a list other industries that had misbehaved. But she left one out, and when we look back at this election in the future, the omission, imho, will be glaring.&nbsp;</p><p>Neither of them mentioned the excesses of tech. They've enjoyed and taken advantage of an undeserved halo, and they use that to do things other industries, including the financial industry, only dream of.</p><p>The unchallenged power of tech. The press is oblivious. Politicians are mystified. The <a href=\"https://books.google.com/books?id=ZTmyTcu2h1EC&amp;pg=PA91&amp;lpg=PA91&amp;dq=%22programming+priesthood%22&amp;source=bl&amp;ots=_XBmAvpef_&amp;sig=BXHYLM2EP8T0myI13UP22lHTqXY&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwiqo4WbkOHKAhXFlx4KHfu2Afc4ChDoAQgdMAE#v=onepage&amp;q=%22programming%20priesthood%22&amp;f=false\">priesthood</a> is firmly in control. That's going to get us in trouble in the future, probably in a much bigger way than the banks got us in trouble in 2008.&nbsp;</p><p>We should worry about our next President being in the pocket of tech just as much if not more than we worry about them being in the pocket of banks.&nbsp;</p><p>Too big to fail? Facebook has 1.5 billion active users. Think about the kind of trouble they can get us into with that power.&nbsp;</p><p>You know what they say about <a href=\"https://en.wikipedia.org/wiki/Maginot_Line\">fighting</a> the last war? ;-)</p>",
+        "id": 977,
+        "when": "2016-02-05T17:06:06.603Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/05/0977.html",
+            "title": "Tech is already too big to fail",
+            "image": "http://scripting.com/2016/02/05/wilecoyote.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/05/00977.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-05T17:18:56.728Z",
+        "ctUpdates": 15
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Overnight someone at Twitter <a href=\"http://www.buzzfeed.com/alexkantrowitz/twitter-to-introduce-algorithmic-timeline-as-soon-as-next-we#.ekOmRW3Z7\">leaked</a> the upcoming changes to the Twitter timeline. This almost certainly was a leak-from-the-top, given that it happened on a Friday night, long after the market closed.&nbsp;</p><p><i>Update: Jack <a href=\"https://twitter.com/jack/status/696081566032723968\">says</a> it ain't so!</i></p><p>Yes, it would be <a href=\"https://twitter.com/sacca/status/695990402038394880\">suicide</a> for Twitter to change the timeline for existing users. What they probably will do is offer a setting. Do you want the classic timeline or the new SMART timeline?</p><p>For existing users it will default off. We get the same timeline as before, the <i>While You Were Out</i> feature notwithstanding (an example of when they changed the timeline quietly without any fanfare without an opt-in or out).&nbsp;</p><p>For new users, and existing users who haven't logged in recently, or don't follow many people, it will default on.&nbsp;</p><p>I don't think it's terrible or the end of the world. Life in a silo where you and I are the product. McDonald's doesn't ask the <a href=\"https://www.facebook.com/photo.php?fbid=10154047699301162&amp;set=a.10152193121576162.1073741826.501596161&amp;type=3&amp;theater\">chickens</a> whether they like the <a href=\"http://hackthemenu.com/mcdonalds/secret-menu/mcnugget-dipping-sauces/\">options</a> for <a href=\"http://www.mcdonalds.com/us/en/your_questions/our_food/chicken-and-fish.html\">Chicken McNuggets</a>. A similar thing. The main difference is the chicken probably couldn't say. Humans have opinions, feel disempowered, not heard, not loved, bored, and we like to be <a href=\"http://www.ftrain.com/wwic.html\">consulted</a>. A good <a href=\"https://twitter.com/hashtag/RIPTwitter?src=tren\">shitstorm</a> provides temporary relief for all these ills. So for a while, venting, then life goes back to the normal humdrum.&nbsp;</p><p>But!</p><p>Would it hurt Twitter to add some features for users? Ones that just make us feel cared-for and whose loyalty is valued? Long-standing lackings in the product, addressed, finally? (I'm trying to talk like Sarah Palin, howamidoing?)</p><p></p><ol><li>I for one would love to have the ability to delete a message in my Notifications panel. Someone leaves a <a href=\"http://scripting.com/stories/2011/01/06/whyYouGotBlocked.html#4IThinkOfThemAsTurds\">turd</a>. I'd just like to delete it, so I don't have to see it repeatedly. It's really time for this little feature. It can't be that hard to add.</li><li><span>How about unfollow-with-timeout? I'd like to unfollow someone for a few days, or a week or two, maybe. They're live-tweeting a conference I don't care about. Why should they feel compelled not to do it, and why should I have to endure the chatter. If I could unfollow them knowing they would return to my timeline eventually, I could keep them as a source, and not have to put up with the barrage of (to me) nonsense.&nbsp;</span></li><li><span>And btw, the Mute command is great but it often doesn't work. And it would be nice if it were retroactive.&nbsp;</span></li></ol><p></p><p>I guess the point is this. Twitter seems to only do new features that try to dig them out of their business hole. I don't mind if they do that. I am a shareholder, after all. But since they have a monopoly on Twitter services, it would be nice if they also added features for the users. They shouldn't assume we will always be without a choice. It's a good thing to do for your product and company, to keep the users/product happy.&nbsp;</p>",
+        "id": 978,
+        "when": "2016-02-06T15:58:21.751Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/06/0978.html",
+            "image": "http://scripting.com/2016/02/06/mcNuggets.png",
+            "title": "Twitter's new timeline?",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/06/00978.json",
+        "subs": [
+            {
+                "name": "CharlesWiltgen",
+                "text": "<p>If you'd consider another client, Tweetbot solves (2) and (3) nicely.</p>",
+                "id": 979,
+                "when": "2016-02-06T17:27:19.141Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 978
+                },
+                "subs": [
+                    {
+                        "name": "davewiner",
+                        "text": "<p>I'm spread too thin to allow another piece of software into the mix. Also I hear people complaining about how it's not getting updated? Not sure. ;-)</p>",
+                        "id": 981,
+                        "when": "2016-02-06T19:29:42.346Z",
+                        "payload": {
+                            "editor": "wizzy",
+                            "idInReplyTo": 979
+                        },
+                        "subs": [
+                            {
+                                "name": "akiva",
+                                "text": "<p>It's getting updated. They've had a flurry of updates over the past couple of weeks. Honestly, I wouldn't be nearly as engaged on Twitter as I am if it weren't for Tweetbot. Whether that's a good thing or not changes based on who you ask. Heh heh heh.</p>",
+                                "id": 984,
+                                "when": "2016-02-07T00:24:35.694Z",
+                                "payload": {
+                                    "editor": "wizzy",
+                                    "idInReplyTo": 981
+                                },
+                                "subs": [],
+                                "likes": {
+                                    "CharlesWiltgen": {
+                                        "when": "2016-02-08T21:06:09.264Z"
+                                    }
+                                },
+                                "whenLastUpdate": "2016-02-08T21:06:09.265Z",
+                                "ctUpdates": 1
+                            }
+                        ],
+                        "whenLastUpdate": "2016-02-08T21:06:08.173Z",
+                        "ctUpdates": 3,
+                        "likes": {
+                            "CharlesWiltgen": {
+                                "when": "2016-02-08T21:06:08.173Z"
+                            }
+                        }
+                    }
+                ],
+                "likes": {
+                    "davewiner": {
+                        "when": "2016-02-06T19:29:55.034Z"
+                    }
+                },
+                "whenLastUpdate": "2016-02-06T19:29:55.035Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-08T18:30:48.508Z",
+        "ctUpdates": 24,
+        "likes": {
+            "nakedjen": {
+                "when": "2016-02-06T16:43:52.093Z"
+            },
+            "CharlesWiltgen": {
+                "when": "2016-02-06T17:25:49.952Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>One thing I fail to understand is a podcast feed that does not have enclosures. What am I supposed to do with that?&nbsp;</p><p>What I find is that if I hunt enough I usually will find the feed that has the enclosures, but there's no predictable way to find it, and sometimes I don't, which results in un-listened-to and un-linked-to podcasts.</p><p>If you want your podcast to be heard, make it easy to find!&nbsp;</p><p><b>Update</b>: The feed I was looking for was the FiveThirtyEight election podcast <a href=\"http://sports.espn.go.com/espnradio/podcast/feeds/itunes/podCast?id=14554755\">feed</a>. I eventually found it in an out of the way place, the ESPN podcasts <a href=\"http://sports.espn.go.com/espnradio/podcast/index\">index page</a>. Apparently they're sharing a CMS. There ought to be something on the FiveThirtyEight site, that's <a href=\"https://www.google.com/webhp?q=fivethirtyeight%20podcast%20feed%20with%20enclosures\">Google-able</a>, that gets you to the ESPN site. For now, this post may leave enough of a marker for other people to find it.&nbsp;</p>",
+        "id": 980,
+        "when": "2016-02-06T18:14:14.320Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/06/0980.html",
+            "title": "Don't hide the enclosures please",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/06/00980.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-07T19:35:38.533Z",
+        "ctUpdates": 10
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I think <a href=\"http://thedailybanter.com/2016/01/hillary-gop-smears/\">this</a> is what bothers me most about the slime Sanders supporters throw at Hillary Clinton.&nbsp;</p><p>Yes you're young, too young to understand how those impressions were programmed into our politics and how that was used to thwart exactly the causes you say you support.</p><p>Sanders will be easy to pick off for the Repubs. It's tragic that we may all have to pay because you all don't get how this country works.</p><p>BTW, we will pay with President Rubio, who might as well be named President Koch or President Adelson.</p>",
+        "id": 982,
+        "when": "2016-02-06T21:28:41.850Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/06/0982.html",
+            "title": "Say hello to President Rubio"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/06/00982.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-07T15:22:10.320Z",
+        "ctUpdates": 7,
+        "likes": {
+            "joshuasfreeman": {
+                "when": "2016-02-06T22:22:57.391Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>It's weird that Rubio is getting <a href=\"http://www.motherjones.com/kevin-drum/2016/02/last-nights-marcobot-moment-may-have-ruined-political-career\">called</a> out for doing what they all do.&nbsp;</p><p>Each of the candidates has memorized a few talking points and they never go off-script. None of them do. Even Christie focus-group-tested the way he would hack at Rubio, to do it in the optimal way.</p><p>The gauntlet that candidates have to run is inhuman. No one, no matter how smart or eloquent, can avoid a career-destroying gaffe at the hands of the political press. If you ever had a doubt about this, the <a href=\"http://fivethirtyeight.com/features/the-dean-scream-what-really-happened/\">Dean Scream</a> should have settled it. Don't get caught being human.&nbsp;</p><p>Of course Rubio totally deserves this. He <i>is</i> a robot. More than most.&nbsp;</p><p>PS: I liked the way Trump broke the <a href=\"https://en.wikipedia.org/wiki/Fourth_wall\">fourth wall</a> and told us the audience was made up of Republican donors. I haven't heard any of the reporters say whether or not that's true. The way Trump said it, it <i>sounded</i> true. (According to <a href=\"http://www.factcheck.org/2016/02/factchecking-the-eighth-gop-debate/\">Factcheck.org</a>, it's not true. Not totally surprising.)</p>",
+        "id": 985,
+        "when": "2016-02-07T15:06:03.055Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/07/0985.html",
+            "title": "Rubio got gotcha'd",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/07/00985.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-07T15:45:43.593Z",
+        "ctUpdates": 10
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>One team gets the ball. They line up on the field. The team with the ball tries to get the ball into the \"end zone\" that they're facing. The other team tries to stop them. They get four plays to do it. If they get more than 10 yards they get another four plays. If they fail, the other team gets the ball and they do the same thing, going the other way. There are a bunch of other little plots in the story, but that's basically what's going on.</p>",
+        "id": 986,
+        "when": "2016-02-07T15:34:21.367Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/07/0986.html",
+            "title": "Football in a minute",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/07/00986.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-08T15:18:51.376Z",
+        "ctUpdates": 5,
+        "likes": {
+            "nakedjen": {
+                "when": "2016-02-07T15:56:22.982Z"
+            },
+            "rtanglao": {
+                "when": "2016-02-08T15:18:51.376Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I read a lot of stuff about JavaScript, and therefore hear over and over that there are very few if any valid uses of the <a href=\"http://www.w3schools.com/jsref/jsref_eval.asp\">eval</a> function.</p><p>There actually is one very good use of eval, and no others.</p><p>If you want to allow users to run code, then you must use eval, or something <a href=\"https://nodejs.org/api/vm.html\">equivalent</a> to it, to run the code.</p><p>I can hear you say -- maybe you shouldn't let users run their own code.</p><p>To which I say, some software exists solely to run user's code.&nbsp;</p><p>For example, the very useful <a href=\"https://github.com/foreverjs/forever\">forever</a> application.</p><p>And my own <a href=\"https://github.com/scripting/nodeRunner\">nodeRunner</a>.</p><p>So, eval is useful. People who write docs should think about how they phrase their caveats. We can head off a lot of pointless arguments.&nbsp;</p><p>Thanks!</p>",
+        "id": 987,
+        "when": "2016-02-07T16:50:50.274Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/07/0987.html",
+            "title": "JavaScript \"eval\" function is useful",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/07/00987.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-07T20:18:24.648Z",
+        "ctUpdates": 11
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I'm obviously not black, but part of the pleasure I got in voting for Barack Obama is that I believed I was voting for the first black president. And when I vote for Hillary Clinton, as I expect to, in the fall, I will vote for her because she's the right choice for me, but I will get extra pleasure knowing that I'm helping my country overcome another barrier to full acceptance for everyone.</p><p>I've watched this campaign with new eyes, and I totally see how much harsh judgement there is for her, and how we have to accept that people don't respect her as much as they do the men she's running against. I find that very very offensive. Not just on her behalf but on behalf of our country, half of which are women, and none of which have ever been President. Think about that for a minute. Maybe the difference in respect has something to do with that.</p><p>She is a serious candidate, no matter what you think of her politics. She deserves not just equal consideration, but a little extra to compensate, because it's clear not everyone is on board with the idea that we can have a woman as leader. </p><p>I also think we can forgive Gloria Steinem and Madeline Albright, two pioneers in this cause, for making the case awkwardly. What they were trying to say, imho is that one of the reasons to vote for HRC is that she is a woman and the other candidates are not. This is an extra value available to our country. We should grab it because the opportunity might not come up again any time soon. Maybe what's offensive about the idea is that Albright said women should vote for HRC because she's a woman and a better idea is that we <i>all</i> should vote for a woman because it would be good for us.&nbsp;</p><p>Not only can we have a competent leader, but we can also break another barrier. It's a hard point to make, we don't have vocabulary for this, but we need to have a way to say it anyway.&nbsp;</p>",
+        "id": 988,
+        "when": "2016-02-07T21:53:05.857Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/07/0988.html",
+            "title": "Yes, we can have a woman president",
+            "image": "http://scripting.com/2016/02/07/liberty.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/07/00988.json",
+        "subs": [
+            {
+                "name": "destinal",
+                "text": "<p>I think evaluation of a candidate should be solely on the character and competence of the candidate. Obama being black didn't make him a better president, and Clinton being a woman won't make her better.</p>",
+                "id": 990,
+                "when": "2016-02-08T18:56:42.899Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 988,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-08T20:29:46.497Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-08T21:05:45.021Z",
+        "ctUpdates": 13,
+        "likes": {
+            "CharlesWiltgen": {
+                "when": "2016-02-08T21:05:45.020Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Am I the last to notice that the QB of the Carolina Panthers, an African-American, is a black Panther? Beyonce's <a href=\"http://www.idolator.com/7622831/beyonce-homage-black-panthers-super-bowl-50-halftime-show\">dance</a> was the hint.</p>",
+        "id": 991,
+        "when": "2016-02-08T20:27:27.149Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/08/0991.html",
+            "title": "Black Panther",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/08/00991.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-08T20:28:16.299Z",
+        "ctUpdates": 4
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Node.js needs a really good RSS toolkit<span style=\"-webkit-text-size-adjust: 100%;\">. 😻</span></p>",
+        "id": 992,
+        "when": "2016-02-09T00:48:10.449Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/08/0992.html",
+            "title": "Node needs RSS",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/08/00992.json",
+        "subs": [
+            {
+                "name": "CharlesWiltgen",
+                "text": "<p>Is&nbsp;https://npmjs.org/package/rss a good RSS toolkit?</p>",
+                "id": 993,
+                "when": "2016-02-09T01:23:45.707Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 992,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-09T01:27:31.811Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-09T01:00:13.182Z",
+        "ctUpdates": 6
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Watching Chris Hayes interview a Sanders surrogate. I'd like to know if Sanders will support the Democratic nominee, if it's not him.</p>",
+        "id": 994,
+        "when": "2016-02-09T01:26:48.813Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/08/0994.html",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/08/00994.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-09T01:27:48.904Z",
+        "ctUpdates": 2
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Good morning!</p><p>Today's a good day to ship <a href=\"https://github.com/scripting/river5\">something new</a>!</p><p>As you may know, I've been involved in <a href=\"http://cyber.law.harvard.edu/rss/rss.html\">RSS</a>\n as a standard way to distribute news since the beginning. I wrote the RSS 0.91 and RSS 2.0 specs, and shipped the first software that was compatible with both formats. My early products, My.UserLand and Radio UserLand got the market started, along with a deal we did with the NY Times in 2002 to get their news flowing on the RSS net.</p><p>The RSS market is slowly rebuilding after the dominance of Google Reader was followed by its closing a couple of years ago. It shows how resilient open formats and protocols are. If Google Reader had been built on proprietary formats, that would have been the end. But RSS isn't something anyone can own, an idea that confuses many big companies.&nbsp;</p><p>RSS is alive and kicking and ready to act as the open distribution format for news for many years to come.</p><p><b>RSS and JavaScript</b></p><p>I switched over to development in JavaScript a few years ago, and one of the first things I did when I got to Node.js was build an RSS aggregator, River4. I built it to run on Heroku, which I thought was a revolutionary platform, because of its pricing and architecture. It was designed for lots of little apps that are easily deployed. I love that idea, it's one of the foundations that my own environment, Frontier, was based on. River4 was a good fit for Heroku, but that made it awkward to deploy elsewhere. Over time we took care of that, but that made it more complicated to configure. And Heroku changed their economics, and that made it less attractive. I started running my rivers on straight Linux.</p><p>I also learned about various ways to configure Node apps as I understood more about Node, and that is also reflected in the design of River4, not in a good way. There are some things that can only be configured in environment variables, and others that can only be configured through a config.json file. It became a bit of a hairball.</p><p><b>A new foundation</b></p><p>So I decided it was time to do a restart of my JavaScript RSS aggregator, and it's now ready for Node users -- it's called <a href=\"https://github.com/scripting/river5\">River5</a>.&nbsp;</p><p></p><ul><li>It's <a href=\"https://github.com/scripting/river5\">open source</a>, MIT License.&nbsp;</li><li>There's a <a href=\"https://groups.google.com/forum/?fromgroups#!forum/river5\">mail list</a>.</li><li><a href=\"https://github.com/scripting/river5#examples-of-working-rivers\">Example sites</a>.</li><li>A <a href=\"https://gist.github.com/scripting/87903653a0f5f6df13b4\">Hello World</a> app.</li><li><a href=\"https://github.com/scripting/river5/blob/master/docs/ROADTORIVER5.md\">The Road to River5</a>, for the historically-minded.</li></ul><p>This ia a foundation for developers to build on, but it's also possible for an adventurous user to set up their own rivers. Ken Smith, an English professor, is running River5 on his personal computer. It works. I wrote a <a href=\"https://github.com/scripting/river5/blob/master/docs/FORPOETS.md\">Poets Guide</a> for people who are new to Node.</p><p><b>What's new?</b></p><p>So what's new in this river?</p><p></p><ul><li><span>It's faster since it builds the rivers incrementally as it scans the feeds. There's no intermediate database.&nbsp;</span></li><li>Configuration is simple, consistent and <a href=\"https://github.com/scripting/river5/blob/master/docs/CONFIG.md\">documented</a>. You just edit a config.json file in the same folder as the application.</li><li><span>In addition to the standard list format, I've also defined a JSON format for lists and a plain text format, to make it easier for people to get going.&nbsp;</span></li><li><span>Most important to me, it's easier for me to work on, so there's a better chance of new features in the future.&nbsp;</span></li></ul><span><b>Thanks!</b></span><p></p><p><span>I love RSS and the developers who support it. I also love JavaScript and Node, and think the two were made for each other.&nbsp;</span></p><p><span>Let a thousand rivers bloom! ;-)</span></p>",
+        "id": 995,
+        "when": "2016-02-09T13:45:48.407Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/09/0995.html",
+            "title": "Introducing River5",
+            "flPublished": true,
+            "image": "http://scripting.com/2016/02/09/loveRssTShirt.png"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/09/00995.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-12T05:43:08.118Z",
+        "ctUpdates": 25,
+        "likes": {
+            "markOmay": {
+                "when": "2016-02-09T16:36:52.809Z"
+            },
+            "leibniz": {
+                "when": "2016-02-09T17:24:19.428Z"
+            },
+            "FTWynn": {
+                "when": "2016-02-09T23:22:12.751Z"
+            },
+            "cfaulkingham": {
+                "when": "2016-02-10T21:37:51.325Z"
+            },
+            "sujithabraham": {
+                "when": "2016-02-12T05:43:08.117Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I find myself both captivated by and grossed out by the way the news media cover Presidential elections. I watched MSNBC three nights in the last week. I expect to be flipping between the channels tonight, for the posturing both before and after the results of the <a href=\"https://en.wikipedia.org/wiki/New_Hampshire_primary#2016\">New Hampshire primary</a> come in.</p><p>There's no question they report accurately on history of elections, I remember many of them, vaguely, as if I were being manipulated into accepting a certain outcome. McCain, Obama, Carter, Gore, Bush I and II, Clinton I and II, etc. Some of them did end up winning the title, others didn't. Were the decisions made on such superficial and highly manipulatable ways as they are now? Yes, I think so.&nbsp;</p><p>So while all the horse race stuff is fiction, in some ways it's fact. It <i>is</i> how we make decisions, and it is highly manipulatable by the press.</p><p>The <a href=\"http://fivethirtyeight.com/features/the-dean-scream-what-really-happened/\">Dean Scream</a> fiasco was the biggest most clear warning of how we are being controlled.&nbsp;</p><p>My friend <a href=\"http://pressthink.org/\">Jay Rosen</a> has remained <a href=\"https://twitter.com/jayrosen_nyu/status/696899178698555392\">critical</a> of the horse race coverage, but I wonder, if he were Lord Master of the Universe and everyone had to obey his command, what would he have Chuck Todd and Megyn Kelly do differently from what they do now? Or could they do anything, would there be a whole different flow of information?&nbsp;</p><p>I'm just wondering, given the scale of the country and the world, is there any other way to make a collective decision other than looking at the most superficial differences policy-wise, and only voting on how we feel about the candidates as people?</p><p><b>Update</b></p><p>Jay, via email: \"I've been trying to write something that would answer your question, until then, the short answer is the only way out of horse race coverage is to have a goal for your coverage, something you are trying to accomplish with it. But it's hard to have a goal and maintain the view from nowhere, so the pattern is to default to 'who's gonna win.'\"</p>",
+        "id": 996,
+        "when": "2016-02-09T17:57:00.798Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/09/0996.html",
+            "title": "Is the horse race inevitable?",
+            "image": "http://static.scripting.com/larryKing/images/2012/11/10/horse.gif",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/09/00996.json",
+        "subs": [
+            {
+                "name": "joshuasfreeman",
+                "text": "<p>Book recommendation: A Brief History of the Future by Jacques Attali. &nbsp;Not the best translation from the French.. you need to constantly remind yourself that it IS translated from French.. but your post today made me think of this book.</p>",
+                "id": 997,
+                "when": "2016-02-09T22:45:01.861Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 996
+                }
+            },
+            {
+                "name": "R",
+                "text": "<p>Like all the coverage of sporting events BEFORE they are played, there's a need to fill in all of that blank space with lots of shouting among groups of people who worked for a politician in an earlier irrelevant race. So at a time when pollsters can't reach cell-phones or the never-answered land lines, making polling near impossible, we are left with horse race coverage in which no one can actually see what the horses are doing.</p>",
+                "id": 999,
+                "when": "2016-02-10T13:40:08.438Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 996
+                },
+                "subs": [],
+                "likes": {
+                    "davewiner": {
+                        "when": "2016-02-13T16:56:01.909Z"
+                    }
+                },
+                "whenLastUpdate": "2016-02-13T16:56:01.910Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-09T21:43:09.362Z",
+        "ctUpdates": 11
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>A few takeaways from tonight's election in New Hampshire.&nbsp;<span>American politics has changed. This is a turning point, a showdown. &nbsp;</span><span>Media and money have to rethink their roles.&nbsp;</span><span>Neither will change easily.&nbsp;</span></p><p>For news people -- is it fair/wise to hold one candidate to a standard that doesn't apply to all? Trump blew away the role of journalism as a gatekeeper, by going direct with Twitter, and holding big photogenic rallies. I predicted that money would not be the determining factor in politics, people laughed, said it'll never happen. Now we're there. Neither of the leading candidates have taken contributions from the established sources of political money.</p><p>So money and media are shaken-up. Do you expect them to go down without a fight? And if you were them <i>how</i> would you fight back?&nbsp;</p><p>I'd love to be a fly on the wall in the Koch Brothers offices tonight. What do they have planned for Trump. And which of the remaining candidates will get the call? Or maybe they're calling Trump, quietly, to see if they can do a deal.</p><p>And which of the Democrats \"establishment\" will get off the fence, and will their endorsements help or hurt HRC? You can be sure that Steinem and Albright won't be campaigning for her in the future.&nbsp;</p><p>This, media and money in crisis, tonight, is the <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/09/0996.html\">horse race</a> that matters.&nbsp;</p>",
+        "id": 998,
+        "when": "2016-02-10T05:53:41.832Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/10/0998.html",
+            "title": "American politics just changed, media and money in crisis",
+            "image": "http://static.scripting.com/larryKing/images/2012/11/10/horse.gif",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/10/00998.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-10T06:18:01.258Z",
+        "ctUpdates": 15,
+        "likes": {
+            "nakedjen": {
+                "when": "2016-02-10T06:00:24.372Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>When real change comes it won't look like what they promise on the campaign trail, which usually is like the <a href=\"http://trevor-hopkins.com/fiction/miracle2.jpg\">cartoon</a> of the mathematician in front of a blackboard with all kinds of equations on it, and in the middle it says <i>Then A Miracle Occurs. </i>Once in office everything should transform itself magically and we'll all work together to solve all the problems and taxes won't go up, and all the benefits will remain.</p><p>That won't be real change, because while it's sexy during a campaign, when reality kicks in after Inauguration Day, unless there are all-new people there, it's not going to change, and there aren't going to be all-new people there.&nbsp;</p><p>However, I believe there is potential for real change, but only if people commit to being involved in governing after the election. That's what Sanders says, more or less, but not clearly enough. Nothing about what he proposes to do, as vague as it is, has a prayer if people aren't willing to go to rallies and march and strike to make it happen. I assume he glosses this over because we're in the magic and unicorns phase of the campaign. If he were too clear about it, people might get bored or scared, or stop believing. A lot of minds have to change before you can have the kind of change he's talking about.&nbsp;</p><p>I've seen this movie, as I think you can tell. I even signed on to working after the election, but each time when the moment came for us to participate in government, it just reverted to the way it worked before. And no, I don't believe this time is different. Not until I see people reorienting their lives to become politically active beyond the election, and equally important, the candidates explain exactly how that's going to work, and it has to sound like it has a chance.&nbsp;</p><p>That's not to say that I've given up, we have huge problems to deal with, beyond income inequality. I wish we were talking about the kind of change that would give our climate a chance. If that's what Sanders was selling, I'd be much more enthusiastic. Somehow climate change isn't any candidate's talking point. That shows something is seriously wrong with our political system, and what's wrong includes Sanders and his supporters.&nbsp;</p>",
+        "id": 1000,
+        "when": "2016-02-10T19:09:43.677Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/10/1000.html",
+            "title": "Miracles and unicorns",
+            "image": "http://scripting.com/2015/07/27/ronaldMcDonald.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/10/01000.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-11T00:11:24.134Z",
+        "ctUpdates": 12
+    },
+    {
+        "name": "davewiner",
+        "text": "I bet Trump is going to use the Confederate flag in his South Carolina campaign.",
+        "id": 1001,
+        "when": "2016-02-11T00:11:17.971Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/10/1001.html",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/10/01001.json",
+        "subs": [
+            {
+                "name": "jlynch3",
+                "text": "<p>absolutely</p>",
+                "id": 1002,
+                "when": "2016-02-11T15:13:06.269Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1001,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-13T16:55:31.715Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-11T15:12:20.033Z",
+        "ctUpdates": 3,
+        "likes": {
+            "jlynch3": {
+                "when": "2016-02-11T15:12:20.033Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I'm waiting for iPhone screens to warn you're about to walk into someone and signal whether you should lean left or right to avoid.</p><p>Even better, you could run special programs that have you twist and shove like Marshawn Lynch. It would be called Beast Mode, of course.</p>",
+        "id": 1003,
+        "when": "2016-02-11T16:28:38.973Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/11/1003.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/11/01003.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-11T16:31:56.995Z",
+        "ctUpdates": 2
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Three sites I read somewhat regularly, the Boston Globe, Washington Post, Chicago Tribune (sports mostly) all have limits on the number of articles I can read every month. </p><p>And occasionally I read sites that I aggregate on <a href=\"http://mlbriver.com/\">mlbriver.com</a> and <a href=\"http:/nbariver.com/\">nbariver.com</a>. That's about 50 more local sites.&nbsp;</p><p><span>They all want $5 a month or more.</span></p><p>I pay for the NYT because it's my hometown paper, but I'm not going to pay for a local paper of another city.</p><p>So why don't they band together and do an <a href=\"https://en.wikipedia.org/wiki/E-ZPass\">E-Z PASS</a> type thing. For $5 a month instead of 5 articles on each &nbsp;site, I get 100. The out-of-towner rate. </p><p>Also I think linkbloggers should get access for free. :-)</p><p>And yes, I can <a href=\"http://radio3.io/users/davewiner/\">prove</a> I'm a linkblogger.&nbsp;</p>",
+        "id": 1004,
+        "when": "2016-02-12T05:55:08.921Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/12/1004.html",
+            "title": "An EZ-PASS for local news sites?",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/12/01004.json",
+        "subs": [
+            {
+                "name": "sfkeydel",
+                "text": "<p>Slightly off topic, but I've long felt that there is a pricing sweetspot that newspapers can't seem to identify. The Times is a great example: I live in Austin, but prefer the Times to the our local paper. I probably end up reading about 20-25 Times articles per month, which I'm able to do via aggregation sources that don't identify me, and thus allow me to go over their 10 article limit. I would gladly pay $100 year for this privilege, but not only does the Times not have an offering in that range, but they also do this \"nickel and diming\" thing where they charge one price for Web + smartphone, a different price for Web + tablet, and then if you want Web + smartphone + tablet, they add the two together. This just irks me, and causes me to spurn both. I truly believe that the Times is leaving a lot of money on the table. Oh well…</p>",
+                "id": 1005,
+                "when": "2016-02-12T14:14:22.276Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1004,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-13T16:54:51.210Z",
+                "ctUpdates": 3
+            },
+            {
+                "name": "gtyree",
+                "text": "<p>There have been experiments in other countries that are heading our way. &nbsp;One that comes to mind is Blendle and a nice writeup can be <a href=\"http://www.niemanlab.org/2015/12/micropayment-platform-blendle-will-launch-a-us-beta-in-early-2016/\">found here</a>.&nbsp; They were able to get all the local news sites in country to join and then allow you to pay for what you use across those sites. &nbsp;By relying on one platform it acts much like an EZPass.</p>",
+                "id": 1006,
+                "when": "2016-02-12T15:18:21.714Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1004
+                },
+                "subs": [
+                    {
+                        "name": "davewiner",
+                        "text": "<p>That's the idea. I have heard of Blendle, but I didn't know that's what they do. It's a good thing. Helps buy the open web some time, before being assimilated by Facebook et al.</p>",
+                        "id": 1007,
+                        "when": "2016-02-12T15:43:57.033Z",
+                        "payload": {
+                            "editor": "wizzy",
+                            "idInReplyTo": 1006
+                        },
+                        "subs": [
+                            {
+                                "name": "bradmurray",
+                                "text": "<p>I like the idea of Blendle, but it is still pay per click. I think the only good paywall would be a universal network that any publisher can join. All users pay something like $5/month for access and the publishers get a cut for each click. There are plenty of ways you can control fraud. This way people are paying on a subscription model and the creators who are driving the traffic get paid for their efforts.</p>",
+                                "id": 1013,
+                                "when": "2016-02-14T22:16:56.769Z",
+                                "payload": {
+                                    "editor": "wizzy",
+                                    "idInReplyTo": 1007,
+                                    "flPublished": true
+                                },
+                                "subs": [],
+                                "whenLastUpdate": "2016-02-15T16:14:19.182Z",
+                                "ctUpdates": 3,
+                                "likes": {
+                                    "bradmurray": {
+                                        "when": "2016-02-15T00:34:11.709Z"
+                                    },
+                                    "stankbucket": {
+                                        "when": "2016-02-15T16:14:19.182Z"
+                                    }
+                                }
+                            }
+                        ],
+                        "likes": {
+                            "stankbucket": {
+                                "when": "2016-02-15T16:14:23.512Z"
+                            }
+                        },
+                        "whenLastUpdate": "2016-02-15T16:14:23.512Z",
+                        "ctUpdates": 1
+                    }
+                ],
+                "whenLastUpdate": "2016-02-12T15:20:53.683Z",
+                "ctUpdates": 4
+            }
+        ],
+        "whenLastUpdate": "2016-02-14T16:45:05.200Z",
+        "ctUpdates": 11,
+        "likes": {
+            "sfkeydel": {
+                "when": "2016-02-12T14:00:27.837Z"
+            },
+            "blogisch": {
+                "when": "2016-02-12T20:21:19.434Z"
+            },
+            "cfaulkingham": {
+                "when": "2016-02-14T16:45:05.200Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>This is the <a href=\"http://www.vox.com/2016/2/12/10978646/clinton-obama-human-shield\">best post</a> I've read on last night's most interesting debate ever.</p><blockquote><i>If the question on the table is whose financial regulatory legislation program should be submitted to be dead on arrival in Congress, then the tie goes to Clinton.</i></blockquote><p>I realized this too, while the debate was happening, and laughed out loud. Look what she's forcing him to do. The truth is that yes, Obama took the money and that's why Dodd-Frank is so impotent. But most Democrats think Obama is great. So he can't attack him. Glad Yglesias said this, I didn't have the guts to write this post. And none of the talking heads on the networks will either.</p><p>It seems that the experience as chief diplomat for the US taught HRC how to screw someone with their pants on.</p><p>Also, the standard Sanders schpiel is taken straight from the Democratic platform for the last four elections. I know, I sat through countless speeches at the 2004 and 2008 DNCs where they harped about the 1% and income equality. Sanders isn't any better or worse at reciting the pitch. Basically it's the standard campaign for all Democrats for the last decade and a half.</p>",
+        "id": 1008,
+        "when": "2016-02-12T17:08:23.331Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/12/1008.html",
+            "title": "Clinton takes Obama hostage",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/12/01008.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-12T17:22:56.414Z",
+        "ctUpdates": 8
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Paul looks <a href=\"https://www.youtube.com/watch?v=A_MjCqQoLLA\">soulfully</a> into the camera. You think, what a ham. Then he opens his mouth and out comes Hey Jude. A religious moment, for this old hippie at least.&nbsp;</p>",
+        "id": 1009,
+        "when": "2016-02-12T17:22:48.335Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/12/1009.html",
+            "title": "Young Paul looks into the camera",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/12/01009.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-13T04:15:56.675Z",
+        "ctUpdates": 3
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Hypothetically, how would the US govt feel if Twitter were bought by a Chinese company?</p>",
+        "id": 1010,
+        "when": "2016-02-13T04:35:02.879Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/12/1010.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/12/01010.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-13T04:35:03.440Z",
+        "ctUpdates": 1
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I did something weird last night, I wrote a <a href=\"https://www.facebook.com/dave.winer.12/posts/415375015336576?comment_id=415413628666048&amp;notif_t=like\">blog post</a> in a sequence of Facebook comments.&nbsp;</p><p>Like a tweetstorm only in Facebook. It's kind of nice actually, because you can respond in place to each paragraph.&nbsp;</p><p>I wrote it without editing, maybe you can catch me in a mistake! :-)</p>",
+        "id": 1011,
+        "when": "2016-02-13T05:32:03.179Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/13/1011.html",
+            "title": "A blog post in Facebook comments",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/13/01011.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-13T05:45:58.600Z",
+        "ctUpdates": 8
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>What interesting times.</p><p>If you were writing a political novel, it couldn't get any better than this. Or if you were show-running a serial like Breaking Bad, or The Good Wife.&nbsp;</p><p>I just watched MSNBC, incredible interviews, all the usual talking heads are showing that underneath the bullshit they're actually brilliant people who are forced to say stupid things because politics is usually so boring. But amp up the plot, and all of a sudden they can think.</p><p>But I don't think they're thinking of everything. Or maybe they do, but have to self-censor because the ideas are so out there, or provocative?</p><p>For example, a strange question just popped into my head.</p><p>What if Scalia committed suicide?</p><p>Now of course I know nothing either way about this, but what if he did?</p><p>Second question.</p><p>We all seem to assume that Congress next year will be Republican, but what if the Senate became Democratic? </p><p>I don't even know the math. 1/3 of the Senate is at stake, because that's how it works. Who is vulnerable? Where should we be focusing? Not only the Presidential election matters, of course, but this year more than most years, it's pivotal.</p><p>BTW, I asked that question of <a href=\"https://twitter.com/davewiner/status/698905451174428672\">Nate Silver</a> on Twitter. I'd love to know what he thinks. If you would too, why not RT and/or Fave that tweet? Thanks!</p><p>PS: RealClearPolitics has an <a href=\"http://www.realclearpolitics.com/articles/2016/01/11/calculating_democrats_chances_of_regaining_the_senate.html\">analysis</a> of Democrat Senate chances as of January.</p><p>PPS: Nate Silver <a href=\"https://twitter.com/NateSilver538/status/699008727802843136\">responded</a>. \"I'd say Democrats have somewhere on the order of a 35-40% chance of picking up the Senate.\" So now we know what kind of deal the Repubs should be willing to do with the President, if they weren't afraid of being primaried by the Kochs or the NRA.</p>",
+        "id": 1012,
+        "when": "2016-02-14T18:23:13.500Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/14/1012.html",
+            "title": "If this were a political novel...",
+            "flPublished": true,
+            "image": "http://scripting.com/2016/01/30/strongman.png"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/14/01012.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-15T02:14:23.063Z",
+        "ctUpdates": 20
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Yes, these are&nbsp;<a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/14/1012.html\">interesting</a> times. Let's hope it all stays political and doesn't break out into actual warfare.</p><p>In the meantime, assuming there will be no new Supreme Court members this year, the question turns to what about next year.</p><p>I wanted to know the chances of the Senate switching to Democratic control in the November election, so I <a href=\"https://twitter.com/davewiner/status/698905451174428672\">asked</a> the person best able to answer such a question -- Nate Silver.&nbsp;<span>I got an </span><a href=\"https://twitter.com/NateSilver538/status/699008727802843136\">answer</a><span>:</span></p><blockquote>\"I'd say Democrats have somewhere on the order of a 35-40% chance of picking up the Senate.\"</blockquote><p>That's the power of the Internet. <span>And it begs the obvious next question. What can we do to increase those odds? Which races look most promising for a switch? Which campaigns should we give money to?</span></p><p><span>PS: This suggests that Democratic donors should give to the Republican presidential candidate most likely to cause a landslide in favor of the Democratic candidate. Probably Ted Cruz, imho.</span></p>",
+        "id": 1014,
+        "when": "2016-02-15T15:45:22.491Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/15/1014.html",
+            "title": "Asking Nate Silver about the Senate",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/15/01014.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-15T16:28:43.784Z",
+        "ctUpdates": 6
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Note to all my friends: I would never ask for help unless I had exhausted all other options, including searching on Google. :-)</p><p>It's amazing how many people answer a simple clearly stated <a href=\"https://gist.github.com/scripting/35753801e540e1d16c5f\">programming question</a> with the results of a Google search. I wonder why they bother? Do they think other people (including yours truly) have not learned about the magic of search engines?</p><p>Only slightly sarcastic.&nbsp;</p><p>This great communication tool we created is falling apart because no one pays attention to anything these days.&nbsp;</p><p>You want to know how bad it gets? This..</p><p>On <a href=\"https://www.facebook.com/dave.winer.12/posts/415911168616294?comment_id=416044475269630&amp;reply_comment_id=416050041935740&amp;notif_t=feed_comment_reply\">Facebook</a>, in a partisan political \"debate,\" drive-by trollers repeat insults that were posted literally two messages above them in the thread! Now that's some efficient mindless trolling. ;-)</p><p><b>Follow-up</b></p><p>I heard from one of the people who gave me an answer that ignored the question I asked. He didn't like this post. Well this is a real blog, and a real person works here, not a TV character. When I get an answer, I share the result, in the form of clean tested sample code that's documented. That's what I love to find.&nbsp;</p><p>Now, when I ask a question like the one I asked, it's not just for me that I ask it. I found a missing piece of example code. If anyone else wants to make a client call from a server using WebSockets (and not some other protocol) there will now be that code, assuming this problem is ever solved (not looking good at the moment).</p><p>So instead of having your feelings hurt, why don't you dive in, and figure the problem out and help. You're not just helping me (as stated above, because I know you're probably skimming) you're helping the web and other programmers.&nbsp;</p><p>Thanks for listening. (If you actually did.)</p>",
+        "id": 1015,
+        "when": "2016-02-15T15:58:54.685Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/15/1015.html",
+            "title": "Yes, I have heard of Google",
+            "image": "http://scripting.com/2016/01/30/phone.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/15/01015.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-15T17:56:07.923Z",
+        "ctUpdates": 14
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I did a <a href=\"https://www.facebook.com/dave.winer.12/videos/vb.100005922431565/416072185266859/?type=2&amp;theater\">video demo</a> of some software I've been working on, not released yet, for my friend Chuck Shotton. It was over 300MB. So then the question was what to do with it.&nbsp;</p><p>There was nothing especially confidential in the video, so I uploaded it to YouTube, but as usual for software demos, YouTube's resolution is way too low. I'm not enough of a video expert to know how to fix that. I tried uploading it <a href=\"https://www.facebook.com/dave.winer.12/videos/vb.100005922431565/416072185266859/?type=2&amp;theater\">to Facebook</a>, maybe they'd do a better job? They did. Much nicer.</p><p>About the demo. I did some work late last year to embed River4 in an Electron shell. In the process I fell in love with Electron. It's very rational technology. Node and Chrome baked into a desktop environment, with access to all local resources.&nbsp;</p><p>In the end I wasn't sure I had come up with something that was easier, so instead I focused on simplifying the engine, and the result was <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/09/0995.html\">River5</a>. I may at sometime swing back around to this project, or use the Electron knowledge I've gained in something else.&nbsp;</p><p>Anyway if you watch <a href=\"https://www.facebook.com/dave.winer.12/videos/vb.100005922431565/416072185266859/?type=2&amp;theater\">the video</a>, hope you find it interesting. ;-)</p>",
+        "id": 1016,
+        "when": "2016-02-15T18:34:47.299Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/15/1016.html",
+            "title": "Video of River4 running in Electron",
+            "image": "http://static.scripting.com/larryKing/images/2013/10/25/womanBasketball.gif",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/15/01016.json",
+        "subs": [
+            {
+                "name": "frankm",
+                "text": "<p>What I would really love is a desktop version of Fargo.&nbsp;</p>",
+                "id": 1036,
+                "when": "2016-02-18T19:22:35.479Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1016
+                }
+            }
+        ],
+        "whenLastUpdate": "2016-02-15T21:19:23.467Z",
+        "ctUpdates": 9,
+        "likes": {
+            "CharlesWiltgen": {
+                "when": "2016-02-15T21:19:23.466Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>To the Sanders <a href=\"http://qz.com/617134/for-sanders-supporters-a-vote-for-clinton-means-giving-into-fear/\">supporter</a> who thinks I wouldn't understand your impulse to vote for someone who speaks to your aspirations and hopes, well, consider that maybe we've done exactly what you propose to do, from a similar perspective, and saw what happened.&nbsp;</p><p>Even young people can study history. It's why it was written. So we wouldn't have to keep learning the same lessons over and over.</p><p>However the older I get, the more I realize that there is nothing that can stop us from cycling around again.&nbsp;</p><p>I campaigned for McGovern when I was a kid, and my first Presidential vote was for Jimmy Carter. They were good people. I think history has borne that out. But they were flawed candidates, and Carter was a President who achieved none of his promise, which btw, sounded an awful lot like what Sanders is promising. These guys hit brick walls. You can't wish the wall away. it's there whether you want to see it or not.</p><p>Obama would have been a more effective President if, on arriving in DC, he assumed the Republicans would be exactly as <a href=\"https://www.youtube.com/watch?v=W-A09a_gHJc\">obstructionist</a> as they said they'd be. I'm pretty sure the recovery would have been stronger if he had done so, and our health insurance would be better. Trying to work with the Republicans, clearly in hindsight, was a mistake.</p><p>I guess, like <a href=\"http://scripting.com/liveblog/users/davewiner/2016/01/26/0936.html\">tech</a>, politics is cyclic. Democrats are dreamers. I guess the Republicans are too. We share a country. About 50-50. And neither one wants to compromise. Not just the politicians, the voters too.&nbsp;</p>",
+        "id": 1017,
+        "when": "2016-02-15T18:47:28.232Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/15/1017.html",
+            "title": "Politics is cyclic too",
+            "image": "http://static.scripting.com/larryKing/images/2014/08/27/phb.gif",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/15/01017.json",
+        "subs": [
+            {
+                "name": "joshuasfreeman",
+                "text": "<p>Dear Dave, I appreciate what you are saying here, however, I'm not sure we're divided 50/50. &nbsp;I think it *appears* that we are but if there were a way to legitimately provide unvarnished information about what a hilary or a bernie would like to do given the chance, and its impact on the individual voter vs. what a cruz or a rubio would like to do given the chance, and *its* impact -- we might find that in actuality we're more like 70% dem/lib to 30% rep/cons .... &nbsp;</p>",
+                "id": 1018,
+                "when": "2016-02-15T19:20:07.135Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1017,
+                    "flHidden": true
+                },
+                "subs": [
+                    {
+                        "name": "davewiner",
+                        "text": "<p>Write a blog post. This isn't interesting to me. Sorry.</p>",
+                        "id": 1019,
+                        "when": "2016-02-15T19:37:55.389Z",
+                        "payload": {
+                            "editor": "wizzy",
+                            "idInReplyTo": 1018
+                        }
+                    }
+                ],
+                "whenLastUpdate": "2016-02-15T19:38:54.067Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-17T16:35:42.238Z",
+        "ctUpdates": 24,
+        "likes": {
+            "joshuasfreeman": {
+                "when": "2016-02-15T19:54:46.207Z"
+            },
+            "iambigdave": {
+                "when": "2016-02-16T01:20:25.362Z"
+            },
+            "nakedjen": {
+                "when": "2016-02-17T16:35:42.238Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>A little bird flew by yesterday and dropped an envelope on my desk. I opened it. The message, written in bird scrawl simply said: scobleizer.com.</p><p>So I went <a href=\"http://scobleizer.com/\">there</a> and was surprised to see that <a href=\"http://www.siliconvalleywatcher.com//LorenPals%20(1%20of%201).jpg\">Scoble</a> is returning to the blogosphere in April. Hey that's good news, on the order of a new season of <a href=\"https://en.wikipedia.org/wiki/Better_Call_Saul\">Better Call Saul</a>, which also started yesterday.</p><p>Of course I subscribed to his <a href=\"http://scobleizer.com/feed/\">RSS feed</a> in the <a href=\"http://scripting.com/?panel=river\">River tab</a> on Scripting News. So when he updates, links to his posts will show up there.</p><p>These days I think of the blogosphere as a balloon. For a long time it was deflating. But now there's some new hot air coming in and maybe we'll reach critical mass once again!</p><p>Glad to see my old friend coming home. ;-)</p>",
+        "id": 1020,
+        "when": "2016-02-16T14:40:22.132Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/16/1020.html",
+            "title": "Better call Scoble!",
+            "flPublished": true,
+            "image": "http://scripting.com/2016/02/16/balloon.png"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/16/01020.json",
+        "subs": [
+            {
+                "name": "ARTiFactor",
+                "text": "<p>My first thought was that he is going to \"demo\" your new \"blogging\" tool/platform. IMHO a great PR stunt by the two of you.</p>",
+                "id": 1021,
+                "when": "2016-02-16T16:11:50.918Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1020
+                },
+                "subs": [
+                    {
+                        "name": "ARTiFactor",
+                        "text": "<p>April 1st has some history for you, too.</p>",
+                        "id": 1022,
+                        "when": "2016-02-16T16:14:40.773Z",
+                        "payload": {
+                            "editor": "wizzy",
+                            "idInReplyTo": 1021
+                        }
+                    }
+                ]
+            }
+        ],
+        "whenLastUpdate": "2016-02-16T16:47:26.267Z",
+        "ctUpdates": 13,
+        "likes": {
+            "ARTiFactor": {
+                "when": "2016-02-16T16:47:26.266Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I took a one-day trip to Boston last week to visit the <a href=\"http://www.media.mit.edu/\">MIT Media Lab</a>.&nbsp;</p><p>While I was there I heard a presentation by <a href=\"https://twitter.com/carolinesinders\">Caroline Sinders</a> about ways Twitter and other online services could offer controls that would help minimize abuse.&nbsp;</p><p>She designed new prefs for Twitter that I thought were pretty clever. Here's a <a href=\"http://scripting.com/2016/02/16/twitterSecurity.png\">screen shot</a>. &nbsp;<span>And a summary:</span></p><p></p><ul><li><span>Allow followers of your followers to tweet at you?</span></li><li><span>Do not allow accounts with less than X followers to tweet at me, @mention me, or follow me.</span></li><li><span>Make my account public, but my handle can't be tweeted at by non-followers.&nbsp;</span></li></ul><p></p><p>I'd of course add my favorite (that doesn't actually exist) -- mute-with-timeout, which would allow me to turn off messages from people who might have a reason right now to be angry, but who I'd like to automatically give another chance to communicate with me, after having a chance to cool down.</p><p>We should be doing more thinking about stuff like this, and of course it would be great if developers working outside Twitter could implement clients that were more abuse-resistant.&nbsp;</p>",
+        "id": 1023,
+        "when": "2016-02-16T21:54:03.756Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/16/1023.html",
+            "title": "Controlling abuse on Twitter",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/16/01023.json",
+        "subs": [
+            {
+                "name": "CharlesWiltgen",
+                "text": "<p>This is really interesting. A couple more possibilities...<br></p><ul><li class=\"\"><span style=\"line-height: 24px;\" class=\"\">Do not allow accounts without an avatar to tweet/@mention/follow</span></li><li><span style=\"line-height: 24px;\">Do not allow accounts with less than 50 unique tweets to tweet/@mention/follow</span></li></ul>We know that identifying abusive content isn't technically impossible since Google does an incredibly good job doing it for email, an open system. Twitter should be doing an even better job given that every byte of content goes through their system.<br><p></p>",
+                "id": 1024,
+                "when": "2016-02-17T01:44:36.421Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1023
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-17T03:07:56.626Z",
+                "ctUpdates": 4,
+                "likes": {
+                    "ehnotsomuch": {
+                        "when": "2016-02-17T03:07:56.625Z"
+                    }
+                }
+            },
+            {
+                "name": "arikia",
+                "text": "<p>\"Mute with timeout\" sounds like AOL Instant Messenger's \"warn\" function, my favorite function.<br></p>",
+                "id": 1025,
+                "when": "2016-02-17T14:13:43.519Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1023
+                }
+            },
+            {
+                "name": "kidehen",
+                "text": "<p>Certainly the kind of thing Twitter would benefit from if their underlying data was structured in a flexible manner e.g., using hyperlinks as terms that could then be used to create sentences/statements when the sentence verbs (predicates) are both human- and machine-comprehensible. Net effect, their users would be able to create all kinds of rules (Caroline's and beyond) using a common UI too :)</p>",
+                "id": 1030,
+                "when": "2016-02-17T17:57:45.118Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1023
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-17T17:57:55.676Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-17T08:31:42.437Z",
+        "ctUpdates": 13,
+        "likes": {
+            "CharlesWiltgen": {
+                "when": "2016-02-17T00:39:31.300Z"
+            },
+            "ehnotsomuch": {
+                "when": "2016-02-17T03:07:46.287Z"
+            },
+            "blogisch": {
+                "when": "2016-02-17T08:31:42.436Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Before you pass on trolling from presidential candidate, esp Trump, check it out first. His story about the Bush domain was easy to refute.</p>",
+        "id": 1026,
+        "when": "2016-02-17T15:14:46.299Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/17/1026.html",
+            "title": "Presidential trolling",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/17/01026.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-17T15:15:14.074Z",
+        "ctUpdates": 3
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Wikipedia's in-development <a href=\"http://thenextweb.com/google/2016/02/15/wikipedia-is-building-an-open-source-search-engine-but-its-pretty-controversial/#gref\">search engine</a> is a good idea. I very often go to Google to find something on Wikipedia, only to get a bunch of irrelevant spam links from google.</p>",
+        "id": 1027,
+        "when": "2016-02-17T17:12:01.304Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/17/1027.html",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/17/01027.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-17T17:12:48.542Z",
+        "ctUpdates": 3
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I am working on an app in Electron that uses OAuth to connect with one of my servers, which in turn uses OAuth to connect with Twitter.</p><p>It's very standard stuff for an app running in a browser, but this app is running in Electron.&nbsp;</p><p>So here's the question..</p><p>I need a callback URL to send to the server after the user has given permission to use their credentials.</p><p>I tried the one that we use at startup, but it doesn't work:</p><p>mainWindow.loadURL (\"file://\" + __dirname + \"/index.html\");</p><p>So I did the only thing I could think of -- I created a tiny little HTTP server running inside my app on port 1501, and that does work, with one caveat.</p><p>When the program starts up the user has to acknowledge that it's okay for my app to listen on this port. That's pretty much a bummer, not quite a deal-stopper.</p><p>So, I'm wondering if you or someone you know has done an OAuth app inside Electron, and can tell me what callback URL they used.</p><p>If you have a clue, please send email to dave.winer@gmail.com or reply here. Thanks!</p><p>PS: I have done lots of <a href=\"https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=oauth%20electron%20app%20callback%20url\">searching</a> and reading and coding before posting this here.</p>",
+        "id": 1028,
+        "when": "2016-02-17T17:22:26.778Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/17/1028.html",
+            "title": "OAuth inside Electron apps?",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/17/01028.json",
+        "subs": [
+            {
+                "name": "CharlesWiltgen",
+                "text": "<p>Would PIN-based OAuth be acceptable?</p>",
+                "id": 1032,
+                "when": "2016-02-17T19:20:20.244Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1028
+                }
+            }
+        ],
+        "whenLastUpdate": "2016-02-17T17:28:53.156Z",
+        "ctUpdates": 6
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Sanders may think that campaign finance is the primary issue but <a href=\"http://www.bloomberg.com/politics/articles/2016-02-17/the-failure-of-money-to-buy-the-presidential-nomination-in-one-chart?cmpid=twtr1\">imho it's not</a>.&nbsp;<span>The means we use to communicate is </span><a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/05/0977.html\">privately owned</a><span> and at least one of the companies is wobbly. Twitter could be acquired by a Chinese company. Or go out of business. Or unilaterally change the way it works. We, mere users, would have no recourse. So far they have been exemplary corporate citizens, but there's nothing that says it has to stay that way, esp with their stock price so low, and going lower.</span></p><p>I wonder if Sanders realizes how dependent he and every other candidate is on Twitter. HRC is no help, btw, she is quite cozy with the tech industry.&nbsp;</p><p>But, maybe sensing that things have changed, she may become more independent? One can hope.</p>",
+        "id": 1029,
+        "when": "2016-02-17T17:43:06.606Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/17/1029.html",
+            "title": "Tech too big to fail",
+            "image": "http://scripting.com/2016/02/17/carOnCliff.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/17/01029.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-17T17:48:43.066Z",
+        "ctUpdates": 7
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>News that Facebook is <a href=\"http://www.wsj.com/article_email/facebook-opens-up-instant-articles-to-all-publishers-1455732001-lMyQjAxMTE2MjEyNzgxMDc4Wj\">opening</a> up <a href=\"http://rss.pocalyp.se/3\">Instant</a> <a href=\"https://developers.facebook.com/docs/instant-articles/publishing\">Articles</a> to everyone including bloggers in April. Of course I want to make sure my CMS is ready to go as soon as it's available. Hopefully there will be (or already is?) a developer sandbox to test with before it's open to the public.</p>",
+        "id": 1031,
+        "when": "2016-02-17T19:11:17.905Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/17/1031.html",
+            "title": "Facebook opens Instant Articles to all",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/17/01031.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-17T19:35:25.271Z",
+        "ctUpdates": 8,
+        "likes": {
+            "rikardlinde": {
+                "when": "2016-02-17T19:35:25.271Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I think what people don't realize is that this year's election more than any before it is a <a href=\"https://www.youtube.com/watch?v=JP62rOq05I4\">TV show</a>. That's exactly how people are relating to it, top to bottom. Government has nothing to do with the choices people make.&nbsp;</p>",
+        "id": 1033,
+        "when": "2016-02-17T23:12:46.755Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/17/1033.html",
+            "title": "It's just TV",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/17/01033.json",
+        "subs": [
+            {
+                "name": "jamesburgos",
+                "text": "<p>Dave, you're absolutely right, and today, John Kasich just channeled Holy Wayne from *The Leftovers* with that hug.</p>",
+                "id": 1040,
+                "when": "2016-02-19T23:23:11.528Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1033,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-20T22:21:08.746Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-18T13:18:30.852Z",
+        "ctUpdates": 5,
+        "likes": {
+            "trudywschuett": {
+                "when": "2016-02-18T13:18:30.852Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>There was a time when I would have voted for Elizabeth Warren for anything. For President, for god, for Fifth Beatle, you name it. But then something happened.</p><p>It was during the last open conflict between the Palestinians in Gaza and Israel. I don't remember all of what it was about, but I do remember that in the US all the politicians were turning a blind eye, quite deliberately, to some outrageous stuff that the Israelis were doing. It was totally asymmetric. Israel was turning whole neighborhoods into rubble, killing lots of innocent people, including kids, all the while reminding us that a few Israelis had been killed, and this somehow justified what they were doing. No, it didn't. And anyone with a conscience and some integrity would say so. The kind of person I thought Elizabeth Warren was.</p><p>But <a href=\"https://web.archive.org/web/20140901054342/http://www.capecodonline.com/apps/pbcs.dll/article?AID=/20140821/NEWS/408210325/-1/news11\">she</a> <a href=\"http://www.huffingtonpost.com/2014/08/28/elizabeth-warren-defends-_n_5733164.html\">said</a> <a href=\"http://www.theatlantic.com/international/archive/2014/09/hillary-elizabeth-warren-and-israel/379721/\">the</a> <a href=\"https://theintercept.com/2014/08/28/elizabeth-warren-speaks-israelgaza-sounds-like-netanyahu/\">same shit</a> all the other <a href=\"http://www.truth-out.org/opinion/item/25128-in-gaza-israel-coverage-new-york-times-purveys-pro-war-propaganda-on-page-one\">Democrats</a> and Republicans were saying. Because they're all politicians and they know they don't stand a chance of getting re-elected if they don't recite the Israeli party line, because of something you and I don't know the particulars of.</p><p>They're all the same. Repeat that 500 times. You can't rise to power in the US without swallowing a pill that means you are part of what Bernie Sanders calls The Establishment. And if you buy the idea that he or Elizabeth Warren are any different, then you're just buying a political pitch, like the people who believe Trump will build a wall on the southern border and get Mexico to pay for it. It's about as real as the stuff that Sanders promises, which is to say it isn't real at all.&nbsp;</p><p>And when Warren tells her story of being disappointed with HRC that's politics too. She has no high ground to speak from.&nbsp;</p>",
+        "id": 1034,
+        "when": "2016-02-18T17:01:43.770Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/18/1034.html",
+            "title": "Elizabeth Warren is a zombie too",
+            "image": "http://scripting.com/2016/02/18/zombie.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/18/01034.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-18T22:34:53.600Z",
+        "ctUpdates": 11
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I haven't read the docs for Facebook's <a href=\"https://developers.facebook.com/docs/instant-articles/quickstart\">Instant Articles</a>&nbsp;yet, but now that I know that I'll be able to post them from my CMS, in a little over a month, I want to understand what the capabilities are.</p><p></p><ol><li><span>Is there basic style? Bold, italic?</span></li><li><span>Linking?</span></li><li><span>Can I update an article after it's posted?&nbsp;</span></li><li><span>I would love to see an example RSS feed used as input.</span></li></ol><p></p>",
+        "id": 1035,
+        "when": "2016-02-18T17:59:57.102Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/18/1035.html",
+            "title": "Questions re Instant Articles"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/18/01035.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-18T18:09:54.972Z",
+        "ctUpdates": 6
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I've become a hot tea drinker.</p>",
+        "id": 1037,
+        "when": "2016-02-18T22:28:08.117Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/18/1037.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/18/01037.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-19T08:25:18.835Z",
+        "ctUpdates": 2,
+        "likes": {
+            "markOmay": {
+                "when": "2016-02-19T08:25:18.834Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Last week I wrote about an <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/12/1004.html\">EZ-Pass for online news</a> sites.&nbsp;Now I have hit my monthly max for two pubs: the Washington Post and Boston Globe. So until March I <a href=\"https://subscribe.washingtonpost.com/acqbeta2/?prompt=1&amp;promo=digital03_paywall&amp;oscode=RPWH&amp;wpsrc=CM0000446&amp;page=opinions:article%20-%202cc3c1e4b76b%20-%2020160218%20-%20charles-koch-this-is-the-one-issue-where-bernie-sanders-is-right&amp;section=wp%20-%20opinions&amp;prev=&amp;geo=&amp;ctype=article&amp;signedin=logged%20out&amp;mcount=5&amp;sub=0&amp;ismetered=1&amp;destination=https://www.washingtonpost.com/opinions/charles-koch-this-is-the-one-issue-where-bernie-sanders-is-right/2016/02/18/cdd2c228-d5c1-11e5-be55-2cc3c1e4b76b_story.html&amp;action=3&amp;sub=0&amp;mtr=1&amp;mtrct=5&amp;mtfn=1&amp;t=10002&amp;st=200&amp;loc=0&amp;mvw=5&amp;wa=3&amp;fr=0&amp;dt=0&amp;mx=0&amp;pwo=1&amp;rwb=0&amp;v=2.2&amp;acq_test=1#/paywall/offers/promo/digital03_paywall/oscode/RPWH?wpsrc=CM0000446&amp;page=opinions:article%20-%202cc3c1e4b76b%20-%2020160218%20-%20charles-koch-this-is-the-one-issue-where-bernie-sanders-is-right&amp;section=wp%20-%20opinions&amp;prev=&amp;geo=&amp;ctype=article&amp;signedin=logged%20out&amp;mcount=5&amp;sub=0&amp;sub=0&amp;ismetered=1&amp;destination=https:%2F%2Fwww.washingtonpost.com%2Fopinions%2Fcharles-koch-this-is-the-one-issue-where-bernie-sanders-is-right%2F2016%2F02%2F18%2Fcdd2c228-d5c1-11e5-be55-2cc3c1e4b76b_story.html&amp;action=3&amp;mtr=1&amp;mtrct=5&amp;mtfn=1&amp;t=10002&amp;st=200&amp;loc=0&amp;mvw=5&amp;wa=3&amp;fr=0&amp;dt=0&amp;mx=0&amp;pwo=1&amp;rwb=0&amp;v=2.2&amp;acq_test=1\">won't</a> be able to read or link to any of their stories.</p><p>Shame. I just clicked on a link to a Washington Post <a href=\"https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=newssearch&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwiQ0vuF04LLAhUGQBoKHWLdCoYQqQIIHCgAMAA&amp;url=https%3A%2F%2Fwww.washingtonpost.com%2Fopinions%2Fcharles-koch-this-is-the-one-issue-where-bernie-sanders-is-right%2F2016%2F02%2F18%2Fcdd2c228-d5c1-11e5-be55-2cc3c1e4b76b_story.html&amp;usg=AFQjCNFtQfoFDB0dcYw-sgnUv3qoi4SLoA&amp;sig2=W9vdcDapr9_3OB-XowNAsQ\">story</a> that said that one of the Koch brothers said Bernie Sanders is right about one thing. What that thing was will remain a mystery for me, sadly.</p><p>PS: I probably should go ahead and turn off the <a href=\"http://washpost.newsriver.org/\">Wash Post river</a> too. Not much point having it if I can't click on the links. Sad day.&nbsp;</p><p>PPS: The Guardian does not have a limit on the number of articles I can read. It's also a very good source of news, and I have a <a href=\"http://guardian.newsriver.org/\">river</a> for it as well.&nbsp;</p><p>PPPS: I cheated, I opened the story in another browser. Heh. It's a really <a href=\"https://www.washingtonpost.com/opinions/charles-koch-this-is-the-one-issue-where-bernie-sanders-is-right/2016/02/18/cdd2c228-d5c1-11e5-be55-2cc3c1e4b76b_story.html\">good piece</a>, an op-ed written by Charles Koch himself. I think Sanders should debate Koch. That would be really interesting. Koch mentions that it seems to him that Sanders is running against Koch. Very true. It's good that he's willing to de-cloak, even if it's in a place where very few voters will likely see it, or even know who he is and what role he plays in the political process in the US.</p>",
+        "id": 1038,
+        "when": "2016-02-19T00:51:38.476Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/18/1038.html",
+            "title": "No more Wash Post for Davey",
+            "image": "http://scripting.com/2016/02/18/elves.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/18/01038.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-19T01:19:14.478Z",
+        "ctUpdates": 14
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I watched Bernie Sanders on <a href=\"http://www.msnbc.com/msnbc/bernie-sanders-calls-out-racist-opposition-president-obama\">MSNBC</a> last night, I don't know why, I guess because it was a town hall involving HRC too, but I didn't stay around to hear her talk I was so fed up with Sanders and his yelling and lying, and the way he disses HRC and more important the way he disses me, a voter who is trying to hear a complete answer to a straight question. And trying to understand what it is people see in him.</p><p>One of the first questions they asked is if he is a single-issue candidate as HRC says he is. He answered a different question, explaining what a jerk HRC is for saying he's a single-issue candidate, and how he's running a clean race. Heh. And then he talks at length about his single issue. So yes, he is a single-issue candidate, and when you call him on it he gets nasty.</p><p>It's a consistent pattern. 1. Bernie, is this true? 2. They're members of the Establishment so of course you'd expect them to say that. 3. But Bernie is it true? 4. They're members of the Establishment.&nbsp;</p><p>Then one of the citizens of the town hall asks him what he's going to do about the tough lives black and Hispanic people have, esp men who are incarcerated at much higher rates than whites, with the caveat that we've heard all about how you're going to address the problem by getting them better jobs, and could you say something other than that, because not all of the problems are economic, some of them involve prejudice. So Bernie proceeds to explain how he's going to get them better jobs and that should solve the problem. He says it a bunch of different ways, filling up a lot of time, but he's repeating the same idea over and over, if you actually listen to the words he's saying.</p><p>I watched for another fifteen minutes as he did it over and over. Clearly they've thought it through and decided that he must not talk about anything other than this because he's a single-issue candidate and doesn't know enough about anything else to speak coherently about it.</p>",
+        "id": 1039,
+        "when": "2016-02-19T18:55:49.771Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/19/1039.html",
+            "title": "Bernie is indeed single-issue",
+            "image": "http://scripting.com/2016/02/19/peeWeeHerman.png",
+            "flPublished": true,
+            "flHidden": false
+        },
+        "urlJson": "http://scripting.com/liveblog/data/2016/02/19/01039.json",
+        "subs": [
+            {
+                "name": "blogisch",
+                "text": "<p>And by definition ... a single-issue problem solver is a one trick pony ;)</p>",
+                "id": 1041,
+                "when": "2016-02-20T07:58:37.698Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1039
+                }
+            }
+        ],
+        "whenLastUpdate": "2016-02-22T02:43:22.088Z",
+        "ctUpdates": 19
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I was chatting with a friend today about the best emails I've ever received.&nbsp;</p><p>Like the reply <a href=\"http://scripting.com/davenet/1994/10/27/replyfrombillgates.html\">from Bill Gates</a> to a 1994 DaveNet piece. That was a good email, because it proved that the then-nascent art of blogging could be two-way. Gates was at the pinnacle of power in the tech industry at the time, as the web moved into the desktop. He was at the start of one of the biggest pivots in history, and this exchange was totally on-topic with that. (And some of the questions he asked have since been answered, for example, yes the web meant the end of <a href=\"https://en.wikipedia.org/wiki/Encarta\">Encarta</a>.)&nbsp;</p><p>Then I thought of an email I got from <a href=\"http://scripting.com/98/04/stories/bobAtkinsonOnHttpPost.html\">Bob Atkinson</a>, also of Microsoft, in the winter of 1998. I had just written a <a href=\"http://scripting.com/davenet/1998/02/27/rpcOverHttpViaXml.html\">piece</a> about how to do networking protocols using the web. It had occurred to me in what I call a <a href=\"http://scripting.com/davenet/2000/08/26/mindBombsForY2k.html\">mind bomb</a>, a flash of insight, that XML-over-HTTP could replace the deeply complicated and history-laden networking protocols of the Mac and PC, which were totally incompatible with each other. Using the web for program-to-program communication would turn out to be a breakthrough in simplicity and today whole industries are based on the idea.</p><p>Anyway, I don't have a copy of Bob's email but it went something like this.</p><blockquote>\"We want to do this too. Would you like to work with us?\"</blockquote><p>The next week I was in Redmond in a big room with a bunch of Microsoft people, designing what would turn out to be <a href=\"http://xmlrpc.scripting.com/spec.html\">XML-RPC</a>.&nbsp;</p>",
+        "id": 1042,
+        "when": "2016-02-20T17:04:18.557Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/20/1042.html",
+            "title": "Greatest emails of all time",
+            "image": "http://scripting.com/2016/02/20/elephant.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/20/01042.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-21T02:06:44.972Z",
+        "ctUpdates": 21,
+        "likes": {
+            "CharlesWiltgen": {
+                "when": "2016-02-21T02:06:44.971Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>What a <a href=\"https://www.washingtonpost.com/news/the-fix/wp/2016/02/20/this-photo-of-obama-and-a-little-visitor-at-a-black-history-month-celebration-says-a-lot/?tid=sm_fb\">great picture</a> of a 3-year-old boy looking up at the President of the United States and seeing what will soon be part of our past, our history.&nbsp;</p><p>It's a beautiful picture, the same way the pictures of the first men on the moon are beautiful. We reached a very important place, but who knows when we'll be here again.&nbsp;</p><p>And while I feel huge pride for my country for this accomplishment, let's not forget our fellow citizens who are African-American. For them, this has much greater meaning. &nbsp;</p>",
+        "id": 1043,
+        "when": "2016-02-20T17:29:16.628Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/20/1043.html",
+            "title": "A bit of our future history",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/20/01043.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-20T18:28:35.374Z",
+        "ctUpdates": 7
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Seeing the <a href=\"https://www.washingtonpost.com/news/the-fix/wp/2016/02/20/this-photo-of-obama-and-a-little-visitor-at-a-black-history-month-celebration-says-a-lot/?tid=sm_fb\">picture</a> of the 3-year-old boy looking up at the President gave me a much better idea of the meaning of our electing the first African-American president in 2008.&nbsp;</p><p><span>Voting for a president can be a meaningful act, despite the conventional wisdom that our votes mean nothing. And I think how much meaning a similar picture might be, eight years from now, of a little girl looking up and seeing the same kind of future that young Clark Reynolds saw.&nbsp;</span></p><p>I recorded a <a href=\"http://scripting.com/2016/02/20/meaning.m4a\">seven-minute podcast</a>, because written words aren't enough for this idea.&nbsp;</p>",
+        "id": 1044,
+        "when": "2016-02-20T21:58:15.281Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/20/1044.html",
+            "title": "Podcast: Meaning",
+            "enclosure": {
+                "url": "http://scripting.com/2016/02/20/meaning.m4a",
+                "type": "audio/mpeg",
+                "length": "3903222"
+            },
+            "image": "http://scripting.com/2016/02/20/boy.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/20/01044.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-21T01:08:58.900Z",
+        "ctUpdates": 11,
+        "likes": {
+            "nakedjen": {
+                "when": "2016-02-21T01:08:58.900Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I mentioned in an <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/16/1023.html\">earlier post</a> that I visited the MIT Media Lab on the 11th of Feb. It was a great trip, just one day back and forth. I wanted to see the Media Lab with my own eyes, and reconnect with two longtime friends who are working there now.</p><p><a href=\"https://en.wikipedia.org/wiki/Ethan_Zuckerman\">Ethan Zuckerman</a>&nbsp;got involved in the web very early as the lead developer at <a href=\"https://en.wikipedia.org/wiki/Tripod.com\">Tripod</a>.&nbsp;I worked with him at <a href=\"https://cyber.law.harvard.edu/\">Berkman</a>, where he, along with <a href=\"https://en.wikipedia.org/wiki/Rebecca_MacKinnon\">Rebecca MacKinnon</a>, started the incredible <a href=\"https://globalvoices.org/\">Global Voices</a> project. Ethan is now the director of the <a href=\"https://en.wikipedia.org/wiki/Center_for_Civic_Media\">Center for Civic Media</a> at MIT.&nbsp;</p><p>And <a href=\"https://en.wikipedia.org/wiki/Joi_Ito\">Joi Ito</a>, one of the earliest <a href=\"http://joi.ito.com/\">bloggers</a>, a good friend, discussion leader at <a href=\"https://www.google.com/search?q=joi+ito+bloggercon&amp;oq=joi+ito+bloggercon&amp;aqs=chrome..69i57.2991j1j4&amp;sourceid=chrome&amp;es_sm=119&amp;ie=UTF-8\">BloggerCon</a>, has been the <a href=\"https://en.wikipedia.org/wiki/Joi_Ito#MIT_Media_Lab\">director</a> of the <a href=\"https://en.wikipedia.org/wiki/MIT_Media_Lab\">Media Lab</a> since 2011.&nbsp;</p><p>I wanted to reconnect because the Media Lab is in an incredible position to help the open web, especially because these two pioneers, Ethan and Joi, are there.&nbsp;</p><h4>Lots of emails, back and forth</h4><p><span>Our meeting was a whirlwind, at least partially because my train from NYC was 45 minutes late (!) but there's only so much you can get done in a face to face in one day.&nbsp;</span></p><p>So we've been going back and forth via email since the meeting, and it's been getting pretty interesting! I want to now surface at least part of what we've been talking about.</p><p>First, Joi wrote a <a href=\"http://joi.ito.com/weblog/2016/02/21/time-to-channel.html\">post about our meeting</a> and the open web. Please read.</p><p>It's not only personally flattering, but you can see how thoroughly the <a href=\"http://scripting.com/stories/2009/11/24/naturalbornBlogger.html\">blogging ethic</a> flows through Joi. Err on the side of disclosure, saying what you really see, knowing that it will be received at face value. That's blogging at its best, imho.&nbsp;</p><h4>Where to go?</h4><p>In one of the follow-up emails I listed three things we could do to help the open web reboot. I had written about all these ideas before, in some cases, a number of times.&nbsp;</p><p></p><ol><li><span>Every university should host at least one <a href=\"http://scripting.com/2014/10/30/developingBetterDevelopers.html\">open source project</a>.</span></li><li><span>Every news org should build a <a href=\"http://scripting.com/2014/11/24/howToRebuildJournalism.html#a1416841494\">community of bloggers</a>, starting with a river of sources.&nbsp;</span></li><li><span>Every <a href=\"http://scripting.com/stories/2011/01/21/theJournoprogrammer.html\">student journalist</a> should learn how to set up and run a server.</span></li></ol><p></p><p>These ideas came out of my work in booting up blogging and podcasting, and working successfully at Berkman to get the first academic blogging community going. Had I continued that work, this is where we would go.</p><h4>Update</h4><p>Joi's <a href=\"http://joi.ito.com/weblog/2016/02/21/a-challenge-fro.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+joi-ito%2Fweblog+%28Joi+Ito%27s+Weblog%29\">post</a> in response to this one. ;-)</p>",
+        "id": 1045,
+        "when": "2016-02-21T16:49:38.775Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/21/1045.html",
+            "title": "Universities and the open web",
+            "image": "http://scripting.com/2016/01/30/joiIto.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/21/01045.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-22T17:02:54.805Z",
+        "ctUpdates": 24,
+        "likes": {
+            "Joi": {
+                "when": "2016-02-21T18:49:39.752Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I want to produce a feed that's compatible with Facebook's new Instant Articles. I understand from <a href=\"https://developers.facebook.com/docs/instant-articles/publishing\">reading the docs</a> that they're using RSS with some special elements.&nbsp;</p><p>What I really need to have it all fit together is an example feed that I can study, that gives me something to shoot for. So..</p><p></p><ol><li>Yes, I am reading <a href=\"https://developers.facebook.com/docs/instant-articles/publishing\">the docs</a>, so please don't send me a <a href=\"https://developers.facebook.com/docs/instant-articles/publishing\">link</a> to the docs.</li><li>I would love to see an example feed. I am repeating this because I'm sure most people will still just send me a link to the <a href=\"https://developers.facebook.com/docs/instant-articles/publishing\">docs</a>.</li><li><span>An example feed would be great!</span></li></ol><p></p><p>BTW, this is what the <a href=\"http://scripting.com/rss.xml\">current RSS feed</a> for Scripting News looks like. Obviously I will need to produce another feed, probably derived from this, to be compatible with Facebook's protocol. &nbsp;</p><p>If you have such an example feed, please ping me at dave.winer@gmail.com. <i>Thanks!&nbsp;</i></p><h4>Update</h4><p>Rob Fahrni <a href=\"https://twitter.com/Fahrni/status/701793826826899458\">found</a> an example feed in this <a href=\"https://medium.com/future-of-mobile-web/how-to-publish-for-facebook-instant-articles-f79ac9c2e689#.rcshw3xc5\">Medium post</a>. <i>Bing!&nbsp;</i></p><h4>Update on the Update</h4><p>Unfortunately the example they provides does not include the stuff in the Facebook docs that's most confusing, what goes inside the content:encoded element.</p>",
+        "id": 1046,
+        "when": "2016-02-21T23:36:16.217Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/21/1046.html",
+            "title": "Example feed for Instant Articles?",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/21/01046.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-22T23:13:53.363Z",
+        "ctUpdates": 11
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Really interesting <a href=\"http://chronicle.com/article/MIT-Dean-Takes-Leave-to-Start/235121\">piece</a> about an <a href=\"https://orgchart.mit.edu/dean-graduate-education\">MIT prof</a> who's starting a new university. Here's a quote.</p><blockquote>Basically the idea is that we’ll have a core that’s project-based learning, but where students can have a really deep, integrative longer-term project rather than shorter projects. And then all of the knowledge acquisition would be moved virtually. So instead of projects' being at the periphery, to sort of flip it more toward the graduate-education model. And I think it would be much more inspirational for the students because they could come in and really work on projects from the get-go that they wanted to work on and that they were most passionate about, and they could tailor their knowledge base to the projects they want to work on.</blockquote><p>This is exactly the idea I've been <a href=\"https://www.google.com/search?q=site%3Ascripting.com+university+open+source&amp;oq=site%3Ascr&amp;aqs=chrome.0.69i59j69i57j69i58j69i59l3.2359j1j4&amp;sourceid=chrome&amp;es_sm=119&amp;ie=UTF-8\">promoting</a> about having students work on an open source project while at university. Some would go on to get jobs in companies that are using the technology. Some will start new ventures around the technology. And when they need a break, they can come back to school, teach, share what they've learned, and do some projects with other people, just for the fun of it.&nbsp;</p><p>The idea is to get beyond student projects, to use the university environment to do development. All aspects of it. Documentation, training, support, QA, interop with other projects, creating new standards. We know so much about these things now, we shouild be doing more than teaching it, we should be practicing it.&nbsp;</p><p>Our experience with the bootstrap of podcasting and political blogging at Berkman in the early part of the last decade were models. I think Dr Ortiz is really onto something.</p>",
+        "id": 1047,
+        "when": "2016-02-22T23:18:19.884Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/22/1047.html",
+            "image": "http://scripting.com/2016/02/22/accordionGuy.png",
+            "title": "Project-based learning",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/22/01047.json",
+        "subs": [
+            {
+                "name": "MichaelWRitchie",
+                "text": "<p>Sounds a lot like Seth Godin's Alt MBA https://www.altmba.com/. The difference is that Seth isn't charging 100k for his MBA. &nbsp;</p>",
+                "id": 1051,
+                "when": "2016-02-23T17:21:12.577Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1047
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-23T17:21:41.926Z",
+                "ctUpdates": 7
+            }
+        ],
+        "whenLastUpdate": "2016-02-24T15:19:55.422Z",
+        "ctUpdates": 9,
+        "likes": {
+            "MichaelWRitchie": {
+                "when": "2016-02-23T17:13:53.757Z"
+            },
+            "nischaldesign": {
+                "when": "2016-02-23T21:07:11.877Z"
+            },
+            "rtanglao": {
+                "when": "2016-02-24T15:19:55.422Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Observation from studying the Facebook Instant Articles docs -- they're turning Facebook into a mobile RSS client. Google Reader II.</p>",
+        "id": 1048,
+        "when": "2016-02-23T01:45:45.495Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/22/1048.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/22/01048.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-23T01:45:46.513Z",
+        "ctUpdates": 1
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Facebook keeps winning at the expense of the open web, but that's now about to change. Here's a case study that illustrates.&nbsp;</p><p><a href=\"https://www.facebook.com/stevep2007/posts/10153965716289267\">This guy</a> is a professional reporter. </p><p>His best stuff is on Facebook, he writes there off the top of his head.&nbsp;<span>A thought occurs to him and he writes it. He's smart, so it's good. And it's raw and human and compelling, in a way that his news articles are not. He takes a long time to get to the point there, probably the economics makes it work that way.</span></p><p>I say to him every so often, I wish you'd post that on your blog so I can point to it on my blog, and link to it on Twitter. He says I know I know, but when I post it to Facebook I get engagement. I say I know.</p><p>How are we both going to get what we want?&nbsp;<span>We've been waiting for an answer to this while the problem keeps getting worse and the open web keeps losing, slipping away from us.</span></p><p>In a month or two we'll be able to give him a writing tool that gives us both what we want, because of the changes Facebook is about to make.&nbsp;</p><p>I want him to get exposure so his ideas can grow. But I also want people who read my blog to see it. Right now they don't want to click on FB links. And I don't want to send them to FB, though I do it when I have to.</p>",
+        "id": 1049,
+        "when": "2016-02-23T16:49:04.832Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/23/1049.html",
+            "title": "Facebook and the open web",
+            "image": "http://scripting.com/2015/10/26/mrmet.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/23/01049.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-24T21:17:06.877Z",
+        "ctUpdates": 13,
+        "likes": {
+            "knockatize": {
+                "when": "2016-02-24T21:17:06.877Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>It was funny to hear Bernie Sanders complain yesterday that HRC is stealing his lines. &nbsp;&nbsp;</p><p>I went to two DNCs, in 2004 and 2008.&nbsp;<span>The funny thing is most of the speakers there were stealing his lines too.&nbsp;</span></p><p>The point: Sanders' pitch has been the standard Democratic Party line for a decade or more.</p><p><a href=\"https://www.facebook.com/dave.winer.12/posts/417966175077460?notif_t=like\">Discussion</a> on Facebook.</p>",
+        "id": 1050,
+        "when": "2016-02-23T17:15:15.284Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/23/1050.html",
+            "title": "Sanders' pitch is straight DNC",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/23/01050.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-23T23:59:11.065Z",
+        "ctUpdates": 7
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I just made a pass over my Facebook timeline <a href=\"http://newsroom.fb.com/news/2016/02/reactions-now-available-globally/\">judging</a> things as sad, wow, happy, angry. I didn't <i>Like</i> one thing. I want to see how I'd feel. Answer: weird. No icon for that.</p>",
+        "id": 1052,
+        "when": "2016-02-24T14:49:42.094Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/24/1052.html",
+            "title": "First reaction to Facebook reactions",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/24/01052.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-24T14:51:58.408Z",
+        "ctUpdates": 5
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>In the town hall last night one of the questioners asked Bernie Sanders if he can promise not to be \"beholden to anyone\" when he takes office. He gave the $27 spiel and then said no (obviously).</p><p>But there are other kinds of deals that don't involve donations. Like deals with unions. I've never heard Bernie say he was against unions backing candidates. I wouldn't be surprised if he had some of them already on board. DId they commit just out of the goodness of their hearts? Or do they expect something in return?</p><p>Are unions part of the Establishment?</p>",
+        "id": 1053,
+        "when": "2016-02-24T14:50:34.272Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/24/1053.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/24/01053.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-24T14:50:34.992Z",
+        "ctUpdates": 1
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>How Facebook <a href=\"https://developers.facebook.com/docs/instant-articles/quickstart\">Instant Articles</a> helps the open web.</p><p></p><ol><li><span>Each article can contain markup, and most important links. Links go to other places on the open web. So finally when we write stuff that's posted to Facebook our writing can be part of the web.&nbsp;</span></li><li><span>When you update a post after it appears on Facebook, they get the updates, so you don't have to do anything to keep it in sync.</span></li><li>It's built on <a href=\"http://cyber.law.harvard.edu/rss/rss.html\">RSS</a>, an open format. The RSS can be used for other purposes, such as posting to LinkedIn, Twitter, Medium or any <i>new service</i> that might come along. So Facebook doesn't have an exclusive on this flow. They are not being a silo! Hey how about that.</li><li><span>Because Facebook is the largest source of flow, it seems the others will have to match them. The easiest way to match them is to just accept the same feed I use to post to Facebook.&nbsp;</span></li><li><span>I can and will modify <a href=\"https://github.com/scripting/river5\">River5</a>\n to support the Instant Article format. All kinds of new services can boot up on the flow, without depending on Facebook servers. You can't be turned off by Facebook. This is the key feature of the open web, it's the platform without a platform vendor.</span></li><li><span>My blog shares in this flow. So now I don't have to neglect my blog in order to post to Facebook. I can have both, with the same effort. That means I control my archive, and should the terms of service change radically, my writing will still exist, outside the silo.&nbsp;</span></li><li><span>Your blogging platform, WordPress, Tumblr, Drupal, etc will almost certainly support this format in addition to the current feed it produces. Or these features could be rolled into the existing feed. Either approach will work. So you can expect, if you are a blogger, that you will not have to do anything but update your software (if you host it yourself) to get the new connection to Facebook. I'm sure they're all working on getting ready for the April rollout.&nbsp;</span></li></ol><p></p><p>Summary: Facebook is using open web technology to power Instant Articles. I'm not sharing anything that isn't already publicly documented on the Facebook developer site. People have trouble understanding this, I assume, because it seems so out of character for a big web destination like Facebook to care about the open web. It's kind of a miracle. But there it is. The open web is about to get a real shot in the arm from a most unexpected place.&nbsp;</p><p>Note: I have been in the loop on this for almost two years. But until I was able to produce a feed that correctly flows through their system, it was all speculation. But it's no longer speculative. I've tried it, it works as advertised.&nbsp;</p>",
+        "id": 1054,
+        "when": "2016-02-24T15:01:35.279Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/24/1054.html",
+            "title": "How Instant Articles helps the open web",
+            "image": "http://scripting.com/2016/02/24/loveRss.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/24/01054.json",
+        "subs": [
+            {
+                "name": "donhodges",
+                "text": "<p>Congratulations, Dave! and Facebook. &nbsp;I KNEW your fingerprints were on this. It may get me back to blogging.</p>",
+                "id": 1056,
+                "when": "2016-02-24T23:19:30.092Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1054
+                }
+            }
+        ],
+        "whenLastUpdate": "2016-03-03T01:13:11.515Z",
+        "ctUpdates": 18,
+        "likes": {
+            "markOmay": {
+                "when": "2016-02-24T15:57:22.563Z"
+            },
+            "Joi": {
+                "when": "2016-02-25T00:26:41.072Z"
+            },
+            "leibniz": {
+                "when": "2016-02-25T20:49:50.571Z"
+            },
+            "nakedjen": {
+                "when": "2016-02-27T18:20:26.218Z"
+            },
+            "OleEichhorn": {
+                "when": "2016-02-27T19:44:41.537Z"
+            },
+            "rtanglao": {
+                "when": "2016-02-29T00:45:26.500Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>This is a test.&nbsp;</p><p>For the next sixty seconds, this station will conduct a test of the <a href=\"https://en.wikipedia.org/wiki/Emergency_Broadcast_System\">Emergency Broadcast System</a>.&nbsp;</p><p>This is only a test.</p>",
+        "id": 1055,
+        "when": "2016-02-24T17:36:53.344Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/24/1055.html",
+            "title": "This is a test",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/24/01055.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-24T17:38:00.861Z",
+        "ctUpdates": 4
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Now when I post something new on my <a href=\"http://scripting.com/\">blog</a>, it automatically flows out to people who follow my <a href=\"http://scripting.com/rss.xml\">RSS feed</a>, to people who follow me on Medium, and through Facebook's algorithm <a href=\"http://scripting.com/2016/02/24/screen.png\">as</a> an Instant Article. &nbsp;</p><p>This is the first new post that will go to all those places.</p><p>Even better, when I update this post, <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/24/1054.html\">Facebook</a> will automatically get the update. So will readers on my blog. However Medium and people reading via RSS, unless their RSS app has been programmed to do updates (I don't know of any, but it is possible) will not get updates.&nbsp;</p><p>Twitter will get a link via <a href=\"http://radio3.io/\">Radio3</a>\n, however because this post occupies more than 140 chars, they will only get a link. I hope at some point they relax that limit.&nbsp;</p><p>This is progress! Seriously. It's a big deal. ;-)</p><p>PS: Earlier today I wrote a <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/24/1054.html\">post</a> that explains at a high level how this works.&nbsp;</p>",
+        "id": 1057,
+        "when": "2016-02-25T00:34:34.707Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/24/1057.html",
+            "title": "Oh the places this post will go!",
+            "image": "http://scripting.com/2016/02/24/ohThePlaces.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/24/01057.json",
+        "subs": [
+            {
+                "name": "CharlesWiltgen",
+                "text": "<p>Wow, congratulations! FWIW, with FeedBin I see updates and can even view changes.</p>",
+                "id": 1058,
+                "when": "2016-02-25T02:17:17.536Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1057
+                },
+                "subs": [],
+                "likes": {
+                    "davewiner": {
+                        "when": "2016-02-26T00:06:09.673Z"
+                    }
+                },
+                "whenLastUpdate": "2016-02-26T00:06:09.674Z",
+                "ctUpdates": 1
+            },
+            {
+                "name": "sekamane",
+                "text": "<p>Feedbin shows updates.&nbsp;<a href=\"https://feedbin.com/blog/2013/12/18/view-changes-in-updated-articles/\"><span data-auto-link=\"true\" data-href=\"https://feedbin.com/blog/2013/12/18/view-changes-in-updated-articles/\">https://feedbin.com/blog/2013/12/18/view-changes-in-updated-articles/</span></a></p>",
+                "id": 1059,
+                "when": "2016-02-25T07:01:28.738Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1057
+                },
+                "subs": [],
+                "likes": {
+                    "davewiner": {
+                        "when": "2016-02-26T00:06:08.309Z"
+                    }
+                },
+                "whenLastUpdate": "2016-02-26T00:06:08.310Z",
+                "ctUpdates": 1
+            },
+            {
+                "name": "FTWynn",
+                "text": "<p>Feedly shows updates... but doesn't appear to let you compare between versions. I'm also unclear if it re-marks an article as \"new\" if updates come in.</p>",
+                "id": 1063,
+                "when": "2016-02-25T14:59:30.827Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1057
+                },
+                "subs": [],
+                "likes": {
+                    "davewiner": {
+                        "when": "2016-02-26T00:06:06.783Z"
+                    }
+                },
+                "whenLastUpdate": "2016-02-26T00:06:06.784Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-25T06:31:46.544Z",
+        "ctUpdates": 14,
+        "likes": {
+            "CharlesWiltgen": {
+                "when": "2016-02-25T02:16:11.345Z"
+            },
+            "maddentw": {
+                "when": "2016-02-25T02:16:28.437Z"
+            },
+            "blogisch": {
+                "when": "2016-02-25T06:31:46.544Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I have an idea. A cable network where they report on the lies the candidates told today. Nothing more or less. The candidates can come on to be interviewed, or not. When they start lying, the screen turns red and big bold text scrolls across the screen explaining the lie they're telling. In very simple judgemental terms. Nothing above 9th grade level.</p><p>And it must be equal opportunity and ruthless. I don't want to see them letting Donald Trump off the hook as they always do and hold Hillary Clinton accountable to the most minute detail.</p><p>And maybe it should only work with recorded stuff. If the candidates appear in person people may think we went easy on them to get them on. A lot of the networks are that way with Trump, obviously, because he's a ratings machine.</p><p>Teach people how to talk about politicians as liars. The more adorable the candidate the more ruthless the exposure. Because adorable candidates are the <i>worst</i> liars, I've found.</p>",
+        "id": 1060,
+        "when": "2016-02-25T13:43:25.258Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/25/1060.html",
+            "title": "CLN -- The Cable Liars Network",
+            "image": "http://scripting.com/2015/02/24/bigBrother.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/25/01060.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-26T15:29:08.741Z",
+        "ctUpdates": 8
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I'm still figuring out very basic stuff about Instant Articles.</p><p>When I posted the <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/25/1060.html\">Cable Liars Network</a> piece a few minutes ago, I noted that it showed up in the list of instant articles that the Facebook RSS reader had found. So I went looking for the article in my timeline. It wasn't there. Then I opened the Pages app on my iPhone, and it was there. So there's no doubt that the article had been picked up by the operating system on the \"other side.\"</p><p>Why wasn't it in the timeline?</p><p>Then I had an idea. I posted a link to the version of the article on <a href=\"http://scripting.com\"><span data-auto-link=\"true\" data-href=\"http://scripting.com\">scripting.com</span></a>&nbsp;to my timeline on Facebook. It shows up with the usual title and snippet in a box, linked to the original. But then, when I looked at it on my iPhone, and clicked the link, up popped the Instant Articles version of the piece.</p><p>Conclusion: The Instant Articles scanner creates an association in the Facebook database betw the URL of a story on my site, and the Instant rendering of the story. If you're looking at it in the timeline on the phone and you click the link, you see the instant version. On a non-phone device (desktop, laptop, tablet) you visit the page &nbsp;on my site.&nbsp;</p><p>PS: It'll be interesting to see what happens with the link to the piece in the second paragraph. It has an IA version of that piece in its database. When you click on it in FB on a phone will it show you the IA version or the one on my site? We'll find out soon enough! ;-)</p><p>PPS: Update to the postscript. Yes. If you click on a link to an IA story from within another post, you get the IA version of the story. The database is running at a fairly low level in the Facebook OS. Good design.&nbsp;</p><p>PPPS: Doug Purdy, ex-of-Facebook, <a href=\"https://www.facebook.com/dave.winer.12/posts/418486415025436?comment_id=418569731683771&amp;comment_tracking=%7B%22tn%22%3A%22R%22%7D\">says</a> these are called AppLinks.</p>",
+        "id": 1061,
+        "when": "2016-02-25T14:16:59.871Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/25/1061.html",
+            "title": "Instant Articles, day 2",
+            "image": "http://scripting.com/2015/10/26/mrmet.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/25/01061.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-25T21:36:46.594Z",
+        "ctUpdates": 9
+    },
+    {
+        "name": "davewiner",
+        "text": "<p><span>We'd all love to hear the plan!</span></p><p>But the plan doesn't start by electing a President. It starts by building a movement of committed revolutionaries who are willing to give up something substantial, over a long period of time, for the revolution.</p><p>Showing up to vote is not much of a commitment. Marching on Washington with a few hundred thousand others, now that's a beginning. And even then you probably don't get the revolution. You have to convince not just people like me who passionately believe in open health care and education, investing in our young people, creating opportunity for everyone, really dealing with climate change, you also have to convince a fair number of people who are voting for Trump. And that means doing a lot of talking <i>and listening, </i>and that's going to take years. We as a country are very far away from the place we need to be to get the kind of change we want to see.</p><p>And btw, they'd like to have a talk with you, about things <i>they</i> care about. &nbsp;</p><p>So maybe before you just <a href=\"https://twitter.com/RichardAngwin/status/702613854816174080\">leave the room</a> you might want to have a discussion about what it will take to convince your fellow citizens that you have what it take to create a revolution.&nbsp;</p><p>Adding #feeltheburn to your tweets is not enough. &nbsp;</p><p>PS: Thanks to the <a href=\"https://www.youtube.com/watch?v=BGLGzRXY5Bw\">Beatles</a> for the title of this post and the first line.&nbsp;</p>",
+        "id": 1062,
+        "when": "2016-02-25T14:45:49.566Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/25/1062.html",
+            "title": "You say you want a revolution",
+            "image": "http://scripting.com/2016/02/25/mao.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/25/01062.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-26T18:05:15.383Z",
+        "ctUpdates": 40,
+        "likes": {
+            "cfaulkingham": {
+                "when": "2016-02-25T15:44:32.124Z"
+            },
+            "KenSmith": {
+                "when": "2016-02-25T15:53:34.405Z"
+            },
+            "joshuasfreeman": {
+                "when": "2016-02-25T20:56:22.084Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "People aren't angry so much as they like to watch TV and Trump keeps em coming back. It's like the Serial podcast or Making of a Murderer. We might not like the protagonist but he's interesting, and you want to see what he'll do next.",
+        "id": 1064,
+        "when": "2016-02-25T20:07:56.392Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/25/1064.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/25/01064.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-25T20:07:56.798Z",
+        "ctUpdates": 1
+    },
+    {
+        "name": "davewiner",
+        "text": "If you want to teach people to code, cook up 20 pounds of spaghetti. Put it in a bowl. Make them study each spaghetti looking for a bug.",
+        "id": 1065,
+        "when": "2016-02-26T00:05:39.021Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/25/1065.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/25/01065.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-26T00:05:39.663Z",
+        "ctUpdates": 1
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Watching last night's debate I felt shame on behalf of the Republican Party. Not just for the Republicans in government, or who would be in government, but for the people who vote Republican in 2016.&nbsp;</p><p>If your children behaved like that with their friends how would you feel?&nbsp;<span>And Trump is a grown man. Presenting himself as a potential leader of our country? What kind of people could support that? You say you're angry. That's crap. You're </span><a href=\"http://static.scripting.com/larryKing/images/2014/03/12/stoogesBig.gif\">crazy</a><span>, is what you are. Out of your minds.&nbsp;</span></p><p>Kasich, openly threatening to kill the leader of another country. Do you have any idea how paranoid the leadership of North Korea is? Kasich has already reached a level of great responsibility by being on that stage. What he says matters! And he presents himself as the most ready to govern of all the Republicans. That kind of talk could easily get a lot of people killed.</p><p>And name-calling? In a presidential debate. Really? Trump says he's so good at working with people. You think so? I wouldn't work with someone who used name-calling as a negotiating tactic. I'd show him the door. No we don't want any thank &nbsp;you.</p><p>The only two who carried themselves with any measure of self-respect, Rubio and Cruz, aren't much better. The policies they support are inhumane and un-American. Cruz likes to point out how unelectable Trump is. Well I wouldn't live in a country that could elect Cruz as its leader.</p><p>We've had some awful Presidents in the US, in my lifetime. One of them, Nixon, was so scary that I considered leaving the country to avoid being drafted to fight in a nonsensical war. I would leave a United States that elected any of these people for reasons of honor and integrity.&nbsp;</p><p>We are so much better than this. Snap out of it Republicans!</p>",
+        "id": 1066,
+        "when": "2016-02-26T14:00:00.466Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/26/1066.html",
+            "title": "The shame of Republican voters",
+            "image": "http://scripting.com/2016/02/26/bozo.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/26/01066.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-29T02:57:06.791Z",
+        "ctUpdates": 19,
+        "likes": {
+            "eprenen": {
+                "when": "2016-02-27T05:24:04.647Z"
+            },
+            "rtanglao": {
+                "when": "2016-02-29T02:57:06.791Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I was telling <a href=\"http://joi.ito.com/\">Joi</a> the other day that I have advice for the NY Times that I thought he would appreciate since he is a board member there.&nbsp;</p><p>He said I should write a blog post, of course (he's an <a href=\"http://scripting.com/stories/2009/11/24/naturalbornBlogger.html\">NBB</a>).&nbsp;</p><p>So here it is.</p><h4>Anatomy of a story</h4><p>First, let's look at the anatomy of a news story.&nbsp;</p><p></p><ol><li><span>A headline.</span></li><li><span>A lede.</span></li><li><span>Quotes from experts, people involved in the story, witnesses. Also known as sources.&nbsp;</span></li><li><span>Some numbers perhaps from pollsters or researchers.</span></li><li><span>A closing paragraph (optional, the Times often omits them, which makes a lot of sense).</span></li></ol><p></p><p>Now for ten points, tell me which of these items has changed the most in the last few decades. It's #3 of course.&nbsp;</p><h4>Sources go direct</h4><p>The big revolution brought to us by the Internet is that sources can now speak publicly, easily and for free, using Twitter and blogs mostly. I once predicted that every member of the US House of Representatives would be a blogger. That seemed bold at the time, but today? It's much bigger than that. The President of the United States just wrote a guest <a href=\"http://www.scotusblog.com/2016/02/a-responsibility-i-take-seriously/\">post</a> on the SCOTUS blog. Think about all the change that represents.</p><p>For me, this ability to go direct, was the reason I started blogging. In 1994 I had a Mac product. Couldn't get the news out because reporters, even though they all used Macs, believed the Mac was dead. They reported their belief, not facts.&nbsp;</p><p>A lot of people used Macs, and there was lots of new software. There was no way to get news of new products out to users, because it contradicted the belief that there were no new products. So I started communicating directly, using the web, and it worked. We got enough users for our software to allow it to evolve into blogging, podcasting, RSS.&nbsp;</p><p>Markets could develop without the support of journalism. That's a big new thing and should have been a wakeup call for the news industry, if they weren't mostly ignoring blogs or trivializing them.&nbsp;</p><p>So now when a reporter needs quotes, he or she may turn to Twitter, or a blog, or search, to find the sources they need. The phone, the previous technology used for gaining quotes, is not used as much these days.</p><h4>The missed opportunity that amazingly still is open</h4><p><span>At the same time the news organizations have missed a chance to embrace this phenomenon by working on new tools to help their sources communicate more effectively. They've let the tech industry own it, and it hasn't imho done a very good job. It's all very confusing in user-publishing land. I imagine that reporters at the big pubs think this is okay, but it's not. Their business models are disintegrating, ad blockers are a user revolution, a sign that things may be about to collapse quickly from here. I was on the receiving end of a user revolution in the late 80s as the CEO of a software publisher that practiced copy protection. One month it was something users grumbled about, and the next month we were all rushing to release versions of our product without it.</span></p><p>There's a lot of garbage blogging and tweeting going on out there. Only a relatively few people do a great job of it and strive to do better. These people should be part of the news ecosystems that news orgs gather around themselves. Not replacing reporters, not replacing anything. The bloggers are the sources, with the ability to publish on their own.</p><p>Bottom-line: The most interesting sources of the NY Times should be offered a chance to blog at a <a href=\"http://nytimes.com\"><span data-auto-link=\"true\" data-href=\"http://nytimes.com\">nytimes.com</span></a>&nbsp;domain. One that's clearly seen as the user community of the NYT, so it's understood that the quality of the writing is not something that's subject to the NYT standards. But at the same time, let new standards evolve, and nurture them. Take an interest in the bloggers.&nbsp;</p><p>The Times has yet to really make a serious attempt to understand what blogging is. For years they called their reporters who write using blogging software bloggers. That was a big disconnect. The bloggers are your current sources and future sources. You have to call some of them on the phone but mostly you read their tweets and blogs.&nbsp;</p><p>Here's a vacuum that has existed from the beginning. Why not fill it? Take a chance. Experiment with the new technology in meaningful and potentially revolutionary ways. What exactly do you have to lose?</p>",
+        "id": 1067,
+        "when": "2016-02-26T16:17:14.985Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/26/1067.html",
+            "title": "NYT please let the community in",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/26/01067.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-29T02:56:48.335Z",
+        "ctUpdates": 10,
+        "likes": {
+            "rtanglao": {
+                "when": "2016-02-29T02:56:48.335Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p><span>I believe this is the first public and live Instant Articles feed.&nbsp;</span></p><p><a href=\"http://scripting.com/fb/rss.xml\"><span data-auto-link=\"true\" data-href=\"http://scripting.com/fb/rss.xml\">http://scripting.com/fb/rss.xml</span></a>&nbsp;</p><p>As you can see it's also <a href=\"http://cyber.law.harvard.edu/rss/rss.html\">RSS 2.0</a>, something I'm quite proud of.&nbsp;</p><p>When I was developing my <a href=\"https://developers.facebook.com/docs/instant-articles/publishing\">Instant Articles</a> feed, I desperately <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/21/1046.html\">needed</a> a working example to follow. It would have helped to have something that worked to study and copy. Now that my feed has been working reliably with Facebook's OS, I wanted to share it.&nbsp;</p><p><span>Interop is what matters. This is a good place to start.</span></p><p><span>PS: Is it really open? Well, you can write an application that uses that feed. (Please do.) So yes, it's open.</span></p>",
+        "id": 1068,
+        "when": "2016-02-27T01:02:41.742Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/26/1068.html",
+            "title": "My open Instant Articles feed",
+            "image": "http://scripting.com/2016/02/26/rssMug.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/26/01068.json",
+        "subs": [
+            {
+                "name": "OleEichhorn",
+                "text": "<p>This is excellent, nothing like a template to follow (\"view source\" in action :)&nbsp; Is there a spec anywhere?&nbsp; Can anyone create an IA feed, or do you have to be blessed by Facebook first?<br></p>",
+                "id": 1070,
+                "when": "2016-02-27T19:50:17.786Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1068,
+                    "flHidden": true
+                },
+                "subs": [
+                    {
+                        "name": "davewiner",
+                        "text": "<p>There's a link to the docs in this post. They explain the process in the docs. Use Google if you can't deal with clicking on links. Also here's a <a href=\"http://guidelines.scripting.com/\">link</a> to the comment guidelines. Please check it out before posting another comment.&nbsp;</p>",
+                        "id": 1076,
+                        "when": "2016-02-28T02:03:10.759Z",
+                        "payload": {
+                            "editor": "wizzy",
+                            "idInReplyTo": 1070
+                        },
+                        "subs": [],
+                        "whenLastUpdate": "2016-02-28T02:05:10.765Z",
+                        "ctUpdates": 5
+                    }
+                ],
+                "whenLastUpdate": "2016-02-28T02:09:38.306Z",
+                "ctUpdates": 1
+            },
+            {
+                "name": "SparkyT",
+                "text": "<p>Excellent indeed. Always useful to have something real to dig into. &nbsp;I &nbsp;have a couple of observations/questions about the feed:<br><ol><li><span style=\"line-height: 29px;\">In the&nbsp;&lt;content:encoded&gt; elements, there are multiple CDATA sections, seemingly split at arbitrary positions, sometimes in the middle of &nbsp;a timestamp for example - it's obviously valid but I'm interested as to why it is done this way?</span></li><li><span style=\"line-height: 29px;\">In the CDATA sections, your &lt;header&gt; element seems to span the entire content of the article. &nbsp;Again valid, but it doesn't seem to make sense or match the FB suggestion of just enclosing the actual article header. Is there a reason for this as well?</span></li></ol></p>",
+                "id": 1071,
+                "when": "2016-02-27T20:39:53.309Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1068
+                },
+                "subs": [
+                    {
+                        "name": "davewiner",
+                        "text": "<p>I don't know what you're looking at in #1. There is only one CDATA per &lt;content:encoded&gt; element. For #2 I just followed the example in the docs. It worked so I left it alone.&nbsp;</p>",
+                        "id": 1075,
+                        "when": "2016-02-28T02:01:50.066Z",
+                        "payload": {
+                            "editor": "wizzy",
+                            "idInReplyTo": 1071
+                        },
+                        "subs": [
+                            {
+                                "name": "SparkyT",
+                                "text": "<p>OK, #1 is my bad. Note to self - \"don't always rely on Chrome to show exactly what it is rendering, check the source\"<br>#2 is interesting, the docs at&nbsp;<a href=\"https://developers.facebook.com/docs/instant-articles/publishing\">https://developers.facebook.com/docs/instant-articles/publishing</a>&nbsp;state<br><br></p><blockquote>&lt;body&gt;<br>&nbsp; &lt;article&gt;<br>&nbsp; &nbsp; &lt;header&gt;<br>&nbsp; &nbsp; &lt;!-- Article header goes here --&gt;<br>&nbsp; &nbsp; &lt;/header&gt;<br>&nbsp; &nbsp; &lt;!-- Article body goes here --&gt;<br>&nbsp; &nbsp; &lt;footer&gt;<br>&nbsp; &nbsp; &lt;!-- Article footer goes here --&gt;<br>&nbsp; &nbsp; &lt;/footer&gt;<br>&nbsp; &lt;/article&gt;<br>            &lt;/body&gt;</blockquote><p>                  </p><p>                  </p><p>...which implies they will be doing something with the article header but doesn't make it clear what the header should be. &nbsp;The title is already given in the &lt;item&gt; section so I'm not sure what they want here. &nbsp;As you say though - it works.<br><br></p>",
+                                "id": 1077,
+                                "when": "2016-02-28T19:10:55.556Z",
+                                "payload": {
+                                    "editor": "wizzy",
+                                    "idInReplyTo": 1075
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "whenLastUpdate": "2016-02-27T15:12:00.793Z",
+        "ctUpdates": 17,
+        "likes": {
+            "adamcurry": {
+                "when": "2016-02-27T15:12:00.793Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Dan York at the Internet Society <a href=\"https://medium.com/@danyork/facebook-instant-articles-vs-google-amp-89e6b80fa0cf#.eg6bm7gke\">commented</a> on my first <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/24/1054.html\">IA piece</a> after I got it working, and he's the first imho to concisely say why it's so interesting.&nbsp;</p><blockquote>I have expected that Facebook would be focused on keeping everyone inside their shiny walled garden and thought I understood that Instant Articles involved putting your content on FB’s servers, which I now understand it <i>does, </i>but via caching of an RSS feed. Which is very cool!</blockquote><p>That's exactly right. The feed is how stuff enters their content system. But the feed itself is outside, leaving it available for other services to use. It's great when this happens, rather than doing it via a WG that tend to go on for years, and create stuff that's super-complicated, why not design something that works for you, put it out there with no restrictions and let whatever's going to happen happen. That's certainly how I've done my past projects. I like to create functionality much more than I like to go back and forth on mail lists.&nbsp;</p><p><span>Now to answer your question, I don’t know very much about AMP.</span></p><p>The reason I was able to get on board with IA is that one of the directors at Facebook, <a href=\"https://www.crunchbase.com/person/douglas-purdy#/entity\">Doug Purdy</a>, wanted to work with me. So we met almost two years ago, here in NYC. Then I was briefed on what they were doing, and kept in the loop as it came together. In the beginning all I had was a promise that it would be <a href=\"http://cyber.law.harvard.edu/rss/rss.html\">RSS</a>\n. I’ve seen many companies over the years say nice things about being open, but somehow forget as the project goes forward.</p><p>But they came through. When I got to start work on it early last week, it turned out they had stuck to the promise. It was a simple addition to my RSS-generating code to have it also generate an IA feed. It took three sessions over three days to do the work, and to ship.</p><p>So that’s pretty good use of existing technology as I see it.&nbsp;;-)</p><p>About AMP, no one ever sent me an intro to what they were doing. They emphasized the big companies they were working with. To be fair, so did Facebook. From my point of view it’s largely because Doug really wanted this openness that it happened. I find that many of the big open innovations over the years have one person inside a big company who sees it as worth the extra effort to do something open.&nbsp;</p><p>Basically I find that developers <i>want</i> to create open stuff, it's part of the ethos of programming. So sometimes it actually happens. ;-)</p><p>PS: On Twitter, Tom Murphy <a href=\"https://twitter.com/tom_murphy/status/703625196209631232\">called</a> this a \"bridge into a walled garden.\" Beautiful.</p><p>PPS: On Facebook, Purdy <a href=\"https://www.facebook.com/dave.winer.12/posts/419005314973546?comment_id=419019898305421&amp;comment_tracking=%7B%22tn%22%3A%22R0%22%7D&amp;pnref=story\">lists</a> the people who worked on the open protocol at FB.</p>",
+        "id": 1069,
+        "when": "2016-02-27T16:39:28.648Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/27/1069.html",
+            "title": "How IA happened from my POV",
+            "image": "http://scripting.com/2016/02/27/purdy.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/27/01069.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-27T20:36:34.592Z",
+        "ctUpdates": 25
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>BTW, there's nothing wrong with Repub leaders in DC working against voters. They are citizens too, and have the Constitutional right to work in accordance with what they think is best for the country. We hope.</p>",
+        "id": 1072,
+        "when": "2016-02-27T20:41:48.635Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/27/1072.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/27/01072.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-27T20:41:48.956Z",
+        "ctUpdates": 1
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>I've been listening to John Dickerson's <a href=\"http://www.slate.com/articles/podcasts/whistlestop.html\">Whistlestop</a> <a href=\"http://www.slate.com/articles/podcasts/whistlestop.fulltext.all.rss\">podcast</a>.&nbsp;<span>It's the best new thing. Each episode is 40 minutes, covering a moment in the history of Presidential politics. A convention, a campaign, a meltdown, a big win or loss.&nbsp;</span></p><p>I was alive when many of these things happened but had no idea what was going on behind the scenes. Dickerson is a great story-teller, you can tell he loves this stuff, the stories are riveting.&nbsp;</p><p>The last two episodes I listened to were about Gerald Ford and Ronald Reagan at two RNCs, in <a href=\"http://www.slate.com/articles/podcasts/whistlestop/2016/02/john_dickerson_on_the_vice_presidential_dance_between_ronald_reagan_and.html\">1980</a> and <a href=\"http://www.slate.com/articles/podcasts/whistlestop/2015/05/ford_reagan_and_the_1976_rnc_on_this_week_s_whistlestop_podcast.html\">1976</a>&nbsp;(the order I listened to them).&nbsp;</p><p>I just watched a <a href=\"http://video.foxnews.com/v/4518663/reagans-1976-republican-convention-speech/?#sp=show-clips\">video</a> of Reagan's closing 1976 convention speech. A lot has changed in 48 years. And he was a pretty fantastic speaker. And we know how things turned out, as he says in the speech that we will.&nbsp;</p>",
+        "id": 1073,
+        "when": "2016-02-27T22:15:06.071Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/27/1073.html",
+            "title": "Whistlestop: Reagan in 1976",
+            "image": "http://scripting.com/2016/02/27/reagan.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/27/01073.json",
+        "subs": [
+            {
+                "name": "biesnecker",
+                "text": "<p>Man, that audience is whiter than a Trump rally.</p>",
+                "id": 1074,
+                "when": "2016-02-28T00:13:30.115Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1073,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-28T02:09:09.444Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-28T17:01:04.596Z",
+        "ctUpdates": 17
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Amazing. On Fox just now they had two analysts, one Repub and one Dem who agree that the Repub Party is splitting in two, right now. But the moderator won't let them finish sentences. Is it possible they're so accustomed to not having a real story that they don't know what to do when they actually have one?</p>",
+        "id": 1078,
+        "when": "2016-02-29T00:41:57.057Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/28/1078.html",
+            "title": "Fox has a big story, they don't know what to do with it",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/28/01078.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-29T00:42:27.220Z",
+        "ctUpdates": 3
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>What if HRC is nominated and she made a deal with the Repubs (what would she want?) to choose a Repub running mate.</p><p>Not someone from the crazy branch of the Repub Party, sorry to all the also-rans on the Repub debate circuit.</p><p>Then the team would use all the resources of both parties to drive turnout, the Repubs would disable their voter suppression tools, and we could all sigh in relief knowing that Trump, the official Repub nominee would win maybe Utah, Wyoming and Alaska. It would be the biggest Electoral victory in 40 years, and the official end of Repub obstruction.</p><p>Am I dreaming?</p>",
+        "id": 1079,
+        "when": "2016-02-29T05:33:22.383Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/29/1079.html",
+            "title": "What if HRC took a Repub running mate?",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/29/01079.json",
+        "subs": [
+            {
+                "name": "vermontdevil",
+                "text": "<p>Hillary is a member of the Democratic Party. I would want her to pick someone from the same party. What if she dies in office? I do not want GOP, even a moderate as a running mate at all. <br><br>GOP needs to clean up their right wing extremism and start thinking how to better serve the country not party.&nbsp;<br><br>Not to mention the Democratic Party needs to get some of the states back and that can be impacted by the selection of the VP.<br><br>Just my take.</p>",
+                "id": 1081,
+                "when": "2016-02-29T14:43:55.788Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1079,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-02-29T15:24:10.700Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-29T14:43:57.877Z",
+        "ctUpdates": 6,
+        "likes": {
+            "vermontdevil": {
+                "when": "2016-02-29T14:43:57.877Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Turns out I know one of the reporters portrayed in Spotlight.</p><p>Matt Carroll at MIT. I met him on my visit to the Media Lab.</p>",
+        "id": 1080,
+        "when": "2016-02-29T05:43:03.391Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/29/1080.html"
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/29/01080.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-29T05:43:03.859Z",
+        "ctUpdates": 1
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>The <a href=\"http://pressthink.org/2010/11/the-view-from-nowhere-questions-and-answers/\">View from Nowhere</a> and <a href=\"http://www.zdnet.com/article/access-journalism-and-the-silicon-valley-reporter/\">Access Journalism</a> have crippled press coverage of Trump.&nbsp;<span>To see how this works, imagine you, an ordinary American voter, talking with Trump in person or on the phone. How long before you interrupt him, and say, look -- I'm tired of you talking over me, I want to be an equal participant in this conversation. And then when he keeps talking, how long before you hang up?&nbsp;</span></p><p><span>Well, if you're a reporter, you can't hang up because:&nbsp;</span></p><p></p><ol><li><span>You don't exist (view from nowhere) and</span></li><li><span>If you did he wouldn't talk to you next time (access journalism).</span></li></ol><p></p><p>So every conversation with Trump is exactly the same. He repeats himself over and over, you never get a word in, and he never talks about what you asked about. Time runs out and you thank him and move on to the commercial.</p><p>As voters we <i>can</i> hang up, because we aren't part of the View From Nowhere and we don't have access to lose. But so many people these days behave as if they are an insider, a member of the savvy elite. That's why an obvious virus like Trump is allowed to run wild in the body of American politics, so much so that we get a little relief knowing that the <a href=\"https://subscribe.washingtonpost.com/acquisition/?prompt=1&amp;promo=digital03_paywall&amp;oscode=RPWH&amp;wpsrc=CM0000446&amp;page=national:blog:morning-mix%20-%20160931%20-%2020160228%20-%20former-cia-director-military-may-refuse-to-follow-trumps-orders-if-he-becomes-president&amp;section=wp%20-%20national&amp;prev=&amp;geo=&amp;ctype=blog&amp;signedin=logged%20out&amp;mcount=5&amp;sub=0&amp;ismetered=1&amp;destination=https://www.washingtonpost.com/news/morning-mix/wp/2016/02/28/former-cia-director-military-may-refuse-to-follow-trumps-orders-if-he-becomes-president/&amp;action=3&amp;sub=0&amp;mtr=1&amp;mtrct=5&amp;mtfn=1&amp;t=10708&amp;st=-1&amp;loc=0&amp;mvw=5&amp;wa=3&amp;fr=0&amp;dt=0&amp;mx=0&amp;pwo=1&amp;rwb=0&amp;v=2.2&amp;acq_test=1\">military may refuse</a> his orders if he's elected President rather than commit the war crimes that Trump is advocating (e.g. killing the families of people we suspect to be terrorists).</p><p>BTW, John Oliver has the <a href=\"https://www.facebook.com/LastWeekTonight/videos/vb.479042895558058/851020811693596/?type=2&amp;theater\">best takedown</a> I've seen of Trump. It's direct and unforgiving, offers no apologies or explanations for Trump, and he disclaims both the VFN and any interest in having access. He reacts as many of us would, with outrage that a person could think this way of campaigning could work (it has, and that's even more outrageous).</p><p>PS: The <a href=\"http://pressthink.org/2010/11/the-view-from-nowhere-questions-and-answers/\">View From Nowhere</a> concept is Jay Rosen's contribution, a very useful one.</p><p>PPS: In December, Joe Scarborough at MSNBC <a href=\"http://www.mediaite.com/tv/joe-scarborough-cuts-to-commercial-after-donald-trump-wont-stop-talking/\">hung up </a>on Trump. Tremendous!</p>",
+        "id": 1082,
+        "when": "2016-02-29T15:31:20.633Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/29/1082.html",
+            "title": "How the View From Nowhere has crippled American journalism",
+            "image": "http://scripting.com/2016/02/29/drumpf.png",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/29/01082.json",
+        "subs": [
+            {
+                "name": "hananc",
+                "text": "<p>In your opinion, for common people in the US, how much of Trumps' messages reach them via the press and how much via un-mediated social media?<br></p>",
+                "id": 1085,
+                "when": "2016-03-01T07:22:35.980Z",
+                "payload": {
+                    "editor": "wizzy",
+                    "idInReplyTo": 1082,
+                    "flHidden": true
+                },
+                "subs": [],
+                "whenLastUpdate": "2016-03-01T13:43:17.114Z",
+                "ctUpdates": 1
+            }
+        ],
+        "whenLastUpdate": "2016-02-29T22:29:43.429Z",
+        "ctUpdates": 22
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>Last week I released <a href=\"http://scripting.com/liveblog/users/davewiner/2016/02/24/1054.html\">Instant Articles</a> support for my blog, <a href=\"http://scripting.com/\">Scripting News</a>.&nbsp;</p><p><span>What this means is that every time I publish a new post or update an existing post, it's reflected in my </span><a href=\"http://scripting.com/fb/rss.xml\">IA feed</a><span>. Think of my blog as an \"emitter\" of IA stories.</span></p><p>On the other side, Facebook is reading my feed every three minutes, pulling in new posts and updates. And my posts are then available as Instant Articles on mobile devices. Think of Facebook as the \"consumer\" of IA stories.</p><p>Here's a <a href=\"http://scripting.com/2016/02/29/iaScreen.png\">screen shot</a> of what one of my pieces looks like when rendered as an IA.</p><h4><span>Who and how</span></h4><p>Here's a list of examples of services and products that I would love to see support IA.</p><p></p><ol><li><span>Twitter is a news system and RSS is a perfect fit for news. When I publish to my IA feed, I'd like Twitter to read it every three minutes, and post new messages to my timeline and update existing ones, according to what's in the feed, exactly as Facebook does. Twitter, is in this context, a consumer of IA feeds.</span></li><li><span>Medium can and should imho play the same role.&nbsp;</span><span>That means I could tell Medium where my IA feed is, and it would keep it in sync with stories on their site. Medium does now support inbound syndication, but when a post is updated, the version on Medium is not updated, at this time. IA provides a perfect mechanism to do this. I would love to see them support it.</span></li><li><span>But Medium is also an emitter, in addition to a consumer. It should be possible to hook Medium up to Facebook, so that stories people write there could be read in the Facebook app, full fidelity, as Instant Articles.&nbsp;</span></li><li><span>WordPress, Tumblr and Blogger should clearly support IA as emitters, and I'm sure they will all be on stage demoing their support at F8 in April. Since WordPress and Tumblr also have readers, it seems they should also be consumers.&nbsp;</span></li><li><span>Open source software such as <a href=\"https://github.com/scripting/river5\">River5</a>\n should support IA, as a consumer.&nbsp;</span></li><li>An RSS reader such as Feedly could support IA, for a better mobile user experience, perhaps.</li></ol><p></p><h4>My feed</h4><p>This is where my IA feed is.</p><p><span data-auto-link=\"true\" data-href=\"http://scripting.com/fb/rss.xml\"><a href=\"http://scripting.com/fb/rss.xml\">http://scripting.com/fb/rss.xml</a></span></p>",
+        "id": 1083,
+        "when": "2016-02-29T16:15:12.456Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/29/1083.html",
+            "title": "Who should support IA and how",
+            "flPublished": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/29/01083.json",
+        "subs": [],
+        "whenLastUpdate": "2016-03-01T13:38:56.657Z",
+        "ctUpdates": 50,
+        "likes": {
+            "nakedjen": {
+                "when": "2016-02-29T17:52:52.081Z"
+            }
+        }
+    },
+    {
+        "name": "davewiner",
+        "text": "<p>It's the perfect way to transition into greater-than-140 char posts.</p><p>IA pages are readable, full-featured web docs, without all the malware that's in news story pages.</p><p>I just implemented IA for my blog, it was easy to support, and the file is just sitting there waiting for other platforms to pull from.</p><p>http://scripting.com/fb/rss.xml</p><p>I think this would be a killer move.&nbsp;</p>",
+        "id": 1084,
+        "when": "2016-02-29T16:15:20.039Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://scripting.com/liveblog/users/davewiner/2016/02/29/1084.html",
+            "flHidden": true
+        },
+        "urlJson": "http://scripting.com/liveblog/2016/02/29/01084.json",
+        "subs": [],
+        "whenLastUpdate": "2016-02-29T16:15:43.320Z",
+        "ctUpdates": 2
+    }
+]

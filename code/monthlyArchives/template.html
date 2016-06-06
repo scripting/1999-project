@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>[%title%]</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://fargo.io/code/jquery-1.9.1.min.js"></script>
+		<link href="http://fargo.io/code/bootstrap.css" rel="stylesheet">
+		<script src="http://fargo.io/code/bootstrap.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://fargo.io/code/fontAwesome/css/font-awesome.min.css"/>
+		<link href="http://fargo.io/code/ubuntuFont.css" rel="stylesheet" type="text/css">
+		<script>
+			function everySecond () {
+				}
+			function startup () {
+				console.log ("startup");
+				self.setInterval (function () {everySecond ()}, 1000); 
+				}
+			</script>
+		<style>
+			body {
+				font-family: Ubuntu;
+				font-size: 18px;
+				background-color: whitesmoke;
+				line-height: 140%;
+				}
+			.divPageBody {
+				width: 50%;
+				margin-top: 70px;
+				margin-left: auto;
+				margin-right: auto;
+				}
+			.divBlogPost {
+				margin-bottom: 35px;
+				}
+			.divBlogPostTitle {
+				font-family: "Oswald";
+				font-size: 24px;
+				font-weight: bold;
+				line-height: 145%;
+				}
+			.divBlogPostTitle a {
+				cursor: pointer;
+				color: black;
+				}
+			.divBlogPostBody {
+				font-family: "Georgia";
+				font-size: 18px;
+				margin-top: 5px;
+				line-height: 145%;
+				}
+			.divBlogPostBody li {
+				line-height: 150%;
+				margin-bottom: .6em;
+				}
+			.divBlogPostWhen {
+				font-family: "Ubuntu";
+				font-size: 13px;
+				font-weight: bold;
+				}
+			.divBlogPostWhen a {
+				cursor: pointer;
+				color: black;
+				}
+			.divPageTitle {
+				font-family: "Oswald";
+				font-size: 38px;
+				font-weight: bold;
+				margin-bottom: 50px;
+				}
+			</style>
+		</head>
+	<body>
+		<div class="divPageBody">
+			<div class="divPageTitle">[%title%]</div>
+			[%bodytext%]
+			</div>
+		<script>
+			$(document).ready (function () {
+				startup ();
+				});
+			</script>
+		</body>
+	</html>
