@@ -22,11 +22,7 @@ Dave Winer, May 2016
 
 <pre>sudo apt-get update
 
-sudo apt-get install nodejs
-
-sudo apt-get install npm
-
-sudo apt-get install nodejs-legacy</pre>
+sudo apt-get install nodejs nodejs-legacy npm</pre>
 
 We also install <a href="https://www.npmjs.com/">npm</a>, a requirement to run Node apps. 
 
