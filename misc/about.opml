@@ -76,5 +76,9 @@
 			<outline text="We use W3C standard &lt;a href=&quot;https://www.w3.org/TR/2011/WD-websockets-20110929/&quot;&gt;WebSocket&lt;/a&gt; technology for compatibility across all modern browsers. "></outline>
 			<outline text="Other liveblogging tools only do liveblogging. 1999.io is the first full blogging platform that includes liveblogging as a built-in feature. "></outline>
 			</outline>
+		<outline text="What they're saying..">
+			<outline text="&lt;a href=&quot;https://twitter.com/KenSmith/status/740199773899239425&quot;&gt;Ken Smith&lt;/a&gt;: &quot;Until we have telepathy-driven blogging systems, I am not sure it will ever get any easier for writers than 1999.io.&quot;"></outline>
+			<outline text="&lt;a href=&quot;https://twitter.com/pitosalas/status/740242772947546112&quot;&gt;Pito Salas&lt;/a&gt;: &quot;A cool lightweight blogging system!&quot;"></outline>
+			</outline>
 		</body>
 	</opml>

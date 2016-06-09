@@ -1,6 +1,6 @@
-## How to set up a 1999 server on Ubuntu
+## How to set up a 1999.io server on Ubuntu
 
-1999.io is a new blogging environment that's fast and easy, and has lots of features no other blogging software has. I'll write a FAQ that explains the feature set, but for now this is a doc that shows you how to set up a 1999 server on Ubuntu.
+<a href="http://1999.io/">1999.io</a> is a new blogging environment that's fast and easy, and has lots of <a href="http://1999.io/about/">features</a> no other blogging software has. This doc shows you how to set up a 1999.io server on Ubuntu.
 
 
 
