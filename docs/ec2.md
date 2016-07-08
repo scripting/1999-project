@@ -8,17 +8,17 @@ Note: These are not poet-level instructions, they're for people with a little ex
 
 #### How to
 
-1. The AMI is ami-abcd2fc6. It's public. 
+The AMI is ami-abcd2fc6. It's public. 
 
-2. It can be a micro instance. And it should qualify for the free tier, meaning if you're new to AWS you can run it for free for a year.
+It can be a micro instance. And it should qualify for the free tier, meaning if you're new to AWS you can run it for free for a year.
 
-3. These ports should be open -- 22, 80, 81, 1999, 2000.
+These ports should be open -- 22, 80, 81, 1999, 2000.
 
-4. You should assign a domain to the IP address allocated for the server. That will be the value for myDomain in config.json.
+You should assign a domain to the IP address allocated for the server. That will be the value for myDomain in config.json.
 
-5. Once the instance is running, edit config.json, as explained in the howto, change myDomain, twitterConsumerKey and twitterConsumerSecret as explained in the setup howto. (You don't have to create it, it's already there.)
+Once the instance is running, edit config.json, as explained in the howto, change myDomain, twitterConsumerKey and twitterConsumerSecret as explained in the setup howto. (You don't have to create it, it's already there.)
 
-5. Map port 80 to port 1999. Here's the magic incantation that does that: 
+Map port 80 to port 1999. Here's the magic incantation that does that: 
 
 <pre>sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 1999</pre>
 

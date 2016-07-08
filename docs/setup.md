@@ -16,6 +16,8 @@
 
 4. If you want to try out the software before installing you can create a test site on <a href="http://my.1999.io/">my.1999.io</a>. The usual caveats apply. I can't run these test sites forever, but I have no immediate plans to take it down. The safest bet if you plan to use 1999.io to blog for real is to run your own server. 
 
+5. There's an Amazon EC2 <a href="https://github.com/scripting/1999-project/blob/master/docs/ec2.md">machine image</a>. If you're setting up a server on EC2, using the image does a bunch of the work for you. 
+
 Dave Winer, May 2016
 
 #### Install Node.js
