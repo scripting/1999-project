@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.55 - 7/24/16 by DW
+
+New <a href="https://github.com/scripting/1999-project/blob/master/docs/docker.md">instructions</a> for running 1999-server on Docker.
+
 ##### v0.54 - 7/8/16 by DW
 
 Added a <a href="https://github.com/scripting/1999-project/blob/master/docs/ec2.md">doc</a> for the EC2 machine image.
