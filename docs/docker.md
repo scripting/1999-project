@@ -4,7 +4,9 @@ My longtime friend <a href="https://github.com/donpark">Don Park</a> got this to
 
 #### Preparing
 
-The first step is to get Docker running on your server. I created a server on Digital Ocean and then followed their <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04">instructions</a> for installing Docker. 
+The first step is to get Docker running on your server. 
+
+I created a server on Digital Ocean and then followed their <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04">instructions</a> for installing Docker. 
 
 You need to have three bits of information available:
 
@@ -34,12 +36,6 @@ davew/nodestorage:latest
 
 After running the command you should be able to access your server through http://oakland.myserver.com/.
 
-#### Pointers
-
-Amazon has a <a href="http://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html">Docker service</a>.
-
-Here's a <a href="https://github.com/wsargent/docker-cheat-sheet">cheat sheet</a> website for Docker commands.
-
 #### Frequent commands
 
 sudo docker images -- list all the images you have installed on this machine
@@ -49,4 +45,14 @@ sudo docker ps -- list the containers
 sudo docker stop nodestorage -- stop the nodestorage container
 
 sudo docker rm nodestorage -- remove the nodestorage container
+
+#### Pointers
+
+Amazon has a <a href="http://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html">Docker service</a>.
+
+Here's a <a href="https://github.com/wsargent/docker-cheat-sheet">cheat sheet</a> website for Docker commands.
+
+#### Questions
+
+Get help on the <a href="https://groups.google.com/forum/?fromgroups#!forum/1999-server">1999-server</a> mail list.
 
