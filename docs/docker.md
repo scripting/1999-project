@@ -2,17 +2,19 @@
 
 My longtime friend <a href="https://github.com/donpark">Don Park</a> got this together. Many thanks to Don! ;-)
 
+#### You need Docker, of course
+
+The first step is to get <a href="https://www.docker.com/what-docker">Docker</a> running on your server. 
+
+I created a server on <a href="https://www.digitalocean.com/">Digital Ocean</a> and then followed their <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04">instructions</a> for installing Docker. I was able to get the 1999 server to run on a $5 a month server. Not saying how well it will run, but it does run.
+
 #### Preparing
-
-The first step is to get Docker running on your server. 
-
-I created a server on Digital Ocean and then followed their <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04">instructions</a> for installing Docker. 
 
 You need to have three bits of information available:
 
 1. A domain name for the server. 
 
-2. Your Twitter consumer key, as explained in the docs for config.json.
+2. Your Twitter consumer key, as explained in the docs for <a href="https://github.com/scripting/1999-project/blob/master/docs/setup.md#create-configjson">config.json.</a>
 
 3. The Twitter consumer secret.
 
