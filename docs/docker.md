@@ -54,6 +54,8 @@ Amazon has a <a href="http://docs.aws.amazon.com/AmazonECS/latest/developerguide
 
 Here's a <a href="https://github.com/wsargent/docker-cheat-sheet">cheat sheet</a> website for Docker commands.
 
+Here's the <a href="https://github.com/scripting/nodeStorage-docker">repository</a> for the Docker version. The JavaScript files are the same as the main project. The only difference is there's a <a href="https://github.com/scripting/nodeStorage-docker/blob/master/Dockerfile">Dockerfile</a> in the top level of the repo, and a <a href="https://github.com/scripting/nodeStorage-docker/tree/master/docker">docker folder</a> with scripts and data. The two projects are kept in sync by my build system. 
+
 #### Questions
 
 Get help on the <a href="https://groups.google.com/forum/?fromgroups#!forum/1999-server">1999-server</a> mail list.
