@@ -30,6 +30,14 @@ But you don't have to put it on your server, you can put it anywhere that's publ
 
 If the user designs their own template it overrides this choice. It's only used when the user has not customized their template, or we can't read the user's template. 
 
+#### googleAnalyticsAccount
+
+Sets the default Google Analytics account for blogs hosted on your server. 
+
+Here's an example <a href="https://gist.github.com/scripting/8e4bd45ddd8bc253d0259e299ea4598b">config.json</a> that illustrates.
+
+The feature is fully explained in a <a href="http://my.1999.io/users/1999io/2016/08/10/settingTheGoogleAnalyticsId.html">post</a> on the 1999.io blog.
+
 #### How to test
 
 If you want to experiment with the <i>urlPageTemplate</i> feature, and have already edited the template using the outliner, and you're running your own server...

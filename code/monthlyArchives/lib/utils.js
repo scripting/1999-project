@@ -1090,4 +1090,7 @@ function equalStrings (s1, s2, flUnicase) { //4/7/16 by DW
 		return (s1 == s2);
 		}
 	}
+function stringInsert (source, dest, ix) { //8/8/16 by DW
+	return (dest.substr (0, ix) + source + dest.substr (ix));
+	}
 

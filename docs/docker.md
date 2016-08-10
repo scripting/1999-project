@@ -54,6 +54,8 @@ Amazon has a <a href="http://docs.aws.amazon.com/AmazonECS/latest/developerguide
 
 Here's a <a href="https://github.com/wsargent/docker-cheat-sheet">cheat sheet</a> website for Docker commands.
 
+<a href="https://en.wikipedia.org/wiki/CoreOS">CoreOS</a> is a Linux distribution built around containers.
+
 #### Where's the source?
 
 Here's the <a href="https://github.com/scripting/nodeStorage-docker">repository</a> for the Docker version. 
