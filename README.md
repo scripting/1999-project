@@ -10,7 +10,7 @@
 
 ##### v0.56 - 8/10/16 by DW
 
-Added docs for googleAnalyticsAccount.
+Added <a href="https://github.com/scripting/1999-project/blob/master/docs/homepage.md#googleanalyticsaccount">docs</a> for new googleAnalyticsAccount configuration option.
 
 ##### v0.55 - 7/24/16 by DW
 
