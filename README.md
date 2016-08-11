@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.57 - 8/11/16 by DW
+
+Added <a href="https://github.com/scripting/1999-project/blob/master/docs/s3.md">docs</a> showing how to use S3 storage instead of the local filesystem. 
+
 ##### v0.56 - 8/10/16 by DW
 
 Added <a href="https://github.com/scripting/1999-project/blob/master/docs/homepage.md#googleanalyticsaccount">docs</a> for new googleAnalyticsAccount configuration option.
