@@ -42,3 +42,23 @@ The source code for the <a href="https://github.com/scripting/1999-project/blob/
 
 Here's a <a href="http://my.1999.io/users/1999io/2016/05/16/0024.html">blog post</a> on the 1999 user blog, showing how to access the PlugIns menu in the 1999.io editor. 
 
+#### The Editors menu in 1999.io
+
+Here's a video that demos the Editors menu in 1999.io.
+
+This is how you get an editor to appear in that menu, on the server.
+
+Here's an example <a href="https://gist.github.com/scripting/677c6608119b57ab39ca3d6e0a40468b">config.json</a> that adds one item to the menu, the HTML source editor.
+
+A few facts about the Editors menu.
+
+0. The user must enable the Editors menu in the <i>Misc</i> panel of the <i>Settings</i> dialog.
+
+1. They are only activated when the user is editing a post. 
+
+2. When the command is chosen, the editor, which is just an HTML page, is loaded, and it's provided with parameters about the item through localStorage. 
+
+3. The user edits the text of the item in the editor, and when they save, it is then sent to the server via the nodeStorage API. Since the editor is served through the same domain as 1999.io, it has access to the Twitter credentials. Obviously you should be careful about installing editors written by other people. 
+
+4. I've written an example HTML editor, do a view source on <a href="http://1999.io/editors/htmleditor.html">this page</a> to see how it works. 
+

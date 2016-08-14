@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.58 - 8/14/16 by DW
+
+Added docs explaining how to set up the Editors menu for 1999.io users.
+
 ##### v0.57 - 8/11/16 by DW
 
 Added <a href="https://github.com/scripting/1999-project/blob/master/docs/s3.md">docs</a> showing how to use S3 storage instead of the local filesystem. 
