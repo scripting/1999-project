@@ -44,7 +44,7 @@ Here's a <a href="http://my.1999.io/users/1999io/2016/05/16/0024.html">blog post
 
 #### The Editors menu in 1999.io
 
-Here's a video that demos the Editors menu in 1999.io.
+Here's a <a href="https://www.youtube.com/watch?v=ZSeIVEnu2_4">video</a> that demos the Editors menu in 1999.io.
 
 This is how you get an editor to appear in that menu, on the server.
 

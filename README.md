@@ -10,7 +10,7 @@
 
 ##### v0.58 - 8/14/16 by DW
 
-Added docs explaining how to set up the Editors menu for 1999.io users.
+Added <a href="https://github.com/scripting/1999-project/blob/master/docs/plugins.md#the-editors-menu-in-1999io">docs</a> explaining how to set up the Editors menu for 1999.io users.
 
 ##### v0.57 - 8/11/16 by DW
 
