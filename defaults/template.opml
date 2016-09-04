@@ -21,22 +21,22 @@
 				<outline text="&lt;script src=&quot;http://1999.io/dev/publish/code.js&quot;&gt;&lt;/script&gt;"></outline>
 				<outline text="&lt;link rel=&quot;stylesheet&quot; href=&quot;http://1999.io/dev/publish/styles.css&quot;/&gt;"></outline>
 				<outline text=""></outline>
-				<outline text="&lt;!-- Hellllp! I'm trapped in an HTML page! --&gt;"></outline>
+				<outline text="&lt;!-- Hellllp?! I'm trapped in an HTML page! --&gt;"></outline>
 				<outline text=""></outline>
 				<outline text="&lt;!-- Facebook metadata --&gt;">
 					<outline text="&lt;meta property=&quot;og:url&quot; content=&quot;[%thispageurl%]&quot; /&gt;"></outline>
 					<outline text="&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;"></outline>
-					<outline text="&lt;meta property=&quot;og:title&quot; content=&quot;[%title%]&quot; /&gt;"></outline>
-					<outline text="&lt;meta property=&quot;og:description&quot; content=&quot;[%description%]&quot; /&gt;"></outline>
+					<outline text="&lt;meta property=&quot;og:title&quot; content=&quot;[%titleForMeta%]&quot; /&gt;"></outline>
+					<outline text="&lt;meta property=&quot;og:description&quot; content=&quot;[%descriptionForMeta%]&quot; /&gt;"></outline>
 					<outline text="&lt;meta property=&quot;og:site_name&quot; content=&quot;[%sitename%]&quot; /&gt;"></outline>
-					<outline text="&lt;meta property=&quot;og:image&quot; content=&quot;[%urlImage%]&quot; /&gt;"></outline>
+					<outline text="&lt;meta property=&quot;og:image&quot; content=&quot;[%imageForMeta%]&quot; /&gt;"></outline>
 					</outline>
 				<outline text="&lt;!-- Twitter metadata --&gt;">
 					<outline text="&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot;&gt;"></outline>
 					<outline text="&lt;meta name=&quot;twitter:site&quot; content=&quot;@[%twitterscreenname%]&quot;&gt;"></outline>
-					<outline text="&lt;meta name=&quot;twitter:title&quot; content=&quot;[%title%]&quot;&gt;"></outline>
-					<outline text="&lt;meta name=&quot;twitter:description&quot; content=&quot;[%description%]&quot;&gt;"></outline>
-					<outline text="&lt;meta name=&quot;twitter:image:src&quot; content=&quot;[%urlImage%]&quot;&gt;"></outline>
+					<outline text="&lt;meta name=&quot;twitter:title&quot; content=&quot;[%titleForMeta%]&quot;&gt;"></outline>
+					<outline text="&lt;meta name=&quot;twitter:description&quot; content=&quot;[%descriptionForMeta%]&quot;&gt;"></outline>
+					<outline text="&lt;meta name=&quot;twitter:image:src&quot; content=&quot;[%imageForMeta%]&quot;&gt;"></outline>
 					</outline>
 				<outline text="&lt;style&gt;">
 					<outline text=".brand a {">

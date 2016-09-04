@@ -1,6 +1,6 @@
 var myProductName = "Break Up Chatlog", myVerion = "0.40c";
 
-var request = require ("request");
+var request = require ("request"); 
 var fs = require ("fs");
 
 var urlChatlogJs = "http://friends.farm/users/davewiner/chatLog.json";
