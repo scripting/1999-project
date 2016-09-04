@@ -8,6 +8,12 @@
 
 #### Updates
 
+##### v0.59 - 9/4/16 by DW
+
+You can now <a href="http://blog.1999.io/2016/09/04/editingFacebookAndTwitterMetadata.html">edit the Twitter and Facebook metadata</a> for each post in 1999.io. 
+
+The <a href="https://github.com/scripting/1999-project/blob/master/defaults/template.html">default template</a> was updated accordingly. 
+
 ##### v0.58 - 8/14/16 by DW
 
 Added <a href="https://github.com/scripting/1999-project/blob/master/docs/plugins.md#the-editors-menu-in-1999io">docs</a> explaining how to set up the Editors menu for 1999.io users.
