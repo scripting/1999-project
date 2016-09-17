@@ -46,7 +46,7 @@ You may want to say more. This option lets you control the text and the layout o
 
 Here's an example <a href="https://gist.github.com/scripting/9e944c85d43c3e8ce1984709ef9d7bea">config.json</a> that illustrates, and <a href="http://scripting.com/2016/09/17/exampleScreen.png">this</a> is what it looks like when you visit.
 
-Do a <a href="view-source:http://fargo.io/code/storage/homepageintrotext.html">view-source</a> on the <a href="http://fargo.io/code/storage/homepageintrotext.html">page</a> we link to from the urlHomePageIntroText value. You can see that we put the text inside the same div that the default text is in, and we center it, as the default text is centered. You can lay it out any way you want, or stay with this way of formatting. 
+Do a view-source on the <a href="http://fargo.io/code/storage/homepageintrotext.html">page</a> we link to from the urlHomePageIntroText value. You can see that we put the text inside the same div that the default text is in, and we center it, as the default text is centered. You can lay it out any way you want, or stay with this way of formatting. 
 
 If you have more to say and want to link to other pages, you probably should come up with a better layout for text reading.
 
