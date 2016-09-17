@@ -30,6 +30,18 @@ But you don't have to put it on your server, you can put it anywhere that's publ
 
 If the user designs their own template it overrides this choice. It's only used when the user has not customized their template, or we can't read the user's template. 
 
+#### How to test
+
+If you want to experiment with the <i>urlPageTemplate</i> feature, and have already edited the template using the outliner, and you're running your own server...
+
+1. Open your sub-folder of the publicFiles folder on the server. 
+
+2. Delete template.opml. 
+
+Here's a <a href="http://scripting.com/2016/05/13/whereTemplateIs.png">screen shot</a> showing the location of template.opml in my server folder.
+
+Now when 1999.io renders your pages it will use the default template as specified in your <i>homePage</i> object. 
+
 #### googleAnalyticsAccount
 
 Sets the default Google Analytics account for blogs hosted on your server. 
@@ -49,16 +61,4 @@ Here's an example <a href="https://gist.github.com/scripting/9e944c85d43c3e8ce19
 Do a view-source on the <a href="http://fargo.io/code/storage/homepageintrotext.html">page</a> we link to from the urlHomePageIntroText value. You can see that we put the text inside the same div that the default text is in, and we center it, as the default text is centered. You can lay it out any way you want, or stay with this way of formatting. 
 
 If you have more to say and want to link to other pages, you probably should come up with a better layout for text reading.
-
-#### How to test
-
-If you want to experiment with the <i>urlPageTemplate</i> feature, and have already edited the template using the outliner, and you're running your own server...
-
-1. Open your sub-folder of the publicFiles folder on the server. 
-
-2. Delete template.opml. 
-
-Here's a <a href="http://scripting.com/2016/05/13/whereTemplateIs.png">screen shot</a> showing the location of template.opml in my server folder.
-
-Now when 1999.io renders your pages it will use the default template as specified in your <i>homePage</i> object. 
 
