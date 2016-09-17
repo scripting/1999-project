@@ -10,7 +10,7 @@
 
 ##### v0.60 - 9/17/16 by DW
 
-You can now specify the text on the home page of your 1999.io installation.
+You can now <a href="https://github.com/scripting/1999-project/blob/master/docs/homepage.md#urlhomepageintrotext">specify the text</a> on the home page of your 1999.io installation.
 
 ##### v0.59 - 9/4/16 by DW
 
