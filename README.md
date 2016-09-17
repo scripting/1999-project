@@ -8,6 +8,10 @@
 
 #### Updates
 
+##### v0.60 - 9/17/16 by DW
+
+You can now specify the text on the home page of your 1999.io installation.
+
 ##### v0.59 - 9/4/16 by DW
 
 You can now <a href="http://blog.1999.io/2016/09/04/editingFacebookAndTwitterMetadata.html">edit the Twitter and Facebook metadata</a> for each post in 1999.io. 
