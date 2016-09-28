@@ -10,7 +10,7 @@
 
 ##### v0.61 - 9/28/16 by DW
 
-Added a howto for storing the public files for nodeStorage in a different location. 
+Added a <a href="https://github.com/scripting/1999-project/blob/master/docs/publicfiles.md">howto</a> for storing the public files for nodeStorage in a different location. 
 
 ##### v0.60 - 9/17/16 by DW
 
